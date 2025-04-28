@@ -513,7 +513,7 @@ local function SysInfo(monitor)
 		})
 	else
 		child = Widget.Icon({
-			icon = "nixos",
+			icon = "distributor-logo-nixos",
 			tooltip_text = "System Information",
 		})
 	end
