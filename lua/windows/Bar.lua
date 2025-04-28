@@ -380,7 +380,7 @@ local function DisplayControl(monitor)
 		class_name = "display-button",
 		on_clicked = toggle_display_window,
 		child = Widget.Icon({
-			icon = "video-display-symbolic",
+			icon = "display-brightness-symbolic",
 			tooltip_text = "Display Settings",
 		}),
 		setup = function(self)
@@ -513,7 +513,7 @@ local function SysInfo(monitor)
 		})
 	else
 		child = Widget.Icon({
-			icon = "computer-symbolic",
+			icon = "nixos",
 			tooltip_text = "System Information",
 		})
 	end
