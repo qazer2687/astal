@@ -1,0 +1,2780 @@
+unset shellHook
+PATH=${PATH:-}
+nix_saved_PATH="$PATH"
+XDG_DATA_DIRS=${XDG_DATA_DIRS:-}
+nix_saved_XDG_DATA_DIRS="$XDG_DATA_DIRS"
+BASH='/nix/store/g2x2hichzhd6k2wdx6rxa04zxvs83nvn-bash-5.2p37/bin/bash'
+CONFIG_SHELL='/nix/store/g2x2hichzhd6k2wdx6rxa04zxvs83nvn-bash-5.2p37/bin/bash'
+export CONFIG_SHELL
+GDK_PIXBUF_MODULE_FILE='/nix/store/yn9dcqr17ny107fia2d54ylk7kl65id4-librsvg-2.59.2/lib/gdk-pixbuf-2.0/2.10.0/loaders.cache'
+export GDK_PIXBUF_MODULE_FILE
+GETTEXTDATADIRS='/nix/store/bhb0r5g6lg7h492cnfs0qpf8dipl790y-gettext-0.22.5/share/gettext:/nix/store/xf0q8n3brlhs3wf10ni6vrvic4waf9cf-glib-2.82.4/share/gettext:/nix/store/ys1gsn3jvxbiiv4idhwdq9c5bvg99m02-gtk+3-3.24.48/share/gettext'
+export GETTEXTDATADIRS
+GETTEXTDATADIRS_FOR_BUILD='/nix/store/bhb0r5g6lg7h492cnfs0qpf8dipl790y-gettext-0.22.5/share/gettext:/nix/store/xf0q8n3brlhs3wf10ni6vrvic4waf9cf-glib-2.82.4/share/gettext:/nix/store/ys1gsn3jvxbiiv4idhwdq9c5bvg99m02-gtk+3-3.24.48/share/gettext'
+export GETTEXTDATADIRS_FOR_BUILD
+GI_TYPELIB_PATH='/nix/store/xf0q8n3brlhs3wf10ni6vrvic4waf9cf-glib-2.82.4/lib/girepository-1.0:/nix/store/wx3xcxx32bz2rqkvf44dn0pc7ira61xr-at-spi2-core-2.54.1/lib/girepository-1.0:/nix/store/hjrn2shb0bkddkjbv3imfm54dyf7cxf8-gdk-pixbuf-2.42.12/lib/girepository-1.0:/nix/store/nwlxj3zw96f4z6g5pzm9g4haqkiwn5dg-gsettings-desktop-schemas-47.1/lib/girepository-1.0:/nix/store/7jgbkhgv5qagl4z0rrj0gnr1bw52ffnk-harfbuzz-10.2.0/lib/girepository-1.0:/nix/store/jyp2yrar1in1xsw9fpzz0ns7j2qvbgl8-pango-1.56.1/lib/girepository-1.0:/nix/store/ys1gsn3jvxbiiv4idhwdq9c5bvg99m02-gtk+3-3.24.48/lib/girepository-1.0:/nix/store/yn9dcqr17ny107fia2d54ylk7kl65id4-librsvg-2.59.2/lib/girepository-1.0:/nix/store/3a85g9hwj65nc5qb0v1ikfaqymfm0y37-gobject-introspection-wrapped-1.82.0/lib/girepository-1.0:/nix/store/82gnffl5k1jc56blwp4j2nw7m3byfpmd-gobject-introspection-1.82.0/lib/girepository-1.0:/nix/store/wy1izigb692palb22xr5cg01zl1n8nkv-json-glib-1.10.6/lib/girepository-1.0:/nix/store/nvdmdwrxvnihxd90hwjj2h1k3lvmcxal-astal-battery-0.1.0/lib/girepository-1.0:/nix/store/0nsk4xlc66y608bgxkbnpcqgd4qm15gk-astal-0.1.0/lib/girepository-1.0:/nix/store/1m5ss5ccvvm57qrgwdrlxxcvlxjydmm5-gtk-layer-shell-0.9.0/lib/girepository-1.0:/nix/store/j8xypa59p5wgjlcgy5hhrr8bwkhqrs3k-astal3-3.0.0/lib/girepository-1.0:/nix/store/648c5qa90i3rmakqaapqv225d18gzf39-astal-apps-0.1.0/lib/girepository-1.0:/nix/store/m4mjqaqbrcjqrcwpbv3rvar83ljvppj8-astal-bluetooth-0.1.0/lib/girepository-1.0:/nix/store/ia8gjzqnsd667q2gllrawml5y85gzr9m-astal-mpris-0.1.0/lib/girepository-1.0:/nix/store/0qhsq3lji9qfadxsbfkyr9niwj7f3z67-networkmanager-1.52.0/lib/girepository-1.0:/nix/store/86rwj6sncy1mgximx25jz144kyqfi2zm-astal-network-0.1.0/lib/girepository-1.0:/nix/store/y07iqkj0qrvwcarghwdvgj1l665iaqwx-astal-notifd-0.1.0/lib/girepository-1.0:/nix/store/r88idispacmj0ffsplprn52nbdgi5ki0-astal-powerprofiles-0.1.0/lib/girepository-1.0:/nix/store/2vmwhxim305lc3fhp9c18qb8kyq7yy9w-appmenu-glib-translator-24.05/lib/girepository-1.0:/nix/store/lljw0kxlj8s0qnf7acfr4g588fmxzscr-astal-tray-0.1.0/lib/girepository-1.0:/nix/store/bv24mwgjvdh4lmbw415758023k01nnsy-wireplumber-0.5.8/lib/girepository-1.0:/nix/store/0nj0wvsvh2i0y51p48ir27cikpca65lm-astal-wireplumber-0.1.0/lib/girepository-1.0'
+export GI_TYPELIB_PATH
+GSETTINGS_SCHEMAS_PATH='/nix/store/nwlxj3zw96f4z6g5pzm9g4haqkiwn5dg-gsettings-desktop-schemas-47.1/share/gsettings-schemas/gsettings-desktop-schemas-47.1:/nix/store/ys1gsn3jvxbiiv4idhwdq9c5bvg99m02-gtk+3-3.24.48/share/gsettings-schemas/gtk+3-3.24.48:/nix/store/h3cyay3c5cvi4vp1q6w7rpa37lh7b0n1-gvfs-1.56.1/share/gsettings-schemas/gvfs-1.56.1'
+export GSETTINGS_SCHEMAS_PATH
+HOSTTYPE='aarch64'
+HOST_PATH='/nix/store/x5az8kpxcb1znh5qab91sa230lwhvmkf-glib-2.82.4-dev/bin:/nix/store/bhb0r5g6lg7h492cnfs0qpf8dipl790y-gettext-0.22.5/bin:/nix/store/b55y9amd0lkvnqik2gakzrv9hswrzfix-glib-2.82.4-bin/bin:/nix/store/zmfmh3gw9dpwxi87x6nzfpdlg2gmph3l-gdk-pixbuf-2.42.12-dev/bin:/nix/store/70mm48wi3yc7r8imaf05lc8gy9pj3s0a-libdeflate-1.23/bin:/nix/store/2l06apq4rnp28phfqj3vy69w5g12h9ws-libjpeg-turbo-3.0.4-bin/bin:/nix/store/08xfngm78zx05kr5p24il03h2py7kd5n-libwebp-1.5.0/bin:/nix/store/7p03m585v31920i3bfyklfwz3n1pwg85-xz-5.6.4-bin/bin:/nix/store/3m0j5jr98qms6sffcl63c9k0yync7b6b-zstd-1.5.6-bin/bin:/nix/store/cm0dj150k3z7iddcx71y1aqb6fn59vcm-zstd-1.5.6/bin:/nix/store/42f2bd8pc1lhvr830aa9x3p8lx9fhq18-libtiff-4.7.0-bin/bin:/nix/store/mxw1xqrd7qwc2lv5si8zpb374gn48pin-libpng-apng-1.6.46-dev/bin:/nix/store/hjrn2shb0bkddkjbv3imfm54dyf7cxf8-gdk-pixbuf-2.42.12/bin:/nix/store/lcwh8d712bp6jj3yf2rgfylnbdscirm5-cairo-1.18.2-dev/bin:/nix/store/z7m46527yncjzsv9jx13wc0nx39mb1h4-freetype-2.13.3-dev/bin:/nix/store/jbcy0cbivq2qsy0v8aiwi9raj21jf9ia-bzip2-1.0.8-bin/bin:/nix/store/3bb38din4q2y9475af51g6x7fa4iadzh-brotli-1.1.0/bin:/nix/store/wdggyby9fqjnprvh6k6zanyn36z3nf1m-fontconfig-2.16.0-bin/bin:/nix/store/yn9dcqr17ny107fia2d54ylk7kl65id4-librsvg-2.59.2/bin:/nix/store/f8r6r4avmvhqvx36kxlyikkrjdfn0nzs-gtk+3-3.24.48-dev/bin:/nix/store/jacmqcpl87h1i5kg5vm9dkjmxyz3svhw-expat-2.6.4-dev/bin:/nix/store/gj829zffxqcflpkylf111cnax6algqfy-dbus-1.14.10-lib/bin:/nix/store/adky9lc2bsgv8azzm17m4pinqpg4vp46-dbus-1.14.10/bin:/nix/store/5vklvqbmp8kgjvh2vdwkqn7lva2vs72q-fribidi-1.0.16/bin:/nix/store/sggn1igw5mdxy8v6mvgjws0pvl0r5nk7-harfbuzz-10.2.0-dev/bin:/nix/store/pfswgifssxs0qs9djk794rif7afj7p1y-graphite2-1.3.14/bin:/nix/store/s5x5bx02h0ingx9rc84b1fp0xqr6ylwr-pango-1.56.1-bin/bin:/nix/store/4c01qprzz53gd9bgw4bq5d842yjv3x9f-cups-2.4.11-dev/bin:/nix/store/glks7i0r873naky51yh4djhvh5xsrhw1-cups-2.4.11/bin:/nix/store/ys1gsn3jvxbiiv4idhwdq9c5bvg99m02-gtk+3-3.24.48/bin:/nix/store/8g1qcmm4vxvh0zp4d0ih9x7ld11qx327-gobject-introspection-1.82.0-dev/bin:/nix/store/wy1izigb692palb22xr5cg01zl1n8nkv-json-glib-1.10.6/bin:/nix/store/nvdmdwrxvnihxd90hwjj2h1k3lvmcxal-astal-battery-0.1.0/bin:/nix/store/0nsk4xlc66y608bgxkbnpcqgd4qm15gk-astal-0.1.0/bin:/nix/store/648c5qa90i3rmakqaapqv225d18gzf39-astal-apps-0.1.0/bin:/nix/store/ia8gjzqnsd667q2gllrawml5y85gzr9m-astal-mpris-0.1.0/bin:/nix/store/lbz016apqgr7haz5hl60ph258xdzgvjf-nettle-3.10.1-dev/bin:/nix/store/hnf5mjzlpw4gwj0cdacyvpikc5qncjy8-gnutls-3.8.6-bin/bin:/nix/store/i9ypgamfxzrak21bvs4mn76d8q2s9c0z-libgcrypt-1.10.3-dev/bin:/nix/store/mvx341xckdhdvplji7mvrw01gbw2h70y-libgcrypt-1.10.3-bin/bin:/nix/store/0qhsq3lji9qfadxsbfkyr9niwj7f3z67-networkmanager-1.52.0/bin:/nix/store/y07iqkj0qrvwcarghwdvgj1l665iaqwx-astal-notifd-0.1.0/bin:/nix/store/r88idispacmj0ffsplprn52nbdgi5ki0-astal-powerprofiles-0.1.0/bin:/nix/store/lljw0kxlj8s0qnf7acfr4g588fmxzscr-astal-tray-0.1.0/bin:/nix/store/bv24mwgjvdh4lmbw415758023k01nnsy-wireplumber-0.5.8/bin:/nix/store/2njz2dvjcwfn4rdfgbfvrg7wfnpqc5gb-dart-sass-1.85.1/bin:/nix/store/zr34knjwfl7vjkhh5rlk44c5g85l49qq-inotify-tools-4.23.9.0/bin:/nix/store/dsyz92vgmak8g5rblvqavlbbwckzi57a-brightnessctl-0.5.1/bin:/nix/store/cblasaa99z9pgjdkwhivi3y148fnas53-gammastep-2.0.9/bin:/nix/store/6gq7swnwdszl9mj62fwhnmm7dpyzk628-wget-1.25.0/bin:/nix/store/hklf3asvj79ydqqdfpmax1ppcdm5ikj8-curl-8.12.0-dev/bin:/nix/store/a909x93akv9099a70kfmqlcsk6n7dyi4-krb5-1.21.3-dev/bin:/nix/store/7pgmaasikkwg81hhxzchqlayiz3jlcl0-krb5-1.21.3-lib/bin:/nix/store/7yv6k6s8imhb1frg86h5mjljr4mqxfjb-krb5-1.21.3/bin:/nix/store/g648prqjwhjlqh101dr0bj9hajj1q4mv-nghttp2-1.64.0/bin:/nix/store/n7jkxf8fw4pyp3m5l3h4jyp1x96ipw50-libidn2-2.3.7-bin/bin:/nix/store/m5szkm0siac4iqiin31p2588i05cm5kk-openssl-3.4.1-bin/bin:/nix/store/r0xc6mn3cg0bxjnjgg7wvhkf0m368hyg-libpsl-0.21.5/bin:/nix/store/fl6kcwnyls1vqcnbb87n021dfad7n7sc-curl-8.12.0-bin/bin:/nix/store/ab8xx9vr3w3rx6zicq3vb588nz4qq7rj-fastfetch-2.38.0/bin:/nix/store/aqnf8mpbh0wy4pwvzqhr8fhv05cddw6f-lua5.2-lua-cjson-2.1.0.10-1/bin:/nix/store/hk38mjwikvmx22l63k5n1c0v8ijqbi1n-lua-5.2.4/bin:/nix/store/bdy6ykh43ww0k6n7nfy2b5qkvv8skwcs-lua-5.2.4-env/bin:/nix/store/rs83v3ivkadsk9p1wk9qrzr3af26x829-coreutils-9.6/bin:/nix/store/amwvh4kkn24snk12phhwanzhlk5qnzgw-findutils-4.10.0/bin:/nix/store/58s19vs7kdjy5z85whj3lsmivjd5zgl1-diffutils-3.10/bin:/nix/store/gwb5h7p4i153v6vc7ip46vagagszd1xh-gnused-4.9/bin:/nix/store/r9cvwr8hsjd7aj0291i9lavg1lmwihiq-gnugrep-3.11/bin:/nix/store/66jymsrgq6yilrlqfk5hgr3p0cs6zfcr-gawk-5.3.1/bin:/nix/store/9warks4g0j4wmmbk8pyqbiwgvqn2pax8-gnutar-1.35/bin:/nix/store/w19824j1phw43j58ks37vw3lvjajn32n-gzip-1.13/bin:/nix/store/jbcy0cbivq2qsy0v8aiwi9raj21jf9ia-bzip2-1.0.8-bin/bin:/nix/store/h08c3fimsqs30sg2mw9k0mkz7rnlp0j8-gnumake-4.4.1/bin:/nix/store/g2x2hichzhd6k2wdx6rxa04zxvs83nvn-bash-5.2p37/bin:/nix/store/ki8a9jfkn3jl3rh75kihklv0fixm7d5p-patch-2.7.6/bin:/nix/store/7p03m585v31920i3bfyklfwz3n1pwg85-xz-5.6.4-bin/bin:/nix/store/x23jwrpk7s8a40dasvdkfg5m6hair8nw-file-5.46/bin'
+export HOST_PATH
+IFS=' 	
+'
+IN_NIX_SHELL='impure'
+export IN_NIX_SHELL
+LINENO='76'
+LUA_CPATH=';;;/nix/store/aqnf8mpbh0wy4pwvzqhr8fhv05cddw6f-lua5.2-lua-cjson-2.1.0.10-1/lib/lua/5.2/?.so;/nix/store/xpi83jd9d007wznvk12j41b65wx4r20j-lua5.2-luautf8-0.1.6-1/lib/lua/5.2/?.so;/nix/store/bdy6ykh43ww0k6n7nfy2b5qkvv8skwcs-lua-5.2.4-env/lib/lua/5.2/?.so'
+export LUA_CPATH
+LUA_PATH=';;;/nix/store/aqnf8mpbh0wy4pwvzqhr8fhv05cddw6f-lua5.2-lua-cjson-2.1.0.10-1/share/lua/5.2/?.lua;/nix/store/bdy6ykh43ww0k6n7nfy2b5qkvv8skwcs-lua-5.2.4-env/share/lua/5.2/?.lua;/nix/store/bdy6ykh43ww0k6n7nfy2b5qkvv8skwcs-lua-5.2.4-env/share/lua/5.2/?/init.lua'
+export LUA_PATH
+MACHTYPE='aarch64-unknown-linux-gnu'
+NIX_BUILD_CORES='8'
+export NIX_BUILD_CORES
+NIX_CFLAGS_COMPILE=' -frandom-seed=3ln42fx5jb'
+export NIX_CFLAGS_COMPILE
+NIX_ENFORCE_NO_NATIVE='1'
+export NIX_ENFORCE_NO_NATIVE
+NIX_LDFLAGS='-rpath /home/alex/code/astal/outputs/out/lib '
+export NIX_LDFLAGS
+NIX_NO_SELF_RPATH='1'
+NIX_STORE='/nix/store'
+export NIX_STORE
+OLDPWD='/nix/store/bdy6ykh43ww0k6n7nfy2b5qkvv8skwcs-lua-5.2.4-env'
+export OLDPWD
+OPTERR='1'
+OSTYPE='linux-gnu'
+PATH='/nix/store/f8r6r4avmvhqvx36kxlyikkrjdfn0nzs-gtk+3-3.24.48-dev/bin:/nix/store/jacmqcpl87h1i5kg5vm9dkjmxyz3svhw-expat-2.6.4-dev/bin:/nix/store/gj829zffxqcflpkylf111cnax6algqfy-dbus-1.14.10-lib/bin:/nix/store/adky9lc2bsgv8azzm17m4pinqpg4vp46-dbus-1.14.10/bin:/nix/store/x5az8kpxcb1znh5qab91sa230lwhvmkf-glib-2.82.4-dev/bin:/nix/store/bhb0r5g6lg7h492cnfs0qpf8dipl790y-gettext-0.22.5/bin:/nix/store/b55y9amd0lkvnqik2gakzrv9hswrzfix-glib-2.82.4-bin/bin:/nix/store/lcwh8d712bp6jj3yf2rgfylnbdscirm5-cairo-1.18.2-dev/bin:/nix/store/z7m46527yncjzsv9jx13wc0nx39mb1h4-freetype-2.13.3-dev/bin:/nix/store/jbcy0cbivq2qsy0v8aiwi9raj21jf9ia-bzip2-1.0.8-bin/bin:/nix/store/3bb38din4q2y9475af51g6x7fa4iadzh-brotli-1.1.0/bin:/nix/store/mxw1xqrd7qwc2lv5si8zpb374gn48pin-libpng-apng-1.6.46-dev/bin:/nix/store/wdggyby9fqjnprvh6k6zanyn36z3nf1m-fontconfig-2.16.0-bin/bin:/nix/store/5vklvqbmp8kgjvh2vdwkqn7lva2vs72q-fribidi-1.0.16/bin:/nix/store/zmfmh3gw9dpwxi87x6nzfpdlg2gmph3l-gdk-pixbuf-2.42.12-dev/bin:/nix/store/70mm48wi3yc7r8imaf05lc8gy9pj3s0a-libdeflate-1.23/bin:/nix/store/2l06apq4rnp28phfqj3vy69w5g12h9ws-libjpeg-turbo-3.0.4-bin/bin:/nix/store/08xfngm78zx05kr5p24il03h2py7kd5n-libwebp-1.5.0/bin:/nix/store/7p03m585v31920i3bfyklfwz3n1pwg85-xz-5.6.4-bin/bin:/nix/store/3m0j5jr98qms6sffcl63c9k0yync7b6b-zstd-1.5.6-bin/bin:/nix/store/cm0dj150k3z7iddcx71y1aqb6fn59vcm-zstd-1.5.6/bin:/nix/store/42f2bd8pc1lhvr830aa9x3p8lx9fhq18-libtiff-4.7.0-bin/bin:/nix/store/hjrn2shb0bkddkjbv3imfm54dyf7cxf8-gdk-pixbuf-2.42.12/bin:/nix/store/sggn1igw5mdxy8v6mvgjws0pvl0r5nk7-harfbuzz-10.2.0-dev/bin:/nix/store/pfswgifssxs0qs9djk794rif7afj7p1y-graphite2-1.3.14/bin:/nix/store/s5x5bx02h0ingx9rc84b1fp0xqr6ylwr-pango-1.56.1-bin/bin:/nix/store/4c01qprzz53gd9bgw4bq5d842yjv3x9f-cups-2.4.11-dev/bin:/nix/store/glks7i0r873naky51yh4djhvh5xsrhw1-cups-2.4.11/bin:/nix/store/ys1gsn3jvxbiiv4idhwdq9c5bvg99m02-gtk+3-3.24.48/bin:/nix/store/yn9dcqr17ny107fia2d54ylk7kl65id4-librsvg-2.59.2/bin:/nix/store/vs4azykjjfwzci1gm36pq6zf4v5gs237-gobject-introspection-wrapped-1.82.0-dev/bin:/nix/store/23216cvbd4cv8w206kxmwgds0h1rkxwd-patchelf-0.15.0/bin:/nix/store/8g1qcmm4vxvh0zp4d0ih9x7ld11qx327-gobject-introspection-1.82.0-dev/bin:/nix/store/wy1izigb692palb22xr5cg01zl1n8nkv-json-glib-1.10.6/bin:/nix/store/nvdmdwrxvnihxd90hwjj2h1k3lvmcxal-astal-battery-0.1.0/bin:/nix/store/0nsk4xlc66y608bgxkbnpcqgd4qm15gk-astal-0.1.0/bin:/nix/store/648c5qa90i3rmakqaapqv225d18gzf39-astal-apps-0.1.0/bin:/nix/store/ia8gjzqnsd667q2gllrawml5y85gzr9m-astal-mpris-0.1.0/bin:/nix/store/lbz016apqgr7haz5hl60ph258xdzgvjf-nettle-3.10.1-dev/bin:/nix/store/hnf5mjzlpw4gwj0cdacyvpikc5qncjy8-gnutls-3.8.6-bin/bin:/nix/store/i9ypgamfxzrak21bvs4mn76d8q2s9c0z-libgcrypt-1.10.3-dev/bin:/nix/store/mvx341xckdhdvplji7mvrw01gbw2h70y-libgcrypt-1.10.3-bin/bin:/nix/store/0qhsq3lji9qfadxsbfkyr9niwj7f3z67-networkmanager-1.52.0/bin:/nix/store/y07iqkj0qrvwcarghwdvgj1l665iaqwx-astal-notifd-0.1.0/bin:/nix/store/r88idispacmj0ffsplprn52nbdgi5ki0-astal-powerprofiles-0.1.0/bin:/nix/store/lljw0kxlj8s0qnf7acfr4g588fmxzscr-astal-tray-0.1.0/bin:/nix/store/bv24mwgjvdh4lmbw415758023k01nnsy-wireplumber-0.5.8/bin:/nix/store/2njz2dvjcwfn4rdfgbfvrg7wfnpqc5gb-dart-sass-1.85.1/bin:/nix/store/zr34knjwfl7vjkhh5rlk44c5g85l49qq-inotify-tools-4.23.9.0/bin:/nix/store/dsyz92vgmak8g5rblvqavlbbwckzi57a-brightnessctl-0.5.1/bin:/nix/store/cblasaa99z9pgjdkwhivi3y148fnas53-gammastep-2.0.9/bin:/nix/store/6gq7swnwdszl9mj62fwhnmm7dpyzk628-wget-1.25.0/bin:/nix/store/hklf3asvj79ydqqdfpmax1ppcdm5ikj8-curl-8.12.0-dev/bin:/nix/store/a909x93akv9099a70kfmqlcsk6n7dyi4-krb5-1.21.3-dev/bin:/nix/store/7pgmaasikkwg81hhxzchqlayiz3jlcl0-krb5-1.21.3-lib/bin:/nix/store/7yv6k6s8imhb1frg86h5mjljr4mqxfjb-krb5-1.21.3/bin:/nix/store/g648prqjwhjlqh101dr0bj9hajj1q4mv-nghttp2-1.64.0/bin:/nix/store/n7jkxf8fw4pyp3m5l3h4jyp1x96ipw50-libidn2-2.3.7-bin/bin:/nix/store/m5szkm0siac4iqiin31p2588i05cm5kk-openssl-3.4.1-bin/bin:/nix/store/r0xc6mn3cg0bxjnjgg7wvhkf0m368hyg-libpsl-0.21.5/bin:/nix/store/fl6kcwnyls1vqcnbb87n021dfad7n7sc-curl-8.12.0-bin/bin:/nix/store/ab8xx9vr3w3rx6zicq3vb588nz4qq7rj-fastfetch-2.38.0/bin:/nix/store/aqnf8mpbh0wy4pwvzqhr8fhv05cddw6f-lua5.2-lua-cjson-2.1.0.10-1/bin:/nix/store/hk38mjwikvmx22l63k5n1c0v8ijqbi1n-lua-5.2.4/bin:/nix/store/bdy6ykh43ww0k6n7nfy2b5qkvv8skwcs-lua-5.2.4-env/bin:/nix/store/rs83v3ivkadsk9p1wk9qrzr3af26x829-coreutils-9.6/bin:/nix/store/amwvh4kkn24snk12phhwanzhlk5qnzgw-findutils-4.10.0/bin:/nix/store/58s19vs7kdjy5z85whj3lsmivjd5zgl1-diffutils-3.10/bin:/nix/store/gwb5h7p4i153v6vc7ip46vagagszd1xh-gnused-4.9/bin:/nix/store/r9cvwr8hsjd7aj0291i9lavg1lmwihiq-gnugrep-3.11/bin:/nix/store/66jymsrgq6yilrlqfk5hgr3p0cs6zfcr-gawk-5.3.1/bin:/nix/store/9warks4g0j4wmmbk8pyqbiwgvqn2pax8-gnutar-1.35/bin:/nix/store/w19824j1phw43j58ks37vw3lvjajn32n-gzip-1.13/bin:/nix/store/jbcy0cbivq2qsy0v8aiwi9raj21jf9ia-bzip2-1.0.8-bin/bin:/nix/store/h08c3fimsqs30sg2mw9k0mkz7rnlp0j8-gnumake-4.4.1/bin:/nix/store/g2x2hichzhd6k2wdx6rxa04zxvs83nvn-bash-5.2p37/bin:/nix/store/ki8a9jfkn3jl3rh75kihklv0fixm7d5p-patch-2.7.6/bin:/nix/store/7p03m585v31920i3bfyklfwz3n1pwg85-xz-5.6.4-bin/bin:/nix/store/x23jwrpk7s8a40dasvdkfg5m6hair8nw-file-5.46/bin'
+export PATH
+PS4='+ '
+SHELL='/nix/store/g2x2hichzhd6k2wdx6rxa04zxvs83nvn-bash-5.2p37/bin/bash'
+export SHELL
+SOURCE_DATE_EPOCH='315532800'
+export SOURCE_DATE_EPOCH
+XDG_DATA_DIRS='/nix/store/f8r6r4avmvhqvx36kxlyikkrjdfn0nzs-gtk+3-3.24.48-dev/share:/nix/store/qhd057cx7f69skm77mfhnrnk1xnfajnz-at-spi2-core-2.54.1-dev/share:/nix/store/jacmqcpl87h1i5kg5vm9dkjmxyz3svhw-expat-2.6.4-dev/share:/nix/store/7g9pjljmzfs1fm4jl9zc012vnnkdsd72-expat-2.6.4/share:/nix/store/adky9lc2bsgv8azzm17m4pinqpg4vp46-dbus-1.14.10/share:/nix/store/x5az8kpxcb1znh5qab91sa230lwhvmkf-glib-2.82.4-dev/share:/nix/store/dh20mli0nsahv7qji28w2swbg5f286sh-zlib-1.3.1/share:/nix/store/bhb0r5g6lg7h492cnfs0qpf8dipl790y-gettext-0.22.5/share:/nix/store/b55y9amd0lkvnqik2gakzrv9hswrzfix-glib-2.82.4-bin/share:/nix/store/xf0q8n3brlhs3wf10ni6vrvic4waf9cf-glib-2.82.4/share:/nix/store/wx3xcxx32bz2rqkvf44dn0pc7ira61xr-at-spi2-core-2.54.1/share:/nix/store/z7m46527yncjzsv9jx13wc0nx39mb1h4-freetype-2.13.3-dev/share:/nix/store/3bb38din4q2y9475af51g6x7fa4iadzh-brotli-1.1.0/share:/nix/store/w9q41vrns4b6b579hp0r56cqi9qwhrn2-freetype-2.13.3/share:/nix/store/wdggyby9fqjnprvh6k6zanyn36z3nf1m-fontconfig-2.16.0-bin/share:/nix/store/hafik7323sgpdwv2hwjqf3jp32d63c9h-fontconfig-2.16.0-lib/share:/nix/store/2jrjgbc8xldk1325rh2nv6d6ibzypd9g-xorgproto-2024.1/share:/nix/store/kr2ap7xh0j9kbp40jb03xw5bi014lzh6-libXau-1.0.12/share:/nix/store/ywbz31hmjgp5mz8s56j74a9skx53iald-libX11-1.8.11/share:/nix/store/zmfmh3gw9dpwxi87x6nzfpdlg2gmph3l-gdk-pixbuf-2.42.12-dev/share:/nix/store/08xfngm78zx05kr5p24il03h2py7kd5n-libwebp-1.5.0/share:/nix/store/ppmm7j7w4fgl91mp8rzhg9q8kr9fbgav-xz-5.6.4/share:/nix/store/cm0dj150k3z7iddcx71y1aqb6fn59vcm-zstd-1.5.6/share:/nix/store/hjrn2shb0bkddkjbv3imfm54dyf7cxf8-gdk-pixbuf-2.42.12/share:/nix/store/nwlxj3zw96f4z6g5pzm9g4haqkiwn5dg-gsettings-desktop-schemas-47.1/share:/nix/store/i59dg99p5la08kvy9mgd87vfjbbi0f58-libXfixes-6.0.1/share:/nix/store/7qlnlp7vj90mnmm44b95zrfcrjdc8c6j-libXcomposite-0.4.6/share:/nix/store/j59pvzc6q6cxrk250g6h34f7vgf89w24-libXcursor-1.2.3/share:/nix/store/jclzsgkm6z5fr0f4h53xcq9ps9x1yxqi-libXrandr-1.5.4/share:/nix/store/4infw561whi3g9zjdri13vw88kzmj6wl-pango-1.56.1-dev/share:/nix/store/sggn1igw5mdxy8v6mvgjws0pvl0r5nk7-harfbuzz-10.2.0-dev/share:/nix/store/pfswgifssxs0qs9djk794rif7afj7p1y-graphite2-1.3.14/share:/nix/store/ybiwxilxl40kl0cya1flaf0dikfxjlmd-libXft-2.3.8/share:/nix/store/s5x5bx02h0ingx9rc84b1fp0xqr6ylwr-pango-1.56.1-bin/share:/nix/store/wn65hvgc10rjywmh861h2nmfbdymmghm-wayland-protocols-1.40/share:/nix/store/0cnc61x2bqkq3xj4knm8h9rhjca9in85-libXinerama-1.1.5/share:/nix/store/ghyjfrmhcr4799vij56xcizxbzbnprjc-cups-2.4.11-lib/share:/nix/store/glks7i0r873naky51yh4djhvh5xsrhw1-cups-2.4.11/share:/nix/store/ys1gsn3jvxbiiv4idhwdq9c5bvg99m02-gtk+3-3.24.48/share:/nix/store/y1kfsa0raah5sbykdq7gvhy50w150073-librsvg-2.59.2-dev/share:/nix/store/yn9dcqr17ny107fia2d54ylk7kl65id4-librsvg-2.59.2/share:/nix/store/vs4azykjjfwzci1gm36pq6zf4v5gs237-gobject-introspection-wrapped-1.82.0-dev/share:/nix/store/23216cvbd4cv8w206kxmwgds0h1rkxwd-patchelf-0.15.0/share:/nix/store/f8r6r4avmvhqvx36kxlyikkrjdfn0nzs-gtk+3-3.24.48-dev/share:/nix/store/qhd057cx7f69skm77mfhnrnk1xnfajnz-at-spi2-core-2.54.1-dev/share:/nix/store/x5az8kpxcb1znh5qab91sa230lwhvmkf-glib-2.82.4-dev/share:/nix/store/zmfmh3gw9dpwxi87x6nzfpdlg2gmph3l-gdk-pixbuf-2.42.12-dev/share:/nix/store/nwlxj3zw96f4z6g5pzm9g4haqkiwn5dg-gsettings-desktop-schemas-47.1/share:/nix/store/4infw561whi3g9zjdri13vw88kzmj6wl-pango-1.56.1-dev/share:/nix/store/sggn1igw5mdxy8v6mvgjws0pvl0r5nk7-harfbuzz-10.2.0-dev/share:/nix/store/y1kfsa0raah5sbykdq7gvhy50w150073-librsvg-2.59.2-dev/share:/nix/store/vs4azykjjfwzci1gm36pq6zf4v5gs237-gobject-introspection-wrapped-1.82.0-dev/share:/nix/store/8g1qcmm4vxvh0zp4d0ih9x7ld11qx327-gobject-introspection-1.82.0-dev/share:/nix/store/sigf1g9f3gc9rn8al0g52b8y1jbp0s1k-astal-battery-0.1.0-dev/share:/nix/store/2wdnaslhlh3rxijxavj6sxgpb5ysn7hk-json-glib-1.10.6-dev/share:/nix/store/gs1b0zs3xizm3ljicj18yrmfhja253kc-astal3-3.0.0-dev/share:/nix/store/3i3xim0nvm0z2snnd0pmcpvqpha9rinp-astal-0.1.0-dev/share:/nix/store/cf5yl5msc1jiy29y2mkd2l0rl4qcq5h0-gtk-layer-shell-0.9.0-dev/share:/nix/store/3h933waln8d7d6w7cxh746ycjcii59w2-astal-apps-0.1.0-dev/share:/nix/store/is9bjy4zi9li3f6xzbcbmri2hn1nfmm8-astal-bluetooth-0.1.0-dev/share:/nix/store/j0vvnjipgjkyd9jpbxa3pvv7nkqz7awq-astal-mpris-0.1.0-dev/share:/nix/store/2v79y0y0dg8ngyknp00aqjalwh2c8562-astal-network-0.1.0-dev/share:/nix/store/wa5jn1z03zc2y7fjd3rshixnh89v0wiz-networkmanager-1.52.0-dev/share:/nix/store/r1101k7p7vhkjhnr7h21hdzhamws8q1d-astal-notifd-0.1.0-dev/share:/nix/store/9dnhmkin5bxy1mjza8j83abpqib0077h-astal-powerprofiles-0.1.0-dev/share:/nix/store/sdb7n62y0h7hrkmi64gnyvkzywaxyyg3-astal-tray-0.1.0-dev/share:/nix/store/2vmwhxim305lc3fhp9c18qb8kyq7yy9w-appmenu-glib-translator-24.05/share:/nix/store/0fxy298frh3vqm6dcrihaqf2hj0rqfb1-astal-wireplumber-0.1.0-dev/share:/nix/store/qi996s8srg5xm36v3ww21xx7rsvyh8pp-wireplumber-0.5.8-dev/share'
+export XDG_DATA_DIRS
+__structuredAttrs=''
+export __structuredAttrs
+_file='/nix/store/bdy6ykh43ww0k6n7nfy2b5qkvv8skwcs-lua-5.2.4-env/lib/lua/5.2/lgi/corelgilua51.so'
+_substituteStream_has_warned_replace_deprecation='false'
+buildInputs='/nix/store/sigf1g9f3gc9rn8al0g52b8y1jbp0s1k-astal-battery-0.1.0-dev /nix/store/gs1b0zs3xizm3ljicj18yrmfhja253kc-astal3-3.0.0-dev /nix/store/3i3xim0nvm0z2snnd0pmcpvqpha9rinp-astal-0.1.0-dev /nix/store/3h933waln8d7d6w7cxh746ycjcii59w2-astal-apps-0.1.0-dev /nix/store/is9bjy4zi9li3f6xzbcbmri2hn1nfmm8-astal-bluetooth-0.1.0-dev /nix/store/j0vvnjipgjkyd9jpbxa3pvv7nkqz7awq-astal-mpris-0.1.0-dev /nix/store/2v79y0y0dg8ngyknp00aqjalwh2c8562-astal-network-0.1.0-dev /nix/store/r1101k7p7vhkjhnr7h21hdzhamws8q1d-astal-notifd-0.1.0-dev /nix/store/9dnhmkin5bxy1mjza8j83abpqib0077h-astal-powerprofiles-0.1.0-dev /nix/store/sdb7n62y0h7hrkmi64gnyvkzywaxyyg3-astal-tray-0.1.0-dev /nix/store/0fxy298frh3vqm6dcrihaqf2hj0rqfb1-astal-wireplumber-0.1.0-dev /nix/store/2njz2dvjcwfn4rdfgbfvrg7wfnpqc5gb-dart-sass-1.85.1 /nix/store/zr34knjwfl7vjkhh5rlk44c5g85l49qq-inotify-tools-4.23.9.0 /nix/store/dsyz92vgmak8g5rblvqavlbbwckzi57a-brightnessctl-0.5.1 /nix/store/cblasaa99z9pgjdkwhivi3y148fnas53-gammastep-2.0.9 /nix/store/6gq7swnwdszl9mj62fwhnmm7dpyzk628-wget-1.25.0 /nix/store/hklf3asvj79ydqqdfpmax1ppcdm5ikj8-curl-8.12.0-dev /nix/store/ab8xx9vr3w3rx6zicq3vb588nz4qq7rj-fastfetch-2.38.0 /nix/store/aqnf8mpbh0wy4pwvzqhr8fhv05cddw6f-lua5.2-lua-cjson-2.1.0.10-1 /nix/store/xpi83jd9d007wznvk12j41b65wx4r20j-lua5.2-luautf8-0.1.6-1 /nix/store/bdy6ykh43ww0k6n7nfy2b5qkvv8skwcs-lua-5.2.4-env /nix/store/3i3xim0nvm0z2snnd0pmcpvqpha9rinp-astal-0.1.0-dev /nix/store/gs1b0zs3xizm3ljicj18yrmfhja253kc-astal3-3.0.0-dev'
+export buildInputs
+builder='/nix/store/g2x2hichzhd6k2wdx6rxa04zxvs83nvn-bash-5.2p37/bin/bash'
+export builder
+cmakeFlags=''
+export cmakeFlags
+configureFlags=''
+export configureFlags
+defaultBuildInputs=''
+defaultNativeBuildInputs='/nix/store/23216cvbd4cv8w206kxmwgds0h1rkxwd-patchelf-0.15.0 /nix/store/gv2x3n6wazlkrxnk5xp3w54gmw93ax65-update-autotools-gnu-config-scripts-hook /nix/store/h9lc1dpi14z7is86ffhl3ld569138595-audit-tmpdir.sh /nix/store/m54bmrhj6fqz8nds5zcj97w9s9bckc9v-compress-man-pages.sh /nix/store/wgrbkkaldkrlrni33ccvm3b6vbxzb656-make-symlinks-relative.sh /nix/store/5yzw0vhkyszf2d179m0qfkgxmp5wjjx4-move-docs.sh /nix/store/fyaryjvghbkpfnsyw97hb3lyb37s1pd6-move-lib64.sh /nix/store/kd4xwxjpjxi71jkm6ka0np72if9rm3y0-move-sbin.sh /nix/store/pag6l61paj1dc9sv15l7bm5c17xn5kyk-move-systemd-user-units.sh /nix/store/cmzya9irvxzlkh7lfy6i82gbp0saxqj3-multiple-outputs.sh /nix/store/jxknwvfj6kw8awi3lsjx1807q5q1sybz-no-broken-symlinks.sh /nix/store/hxv896faph0rqxjq2ycxpcrbnngc95sz-patch-shebangs.sh /nix/store/cickvswrvann041nqxb0rxilc46svw1n-prune-libtool-files.sh /nix/store/xyff06pkhki3qy1ls77w10s0v79c9il0-reproducible-builds.sh /nix/store/z7k98578dfzi6l3hsvbivzm7hfqlk0zc-set-source-date-epoch-to-latest.sh /nix/store/pilsssjjdxvdphlg2h19p0bfx5q0jzkn-strip.sh'
+depsBuildBuild=''
+export depsBuildBuild
+depsBuildBuildPropagated=''
+export depsBuildBuildPropagated
+depsBuildTarget=''
+export depsBuildTarget
+depsBuildTargetPropagated=''
+export depsBuildTargetPropagated
+depsHostHost=''
+export depsHostHost
+depsHostHostPropagated=''
+export depsHostHostPropagated
+depsTargetTarget=''
+export depsTargetTarget
+depsTargetTargetPropagated=''
+export depsTargetTargetPropagated
+doCheck=''
+export doCheck
+doInstallCheck=''
+export doInstallCheck
+dontAddDisableDepTrack='1'
+export dontAddDisableDepTrack
+declare -a envBuildBuildHooks=('gettextDataDirsHook' )
+declare -a envBuildHostHooks=('gettextDataDirsHook' )
+declare -a envBuildTargetHooks=('gettextDataDirsHook' )
+declare -a envHostHostHooks=('find_gio_modules' 'make_glib_find_gsettings_schemas' 'findGdkPixbufLoaders' 'make_gobject_introspection_find_gir_files' 'make_glib_find_gsettings_schemas' 'gettextDataDirsHook' 'findGdkPixbufLoaders' 'make_gobject_introspection_find_gir_files' 'gettextDataDirsHook' 'luaEnvHook' )
+declare -a envHostTargetHooks=('find_gio_modules' 'make_glib_find_gsettings_schemas' 'findGdkPixbufLoaders' 'make_gobject_introspection_find_gir_files' 'make_glib_find_gsettings_schemas' 'gettextDataDirsHook' 'findGdkPixbufLoaders' 'make_gobject_introspection_find_gir_files' 'gettextDataDirsHook' 'luaEnvHook' )
+declare -a envTargetTargetHooks=('make_glib_find_gsettings_schemas' 'findGdkPixbufLoaders' )
+declare -a fixupOutputHooks=('wrapGAppsHook' '_gtkCleanImmodulesCache' 'if [ -z "${dontPatchELF-}" ]; then patchELF "$prefix"; fi' 'if [[ -z "${noAuditTmpdir-}" && -e "$prefix" ]]; then auditTmpdir "$prefix"; fi' 'if [ -z "${dontGzipMan-}" ]; then compressManPages "$prefix"; fi' '_moveLib64' '_moveSbin' '_moveSystemdUserUnits' 'patchShebangsAuto' '_pruneLibtoolFiles' '_doStrip' '_gtkCleanImmodulesCache' '_gtkCleanImmodulesCache' )
+declare -a gappsWrapperArgs=('--prefix' 'GIO_EXTRA_MODULES' ':' '/nix/store/61fk1c326mxr7yp52srx2g7brw7ly4a6-dconf-0.40.0-lib/lib/gio/modules' '--prefix' 'GIO_EXTRA_MODULES' ':' '/nix/store/h3cyay3c5cvi4vp1q6w7rpa37lh7b0n1-gvfs-1.56.1/lib/gio/modules' '--prefix' 'GIO_EXTRA_MODULES' ':' '/nix/store/61fk1c326mxr7yp52srx2g7brw7ly4a6-dconf-0.40.0-lib/lib/gio/modules' '--prefix' 'GIO_EXTRA_MODULES' ':' '/nix/store/h3cyay3c5cvi4vp1q6w7rpa37lh7b0n1-gvfs-1.56.1/lib/gio/modules' )
+guess='8'
+initialPath='/nix/store/rs83v3ivkadsk9p1wk9qrzr3af26x829-coreutils-9.6 /nix/store/amwvh4kkn24snk12phhwanzhlk5qnzgw-findutils-4.10.0 /nix/store/58s19vs7kdjy5z85whj3lsmivjd5zgl1-diffutils-3.10 /nix/store/gwb5h7p4i153v6vc7ip46vagagszd1xh-gnused-4.9 /nix/store/r9cvwr8hsjd7aj0291i9lavg1lmwihiq-gnugrep-3.11 /nix/store/66jymsrgq6yilrlqfk5hgr3p0cs6zfcr-gawk-5.3.1 /nix/store/9warks4g0j4wmmbk8pyqbiwgvqn2pax8-gnutar-1.35 /nix/store/w19824j1phw43j58ks37vw3lvjajn32n-gzip-1.13 /nix/store/jbcy0cbivq2qsy0v8aiwi9raj21jf9ia-bzip2-1.0.8-bin /nix/store/h08c3fimsqs30sg2mw9k0mkz7rnlp0j8-gnumake-4.4.1 /nix/store/g2x2hichzhd6k2wdx6rxa04zxvs83nvn-bash-5.2p37 /nix/store/ki8a9jfkn3jl3rh75kihklv0fixm7d5p-patch-2.7.6 /nix/store/7p03m585v31920i3bfyklfwz3n1pwg85-xz-5.6.4-bin /nix/store/x23jwrpk7s8a40dasvdkfg5m6hair8nw-file-5.46'
+installPhase='runHook preInstall
+
+mkdir -p $out/bin
+cp -r * $out/bin
+echo '\''#!/nix/store/bdy6ykh43ww0k6n7nfy2b5qkvv8skwcs-lua-5.2.4-env/bin/lua
+require "init"
+'\'' > astal-lua
+install -m 755 astal-lua $out/bin/kaneru
+
+runHook postInstall
+'
+export installPhase
+declare -A luaPathsSeen=(['/nix/store/08xfngm78zx05kr5p24il03h2py7kd5n-libwebp-1.5.0']='true' ['/nix/store/0cnc61x2bqkq3xj4knm8h9rhjca9in85-libXinerama-1.1.5']='true' ['/nix/store/0fxy298frh3vqm6dcrihaqf2hj0rqfb1-astal-wireplumber-0.1.0-dev']='true' ['/nix/store/0nj0wvsvh2i0y51p48ir27cikpca65lm-astal-wireplumber-0.1.0']='true' ['/nix/store/0nsk4xlc66y608bgxkbnpcqgd4qm15gk-astal-0.1.0']='true' ['/nix/store/0qhsq3lji9qfadxsbfkyr9niwj7f3z67-networkmanager-1.52.0']='true' ['/nix/store/11zzmw0vjv1cj5yc9xjdax4f79i5g8c7-libXau-1.0.12-dev']='true' ['/nix/store/1lpgxa7sjhphmsskyn3mlk5saj5biiyg-libX11-1.8.11-dev']='true' ['/nix/store/1m5ss5ccvvm57qrgwdrlxxcvlxjydmm5-gtk-layer-shell-0.9.0']='true' ['/nix/store/1q3rafzc6vy5jn7a8d17073v3qg4f7zz-libICE-1.1.2-dev']='true' ['/nix/store/23216cvbd4cv8w206kxmwgds0h1rkxwd-patchelf-0.15.0']='true' ['/nix/store/2jrjgbc8xldk1325rh2nv6d6ibzypd9g-xorgproto-2024.1']='true' ['/nix/store/2l06apq4rnp28phfqj3vy69w5g12h9ws-libjpeg-turbo-3.0.4-bin']='true' ['/nix/store/2njz2dvjcwfn4rdfgbfvrg7wfnpqc5gb-dart-sass-1.85.1']='true' ['/nix/store/2v79y0y0dg8ngyknp00aqjalwh2c8562-astal-network-0.1.0-dev']='true' ['/nix/store/2vmwhxim305lc3fhp9c18qb8kyq7yy9w-appmenu-glib-translator-24.05']='true' ['/nix/store/2wdnaslhlh3rxijxavj6sxgpb5ysn7hk-json-glib-1.10.6-dev']='true' ['/nix/store/361m5b8lwlgv0w0v6f0mmax6kqwgy6xn-libxcb-1.17.0-dev']='true' ['/nix/store/3a85g9hwj65nc5qb0v1ikfaqymfm0y37-gobject-introspection-wrapped-1.82.0']='true' ['/nix/store/3bb38din4q2y9475af51g6x7fa4iadzh-brotli-1.1.0']='true' ['/nix/store/3cdnmfq47gg1n0ddl9aysivrw4p5x4pb-libXi-1.8.2-dev']='true' ['/nix/store/3h933waln8d7d6w7cxh746ycjcii59w2-astal-apps-0.1.0-dev']='true' ['/nix/store/3i3xim0nvm0z2snnd0pmcpvqpha9rinp-astal-0.1.0-dev']='true' ['/nix/store/3m0j5jr98qms6sffcl63c9k0yync7b6b-zstd-1.5.6-bin']='true' ['/nix/store/42f2bd8pc1lhvr830aa9x3p8lx9fhq18-libtiff-4.7.0-bin']='true' ['/nix/store/43frqg25k65p2s8h19i4lmkrqj0w59ln-dbus-1.14.10-dev']='true' ['/nix/store/4c01qprzz53gd9bgw4bq5d842yjv3x9f-cups-2.4.11-dev']='true' ['/nix/store/4dmj17vby16ra7691ip1fm16pvdjrazz-nghttp2-1.64.0-dev']='true' ['/nix/store/4infw561whi3g9zjdri13vw88kzmj6wl-pango-1.56.1-dev']='true' ['/nix/store/4pzmhl04vhy56nk3kg5daz67kzh83zjg-libidn2-2.3.7-dev']='true' ['/nix/store/52wgafhbj4z2ghfgwcih2vlqmq50czwa-libICE-1.1.2']='true' ['/nix/store/57y86ad0djyn0s5sdfkh9d0hpihpk0rc-libtiff-4.7.0-dev']='true' ['/nix/store/5cs27j8hivrkjdc3lapjf8l0sgzabm7p-libffi-3.4.6']='true' ['/nix/store/5f3ilmmhdc79nyq3gf60ccy85x6ax1hs-libSM-1.2.5']='true' ['/nix/store/5vklvqbmp8kgjvh2vdwkqn7lva2vs72q-fribidi-1.0.16']='true' ['/nix/store/61fk1c326mxr7yp52srx2g7brw7ly4a6-dconf-0.40.0-lib']='true' ['/nix/store/648c5qa90i3rmakqaapqv225d18gzf39-astal-apps-0.1.0']='true' ['/nix/store/6gq7swnwdszl9mj62fwhnmm7dpyzk628-wget-1.25.0']='true' ['/nix/store/70mm48wi3yc7r8imaf05lc8gy9pj3s0a-libdeflate-1.23']='true' ['/nix/store/79z5fw8rjrwx7hm53pvpl1n39cz8m3cq-libjpeg-turbo-3.0.4-dev']='true' ['/nix/store/7g9pjljmzfs1fm4jl9zc012vnnkdsd72-expat-2.6.4']='true' ['/nix/store/7jgbkhgv5qagl4z0rrj0gnr1bw52ffnk-harfbuzz-10.2.0']='true' ['/nix/store/7nfpgxqig03j4fy0g321nxnj1pyfskvg-libXrender-0.9.12']='true' ['/nix/store/7nkpq8ffa25lljwdd77m5ip4k236kngf-brotli-1.1.0-dev']='true' ['/nix/store/7p03m585v31920i3bfyklfwz3n1pwg85-xz-5.6.4-bin']='true' ['/nix/store/7pgmaasikkwg81hhxzchqlayiz3jlcl0-krb5-1.21.3-lib']='true' ['/nix/store/7qlnlp7vj90mnmm44b95zrfcrjdc8c6j-libXcomposite-0.4.6']='true' ['/nix/store/7s1mrmg5asnphna0l8m4fbfd4ckzf6wk-libssh2-1.11.1-dev']='true' ['/nix/store/7yv6k6s8imhb1frg86h5mjljr4mqxfjb-krb5-1.21.3']='true' ['/nix/store/82gnffl5k1jc56blwp4j2nw7m3byfpmd-gobject-introspection-1.82.0']='true' ['/nix/store/83jf70bcq0z0vnqhy5yqyxw6p6jrx14j-libpsl-0.21.5-dev']='true' ['/nix/store/86rwj6sncy1mgximx25jz144kyqfi2zm-astal-network-0.1.0']='true' ['/nix/store/8g1qcmm4vxvh0zp4d0ih9x7ld11qx327-gobject-introspection-1.82.0-dev']='true' ['/nix/store/9b28abbnpzmr923m2kr8x93fq3jfhdzv-libXdamage-1.1.6-dev']='true' ['/nix/store/9dnhmkin5bxy1mjza8j83abpqib0077h-astal-powerprofiles-0.1.0-dev']='true' ['/nix/store/9sxqmx3sh20vayr4dnq5xyh4rqzk87kl-gnutls-3.8.6']='true' ['/nix/store/a4rznphszbmj0hir9cg09pzgkkl730d8-wrap-gapps-hook']='true' ['/nix/store/a5b02w9nj8zmcgy40axyrz6pxs21lgd3-libtiff-4.7.0']='true' ['/nix/store/a7icqhmzdj5718lf2a6zrj8l1k44g0if-zstd-1.5.6-dev']='true' ['/nix/store/a909x93akv9099a70kfmqlcsk6n7dyi4-krb5-1.21.3-dev']='true' ['/nix/store/ab8xx9vr3w3rx6zicq3vb588nz4qq7rj-fastfetch-2.38.0']='true' ['/nix/store/adky9lc2bsgv8azzm17m4pinqpg4vp46-dbus-1.14.10']='true' ['/nix/store/afi7ghald37d6agii0mq23zb2v8gk45q-libpng-apng-1.6.46']='true' ['/nix/store/aqnf8mpbh0wy4pwvzqhr8fhv05cddw6f-lua5.2-lua-cjson-2.1.0.10-1']='true' ['/nix/store/b55y9amd0lkvnqik2gakzrv9hswrzfix-glib-2.82.4-bin']='true' ['/nix/store/ba6mgpbwsw2axznhqivw20s1wa4rr142-fribidi-1.0.16-dev']='true' ['/nix/store/bd0kc87h64lda9r9mlsjjp9hyi5plpji-pixman-0.44.2']='true' ['/nix/store/bdy6ykh43ww0k6n7nfy2b5qkvv8skwcs-lua-5.2.4-env']='true' ['/nix/store/bhb0r5g6lg7h492cnfs0qpf8dipl790y-gettext-0.22.5']='true' ['/nix/store/blpsf18izrjp3llkylf7yrpgkjzn8v06-libgcrypt-1.10.3-lib']='true' ['/nix/store/bv24mwgjvdh4lmbw415758023k01nnsy-wireplumber-0.5.8']='true' ['/nix/store/c9fb1rxyiw3qamh4l57r2qj7h44gx19s-glibc-iconv-2.40']='true' ['/nix/store/casm1x6j4m6klwd828cjjvrvr5ax2b99-nghttp2-1.64.0-lib']='true' ['/nix/store/cblasaa99z9pgjdkwhivi3y148fnas53-gammastep-2.0.9']='true' ['/nix/store/cf5yl5msc1jiy29y2mkd2l0rl4qcq5h0-gtk-layer-shell-0.9.0-dev']='true' ['/nix/store/cm0dj150k3z7iddcx71y1aqb6fn59vcm-zstd-1.5.6']='true' ['/nix/store/dh20mli0nsahv7qji28w2swbg5f286sh-zlib-1.3.1']='true' ['/nix/store/dhn39ks524kijr2ni4bfwhinxrzh983b-gmp-with-cxx-6.3.0-dev']='true' ['/nix/store/dmshqfc9yrbyahxdcayclsghzqwp55hw-xz-5.6.4-dev']='true' ['/nix/store/dsyz92vgmak8g5rblvqavlbbwckzi57a-brightnessctl-0.5.1']='true' ['/nix/store/f3alc74x0gn4y7jgcv7m0xfa9z7q3fl4-nettle-3.10.1']='true' ['/nix/store/f8r6r4avmvhqvx36kxlyikkrjdfn0nzs-gtk+3-3.24.48-dev']='true' ['/nix/store/fik2jfs09si9a0rlwpq45fbc3il644in-libXext-1.3.6']='true' ['/nix/store/fl6kcwnyls1vqcnbb87n021dfad7n7sc-curl-8.12.0-bin']='true' ['/nix/store/fryi16d8jz2kavpvkvsaff95440m6my1-graphite2-1.3.14-dev']='true' ['/nix/store/fymfz4plil9llrwaas21zrlmymh9p31z-libXinerama-1.1.5-dev']='true' ['/nix/store/g648prqjwhjlqh101dr0bj9hajj1q4mv-nghttp2-1.64.0']='true' ['/nix/store/gcwc760r4l7f53lwgmlvdy2lwxcpaz7d-make-binary-wrapper-hook']='true' ['/nix/store/gdjiirmh0nc19hf62qi73z664knqz9bf-libxcb-1.17.0']='true' ['/nix/store/ghyjfrmhcr4799vij56xcizxbzbnprjc-cups-2.4.11-lib']='true' ['/nix/store/gj829zffxqcflpkylf111cnax6algqfy-dbus-1.14.10-lib']='true' ['/nix/store/glks7i0r873naky51yh4djhvh5xsrhw1-cups-2.4.11']='true' ['/nix/store/gs1b0zs3xizm3ljicj18yrmfhja253kc-astal3-3.0.0-dev']='true' ['/nix/store/gv2x3n6wazlkrxnk5xp3w54gmw93ax65-update-autotools-gnu-config-scripts-hook']='true' ['/nix/store/h3cyay3c5cvi4vp1q6w7rpa37lh7b0n1-gvfs-1.56.1']='true' ['/nix/store/h58mlf66zdwr739lwdyv7pnfi8f81hi7-libSM-1.2.5-dev']='true' ['/nix/store/hafik7323sgpdwv2hwjqf3jp32d63c9h-fontconfig-2.16.0-lib']='true' ['/nix/store/hifg644pihcpysmyhng1szck9ml5zily-curl-8.12.0']='true' ['/nix/store/hjrn2shb0bkddkjbv3imfm54dyf7cxf8-gdk-pixbuf-2.42.12']='true' ['/nix/store/hk38mjwikvmx22l63k5n1c0v8ijqbi1n-lua-5.2.4']='true' ['/nix/store/hklf3asvj79ydqqdfpmax1ppcdm5ikj8-curl-8.12.0-dev']='true' ['/nix/store/hld9irnx94skmplfq644cj5r5lk0sag7-bzip2-1.0.8-dev']='true' ['/nix/store/hnf5mjzlpw4gwj0cdacyvpikc5qncjy8-gnutls-3.8.6-bin']='true' ['/nix/store/i59dg99p5la08kvy9mgd87vfjbbi0f58-libXfixes-6.0.1']='true' ['/nix/store/i9ypgamfxzrak21bvs4mn76d8q2s9c0z-libgcrypt-1.10.3-dev']='true' ['/nix/store/ia8gjzqnsd667q2gllrawml5y85gzr9m-astal-mpris-0.1.0']='true' ['/nix/store/is9bjy4zi9li3f6xzbcbmri2hn1nfmm8-astal-bluetooth-0.1.0-dev']='true' ['/nix/store/j0vvnjipgjkyd9jpbxa3pvv7nkqz7awq-astal-mpris-0.1.0-dev']='true' ['/nix/store/j59pvzc6q6cxrk250g6h34f7vgf89w24-libXcursor-1.2.3']='true' ['/nix/store/j8xypa59p5wgjlcgy5hhrr8bwkhqrs3k-astal3-3.0.0']='true' ['/nix/store/jacmqcpl87h1i5kg5vm9dkjmxyz3svhw-expat-2.6.4-dev']='true' ['/nix/store/jbcy0cbivq2qsy0v8aiwi9raj21jf9ia-bzip2-1.0.8-bin']='true' ['/nix/store/jclzsgkm6z5fr0f4h53xcq9ps9x1yxqi-libXrandr-1.5.4']='true' ['/nix/store/jsz14bz54wa7j2m1ibx6k9zb1qf4vxwg-brotli-1.1.0-lib']='true' ['/nix/store/jyp2yrar1in1xsw9fpzz0ns7j2qvbgl8-pango-1.56.1']='true' ['/nix/store/k1vc6wb2frzsgfw8xiyvlbj7npshjp44-zlib-1.3.1-dev']='true' ['/nix/store/kfqf2iyybck288l3q388q8lir7zyp2n9-wayland-1.23.1']='true' ['/nix/store/kr2ap7xh0j9kbp40jb03xw5bi014lzh6-libXau-1.0.12']='true' ['/nix/store/lbz016apqgr7haz5hl60ph258xdzgvjf-nettle-3.10.1-dev']='true' ['/nix/store/lcwh8d712bp6jj3yf2rgfylnbdscirm5-cairo-1.18.2-dev']='true' ['/nix/store/lljw0kxlj8s0qnf7acfr4g588fmxzscr-astal-tray-0.1.0']='true' ['/nix/store/lqpxfz0waqh9cm40wwvbhy5h3hc6s13i-libglvnd-1.7.0-dev']='true' ['/nix/store/m3j8mz01ifgq9k9h85p3lnxk6b63f47p-wayland-1.23.1-dev']='true' ['/nix/store/m4mjqaqbrcjqrcwpbv3rvar83ljvppj8-astal-bluetooth-0.1.0']='true' ['/nix/store/m5szkm0siac4iqiin31p2588i05cm5kk-openssl-3.4.1-bin']='true' ['/nix/store/mvx341xckdhdvplji7mvrw01gbw2h70y-libgcrypt-1.10.3-bin']='true' ['/nix/store/mwdlps2rn53vq8frbzbgma055rzzwk9v-libffi-3.4.6-dev']='true' ['/nix/store/mx7xxnh5aw97vlc1074vaj4mam9fbsqn-bzip2-1.0.8']='true' ['/nix/store/mxw1xqrd7qwc2lv5si8zpb374gn48pin-libpng-apng-1.6.46-dev']='true' ['/nix/store/my89kwnplj1dsxp3gc21q87zkz0k7pqg-libidn2-2.3.7']='true' ['/nix/store/n7jkxf8fw4pyp3m5l3h4jyp1x96ipw50-libidn2-2.3.7-bin']='true' ['/nix/store/npaldsphkr8c6fr2q0wdwia137ld85y3-fontconfig-2.16.0-dev']='true' ['/nix/store/nsipd4vjy0rf9qkm639j97rl3l6kkhlc-openssl-3.4.1-dev']='true' ['/nix/store/nvdmdwrxvnihxd90hwjj2h1k3lvmcxal-astal-battery-0.1.0']='true' ['/nix/store/nwlxj3zw96f4z6g5pzm9g4haqkiwn5dg-gsettings-desktop-schemas-47.1']='true' ['/nix/store/p12d4nz6pvj4mr2yakjbwvzn64n8j2fv-libXext-1.3.6-dev']='true' ['/nix/store/pa6vzx78wh7hrgb55qk7lc1vgz2zm095-gmp-with-cxx-6.3.0']='true' ['/nix/store/pfswgifssxs0qs9djk794rif7afj7p1y-graphite2-1.3.14']='true' ['/nix/store/phypai6y60p7lfxc5650gi816zmvwnyq-libXfixes-6.0.1-dev']='true' ['/nix/store/pndj1shgbhry8kfaqizk9iifq1g4byjj-libXi-1.8.2']='true' ['/nix/store/pp1rp6niyw0cv5a1f9n9bahndkh43jlc-cairo-1.18.2']='true' ['/nix/store/ppmm7j7w4fgl91mp8rzhg9q8kr9fbgav-xz-5.6.4']='true' ['/nix/store/q9yp5di4xb3n7wikqg5lmcd442l7zjlk-die-hook']='true' ['/nix/store/qhd057cx7f69skm77mfhnrnk1xnfajnz-at-spi2-core-2.54.1-dev']='true' ['/nix/store/qi996s8srg5xm36v3ww21xx7rsvyh8pp-wireplumber-0.5.8-dev']='true' ['/nix/store/r0xc6mn3cg0bxjnjgg7wvhkf0m368hyg-libpsl-0.21.5']='true' ['/nix/store/r1101k7p7vhkjhnr7h21hdzhamws8q1d-astal-notifd-0.1.0-dev']='true' ['/nix/store/r88idispacmj0ffsplprn52nbdgi5ki0-astal-powerprofiles-0.1.0']='true' ['/nix/store/ry7xs9pf930v1x4vwg7wzdzlmsxxk9av-libXft-2.3.8-dev']='true' ['/nix/store/rybi8gc4hqp0bh12i2ga6kr1443cy8ng-libXrandr-1.5.4-dev']='true' ['/nix/store/s5x5bx02h0ingx9rc84b1fp0xqr6ylwr-pango-1.56.1-bin']='true' ['/nix/store/scfym1a0hxk00z1i38azvcy3y9zg8210-libglvnd-1.7.0']='true' ['/nix/store/sdb7n62y0h7hrkmi64gnyvkzywaxyyg3-astal-tray-0.1.0-dev']='true' ['/nix/store/sfmbl63yk15l2m9hw6cljh5lwbck8jd0-publicsuffix-list-0-unstable-2025-01-16']='true' ['/nix/store/sggn1igw5mdxy8v6mvgjws0pvl0r5nk7-harfbuzz-10.2.0-dev']='true' ['/nix/store/sigf1g9f3gc9rn8al0g52b8y1jbp0s1k-astal-battery-0.1.0-dev']='true' ['/nix/store/svbdr4zl59r3c3w1pb3rh6ql2q71m4jd-gnutls-3.8.6-dev']='true' ['/nix/store/v4590ch770x7jc7f7kirijppyhvjjgs0-openssl-3.4.1']='true' ['/nix/store/v6h34kg6hk7rj7kxvbw3bsh7saxvclkg-libssh2-1.11.1']='true' ['/nix/store/v71jpm1gq42naf1n3fdrns63sqr36kz3-libXdamage-1.1.6']='true' ['/nix/store/vs4azykjjfwzci1gm36pq6zf4v5gs237-gobject-introspection-wrapped-1.82.0-dev']='true' ['/nix/store/w5gaf0889iacdly3zz5yn6h86pnlgw6v-libXcomposite-0.4.6-dev']='true' ['/nix/store/w9q41vrns4b6b579hp0r56cqi9qwhrn2-freetype-2.13.3']='true' ['/nix/store/wa5jn1z03zc2y7fjd3rshixnh89v0wiz-networkmanager-1.52.0-dev']='true' ['/nix/store/wdggyby9fqjnprvh6k6zanyn36z3nf1m-fontconfig-2.16.0-bin']='true' ['/nix/store/wn65hvgc10rjywmh861h2nmfbdymmghm-wayland-protocols-1.40']='true' ['/nix/store/wp4w4yg219v58dl37jn27y5slqv3m01v-libXcursor-1.2.3-dev']='true' ['/nix/store/wx3xcxx32bz2rqkvf44dn0pc7ira61xr-at-spi2-core-2.54.1']='true' ['/nix/store/wy1izigb692palb22xr5cg01zl1n8nkv-json-glib-1.10.6']='true' ['/nix/store/x0mjaf18kpg6lhk4ahwdcisv90h2vrap-libXrender-0.9.12-dev']='true' ['/nix/store/x110781i0wcsz2m9ydklcizcsnwdh27v-libjpeg-turbo-3.0.4']='true' ['/nix/store/x5az8kpxcb1znh5qab91sa230lwhvmkf-glib-2.82.4-dev']='true' ['/nix/store/xf0q8n3brlhs3wf10ni6vrvic4waf9cf-glib-2.82.4']='true' ['/nix/store/xpi83jd9d007wznvk12j41b65wx4r20j-lua5.2-luautf8-0.1.6-1']='true' ['/nix/store/y07iqkj0qrvwcarghwdvgj1l665iaqwx-astal-notifd-0.1.0']='true' ['/nix/store/y1kfsa0raah5sbykdq7gvhy50w150073-librsvg-2.59.2-dev']='true' ['/nix/store/ybiwxilxl40kl0cya1flaf0dikfxjlmd-libXft-2.3.8']='true' ['/nix/store/yn9dcqr17ny107fia2d54ylk7kl65id4-librsvg-2.59.2']='true' ['/nix/store/ys1gsn3jvxbiiv4idhwdq9c5bvg99m02-gtk+3-3.24.48']='true' ['/nix/store/ywbz31hmjgp5mz8s56j74a9skx53iald-libX11-1.8.11']='true' ['/nix/store/z7m46527yncjzsv9jx13wc0nx39mb1h4-freetype-2.13.3-dev']='true' ['/nix/store/zmfmh3gw9dpwxi87x6nzfpdlg2gmph3l-gdk-pixbuf-2.42.12-dev']='true' ['/nix/store/zr34knjwfl7vjkhh5rlk44c5g85l49qq-inotify-tools-4.23.9.0']='true' )
+maybe_dir='/nix/store/h3cyay3c5cvi4vp1q6w7rpa37lh7b0n1-gvfs-1.56.1/share/gsettings-schemas/gvfs-1.56.1'
+mesonFlags=''
+export mesonFlags
+name='kaneru-env'
+export name
+nativeBuildInputs='/nix/store/a4rznphszbmj0hir9cg09pzgkkl730d8-wrap-gapps-hook /nix/store/vs4azykjjfwzci1gm36pq6zf4v5gs237-gobject-introspection-wrapped-1.82.0-dev'
+export nativeBuildInputs
+out='/home/alex/code/astal/outputs/out'
+export out
+outputBin='out'
+outputDev='out'
+outputDevdoc='REMOVE'
+outputDevman='out'
+outputDoc='out'
+outputInclude='out'
+outputInfo='out'
+outputLib='out'
+outputMan='out'
+outputs='out'
+export outputs
+patches=''
+export patches
+pattern='lib/lua/5.2/?.so'
+pkg='/nix/store/pilsssjjdxvdphlg2h19p0bfx5q0jzkn-strip.sh'
+declare -a pkgsBuildBuild=()
+declare -a pkgsBuildHost=('/nix/store/a4rznphszbmj0hir9cg09pzgkkl730d8-wrap-gapps-hook' '/nix/store/gcwc760r4l7f53lwgmlvdy2lwxcpaz7d-make-binary-wrapper-hook' '/nix/store/q9yp5di4xb3n7wikqg5lmcd442l7zjlk-die-hook' '/nix/store/f8r6r4avmvhqvx36kxlyikkrjdfn0nzs-gtk+3-3.24.48-dev' '/nix/store/qhd057cx7f69skm77mfhnrnk1xnfajnz-at-spi2-core-2.54.1-dev' '/nix/store/43frqg25k65p2s8h19i4lmkrqj0w59ln-dbus-1.14.10-dev' '/nix/store/jacmqcpl87h1i5kg5vm9dkjmxyz3svhw-expat-2.6.4-dev' '/nix/store/7g9pjljmzfs1fm4jl9zc012vnnkdsd72-expat-2.6.4' '/nix/store/gj829zffxqcflpkylf111cnax6algqfy-dbus-1.14.10-lib' '/nix/store/adky9lc2bsgv8azzm17m4pinqpg4vp46-dbus-1.14.10' '/nix/store/x5az8kpxcb1znh5qab91sa230lwhvmkf-glib-2.82.4-dev' '/nix/store/k1vc6wb2frzsgfw8xiyvlbj7npshjp44-zlib-1.3.1-dev' '/nix/store/dh20mli0nsahv7qji28w2swbg5f286sh-zlib-1.3.1' '/nix/store/mwdlps2rn53vq8frbzbgma055rzzwk9v-libffi-3.4.6-dev' '/nix/store/5cs27j8hivrkjdc3lapjf8l0sgzabm7p-libffi-3.4.6' '/nix/store/bhb0r5g6lg7h492cnfs0qpf8dipl790y-gettext-0.22.5' '/nix/store/c9fb1rxyiw3qamh4l57r2qj7h44gx19s-glibc-iconv-2.40' '/nix/store/b55y9amd0lkvnqik2gakzrv9hswrzfix-glib-2.82.4-bin' '/nix/store/xf0q8n3brlhs3wf10ni6vrvic4waf9cf-glib-2.82.4' '/nix/store/wx3xcxx32bz2rqkvf44dn0pc7ira61xr-at-spi2-core-2.54.1' '/nix/store/lcwh8d712bp6jj3yf2rgfylnbdscirm5-cairo-1.18.2-dev' '/nix/store/npaldsphkr8c6fr2q0wdwia137ld85y3-fontconfig-2.16.0-dev' '/nix/store/z7m46527yncjzsv9jx13wc0nx39mb1h4-freetype-2.13.3-dev' '/nix/store/hld9irnx94skmplfq644cj5r5lk0sag7-bzip2-1.0.8-dev' '/nix/store/jbcy0cbivq2qsy0v8aiwi9raj21jf9ia-bzip2-1.0.8-bin' '/nix/store/mx7xxnh5aw97vlc1074vaj4mam9fbsqn-bzip2-1.0.8' '/nix/store/7nkpq8ffa25lljwdd77m5ip4k236kngf-brotli-1.1.0-dev' '/nix/store/jsz14bz54wa7j2m1ibx6k9zb1qf4vxwg-brotli-1.1.0-lib' '/nix/store/3bb38din4q2y9475af51g6x7fa4iadzh-brotli-1.1.0' '/nix/store/mxw1xqrd7qwc2lv5si8zpb374gn48pin-libpng-apng-1.6.46-dev' '/nix/store/afi7ghald37d6agii0mq23zb2v8gk45q-libpng-apng-1.6.46' '/nix/store/w9q41vrns4b6b579hp0r56cqi9qwhrn2-freetype-2.13.3' '/nix/store/wdggyby9fqjnprvh6k6zanyn36z3nf1m-fontconfig-2.16.0-bin' '/nix/store/hafik7323sgpdwv2hwjqf3jp32d63c9h-fontconfig-2.16.0-lib' '/nix/store/bd0kc87h64lda9r9mlsjjp9hyi5plpji-pixman-0.44.2' '/nix/store/p12d4nz6pvj4mr2yakjbwvzn64n8j2fv-libXext-1.3.6-dev' '/nix/store/2jrjgbc8xldk1325rh2nv6d6ibzypd9g-xorgproto-2024.1' '/nix/store/11zzmw0vjv1cj5yc9xjdax4f79i5g8c7-libXau-1.0.12-dev' '/nix/store/kr2ap7xh0j9kbp40jb03xw5bi014lzh6-libXau-1.0.12' '/nix/store/fik2jfs09si9a0rlwpq45fbc3il644in-libXext-1.3.6' '/nix/store/x0mjaf18kpg6lhk4ahwdcisv90h2vrap-libXrender-0.9.12-dev' '/nix/store/1lpgxa7sjhphmsskyn3mlk5saj5biiyg-libX11-1.8.11-dev' '/nix/store/361m5b8lwlgv0w0v6f0mmax6kqwgy6xn-libxcb-1.17.0-dev' '/nix/store/gdjiirmh0nc19hf62qi73z664knqz9bf-libxcb-1.17.0' '/nix/store/ywbz31hmjgp5mz8s56j74a9skx53iald-libX11-1.8.11' '/nix/store/7nfpgxqig03j4fy0g321nxnj1pyfskvg-libXrender-0.9.12' '/nix/store/pp1rp6niyw0cv5a1f9n9bahndkh43jlc-cairo-1.18.2' '/nix/store/ba6mgpbwsw2axznhqivw20s1wa4rr142-fribidi-1.0.16-dev' '/nix/store/5vklvqbmp8kgjvh2vdwkqn7lva2vs72q-fribidi-1.0.16' '/nix/store/zmfmh3gw9dpwxi87x6nzfpdlg2gmph3l-gdk-pixbuf-2.42.12-dev' '/nix/store/57y86ad0djyn0s5sdfkh9d0hpihpk0rc-libtiff-4.7.0-dev' '/nix/store/70mm48wi3yc7r8imaf05lc8gy9pj3s0a-libdeflate-1.23' '/nix/store/79z5fw8rjrwx7hm53pvpl1n39cz8m3cq-libjpeg-turbo-3.0.4-dev' '/nix/store/2l06apq4rnp28phfqj3vy69w5g12h9ws-libjpeg-turbo-3.0.4-bin' '/nix/store/x110781i0wcsz2m9ydklcizcsnwdh27v-libjpeg-turbo-3.0.4' '/nix/store/08xfngm78zx05kr5p24il03h2py7kd5n-libwebp-1.5.0' '/nix/store/dmshqfc9yrbyahxdcayclsghzqwp55hw-xz-5.6.4-dev' '/nix/store/7p03m585v31920i3bfyklfwz3n1pwg85-xz-5.6.4-bin' '/nix/store/ppmm7j7w4fgl91mp8rzhg9q8kr9fbgav-xz-5.6.4' '/nix/store/a7icqhmzdj5718lf2a6zrj8l1k44g0if-zstd-1.5.6-dev' '/nix/store/3m0j5jr98qms6sffcl63c9k0yync7b6b-zstd-1.5.6-bin' '/nix/store/cm0dj150k3z7iddcx71y1aqb6fn59vcm-zstd-1.5.6' '/nix/store/42f2bd8pc1lhvr830aa9x3p8lx9fhq18-libtiff-4.7.0-bin' '/nix/store/a5b02w9nj8zmcgy40axyrz6pxs21lgd3-libtiff-4.7.0' '/nix/store/hjrn2shb0bkddkjbv3imfm54dyf7cxf8-gdk-pixbuf-2.42.12' '/nix/store/nwlxj3zw96f4z6g5pzm9g4haqkiwn5dg-gsettings-desktop-schemas-47.1' '/nix/store/1q3rafzc6vy5jn7a8d17073v3qg4f7zz-libICE-1.1.2-dev' '/nix/store/52wgafhbj4z2ghfgwcih2vlqmq50czwa-libICE-1.1.2' '/nix/store/h58mlf66zdwr739lwdyv7pnfi8f81hi7-libSM-1.2.5-dev' '/nix/store/5f3ilmmhdc79nyq3gf60ccy85x6ax1hs-libSM-1.2.5' '/nix/store/w5gaf0889iacdly3zz5yn6h86pnlgw6v-libXcomposite-0.4.6-dev' '/nix/store/phypai6y60p7lfxc5650gi816zmvwnyq-libXfixes-6.0.1-dev' '/nix/store/i59dg99p5la08kvy9mgd87vfjbbi0f58-libXfixes-6.0.1' '/nix/store/7qlnlp7vj90mnmm44b95zrfcrjdc8c6j-libXcomposite-0.4.6' '/nix/store/wp4w4yg219v58dl37jn27y5slqv3m01v-libXcursor-1.2.3-dev' '/nix/store/j59pvzc6q6cxrk250g6h34f7vgf89w24-libXcursor-1.2.3' '/nix/store/9b28abbnpzmr923m2kr8x93fq3jfhdzv-libXdamage-1.1.6-dev' '/nix/store/v71jpm1gq42naf1n3fdrns63sqr36kz3-libXdamage-1.1.6' '/nix/store/3cdnmfq47gg1n0ddl9aysivrw4p5x4pb-libXi-1.8.2-dev' '/nix/store/pndj1shgbhry8kfaqizk9iifq1g4byjj-libXi-1.8.2' '/nix/store/rybi8gc4hqp0bh12i2ga6kr1443cy8ng-libXrandr-1.5.4-dev' '/nix/store/jclzsgkm6z5fr0f4h53xcq9ps9x1yxqi-libXrandr-1.5.4' '/nix/store/4infw561whi3g9zjdri13vw88kzmj6wl-pango-1.56.1-dev' '/nix/store/sggn1igw5mdxy8v6mvgjws0pvl0r5nk7-harfbuzz-10.2.0-dev' '/nix/store/fryi16d8jz2kavpvkvsaff95440m6my1-graphite2-1.3.14-dev' '/nix/store/pfswgifssxs0qs9djk794rif7afj7p1y-graphite2-1.3.14' '/nix/store/7jgbkhgv5qagl4z0rrj0gnr1bw52ffnk-harfbuzz-10.2.0' '/nix/store/ry7xs9pf930v1x4vwg7wzdzlmsxxk9av-libXft-2.3.8-dev' '/nix/store/ybiwxilxl40kl0cya1flaf0dikfxjlmd-libXft-2.3.8' '/nix/store/s5x5bx02h0ingx9rc84b1fp0xqr6ylwr-pango-1.56.1-bin' '/nix/store/jyp2yrar1in1xsw9fpzz0ns7j2qvbgl8-pango-1.56.1' '/nix/store/lqpxfz0waqh9cm40wwvbhy5h3hc6s13i-libglvnd-1.7.0-dev' '/nix/store/scfym1a0hxk00z1i38azvcy3y9zg8210-libglvnd-1.7.0' '/nix/store/m3j8mz01ifgq9k9h85p3lnxk6b63f47p-wayland-1.23.1-dev' '/nix/store/kfqf2iyybck288l3q388q8lir7zyp2n9-wayland-1.23.1' '/nix/store/wn65hvgc10rjywmh861h2nmfbdymmghm-wayland-protocols-1.40' '/nix/store/fymfz4plil9llrwaas21zrlmymh9p31z-libXinerama-1.1.5-dev' '/nix/store/0cnc61x2bqkq3xj4knm8h9rhjca9in85-libXinerama-1.1.5' '/nix/store/4c01qprzz53gd9bgw4bq5d842yjv3x9f-cups-2.4.11-dev' '/nix/store/dhn39ks524kijr2ni4bfwhinxrzh983b-gmp-with-cxx-6.3.0-dev' '/nix/store/pa6vzx78wh7hrgb55qk7lc1vgz2zm095-gmp-with-cxx-6.3.0' '/nix/store/ghyjfrmhcr4799vij56xcizxbzbnprjc-cups-2.4.11-lib' '/nix/store/glks7i0r873naky51yh4djhvh5xsrhw1-cups-2.4.11' '/nix/store/ys1gsn3jvxbiiv4idhwdq9c5bvg99m02-gtk+3-3.24.48' '/nix/store/y1kfsa0raah5sbykdq7gvhy50w150073-librsvg-2.59.2-dev' '/nix/store/yn9dcqr17ny107fia2d54ylk7kl65id4-librsvg-2.59.2' '/nix/store/vs4azykjjfwzci1gm36pq6zf4v5gs237-gobject-introspection-wrapped-1.82.0-dev' '/nix/store/3a85g9hwj65nc5qb0v1ikfaqymfm0y37-gobject-introspection-wrapped-1.82.0' '/nix/store/23216cvbd4cv8w206kxmwgds0h1rkxwd-patchelf-0.15.0' '/nix/store/gv2x3n6wazlkrxnk5xp3w54gmw93ax65-update-autotools-gnu-config-scripts-hook' '/nix/store/h9lc1dpi14z7is86ffhl3ld569138595-audit-tmpdir.sh' '/nix/store/m54bmrhj6fqz8nds5zcj97w9s9bckc9v-compress-man-pages.sh' '/nix/store/wgrbkkaldkrlrni33ccvm3b6vbxzb656-make-symlinks-relative.sh' '/nix/store/5yzw0vhkyszf2d179m0qfkgxmp5wjjx4-move-docs.sh' '/nix/store/fyaryjvghbkpfnsyw97hb3lyb37s1pd6-move-lib64.sh' '/nix/store/kd4xwxjpjxi71jkm6ka0np72if9rm3y0-move-sbin.sh' '/nix/store/pag6l61paj1dc9sv15l7bm5c17xn5kyk-move-systemd-user-units.sh' '/nix/store/cmzya9irvxzlkh7lfy6i82gbp0saxqj3-multiple-outputs.sh' '/nix/store/jxknwvfj6kw8awi3lsjx1807q5q1sybz-no-broken-symlinks.sh' '/nix/store/hxv896faph0rqxjq2ycxpcrbnngc95sz-patch-shebangs.sh' '/nix/store/cickvswrvann041nqxb0rxilc46svw1n-prune-libtool-files.sh' '/nix/store/xyff06pkhki3qy1ls77w10s0v79c9il0-reproducible-builds.sh' '/nix/store/z7k98578dfzi6l3hsvbivzm7hfqlk0zc-set-source-date-epoch-to-latest.sh' '/nix/store/pilsssjjdxvdphlg2h19p0bfx5q0jzkn-strip.sh' )
+declare -a pkgsBuildTarget=()
+declare -a pkgsHostHost=('/nix/store/y1kfsa0raah5sbykdq7gvhy50w150073-librsvg-2.59.2-dev' '/nix/store/x5az8kpxcb1znh5qab91sa230lwhvmkf-glib-2.82.4-dev' '/nix/store/k1vc6wb2frzsgfw8xiyvlbj7npshjp44-zlib-1.3.1-dev' '/nix/store/dh20mli0nsahv7qji28w2swbg5f286sh-zlib-1.3.1' '/nix/store/mwdlps2rn53vq8frbzbgma055rzzwk9v-libffi-3.4.6-dev' '/nix/store/5cs27j8hivrkjdc3lapjf8l0sgzabm7p-libffi-3.4.6' '/nix/store/bhb0r5g6lg7h492cnfs0qpf8dipl790y-gettext-0.22.5' '/nix/store/c9fb1rxyiw3qamh4l57r2qj7h44gx19s-glibc-iconv-2.40' '/nix/store/b55y9amd0lkvnqik2gakzrv9hswrzfix-glib-2.82.4-bin' '/nix/store/xf0q8n3brlhs3wf10ni6vrvic4waf9cf-glib-2.82.4' '/nix/store/zmfmh3gw9dpwxi87x6nzfpdlg2gmph3l-gdk-pixbuf-2.42.12-dev' '/nix/store/57y86ad0djyn0s5sdfkh9d0hpihpk0rc-libtiff-4.7.0-dev' '/nix/store/70mm48wi3yc7r8imaf05lc8gy9pj3s0a-libdeflate-1.23' '/nix/store/79z5fw8rjrwx7hm53pvpl1n39cz8m3cq-libjpeg-turbo-3.0.4-dev' '/nix/store/2l06apq4rnp28phfqj3vy69w5g12h9ws-libjpeg-turbo-3.0.4-bin' '/nix/store/x110781i0wcsz2m9ydklcizcsnwdh27v-libjpeg-turbo-3.0.4' '/nix/store/08xfngm78zx05kr5p24il03h2py7kd5n-libwebp-1.5.0' '/nix/store/dmshqfc9yrbyahxdcayclsghzqwp55hw-xz-5.6.4-dev' '/nix/store/7p03m585v31920i3bfyklfwz3n1pwg85-xz-5.6.4-bin' '/nix/store/ppmm7j7w4fgl91mp8rzhg9q8kr9fbgav-xz-5.6.4' '/nix/store/a7icqhmzdj5718lf2a6zrj8l1k44g0if-zstd-1.5.6-dev' '/nix/store/3m0j5jr98qms6sffcl63c9k0yync7b6b-zstd-1.5.6-bin' '/nix/store/cm0dj150k3z7iddcx71y1aqb6fn59vcm-zstd-1.5.6' '/nix/store/42f2bd8pc1lhvr830aa9x3p8lx9fhq18-libtiff-4.7.0-bin' '/nix/store/a5b02w9nj8zmcgy40axyrz6pxs21lgd3-libtiff-4.7.0' '/nix/store/mxw1xqrd7qwc2lv5si8zpb374gn48pin-libpng-apng-1.6.46-dev' '/nix/store/afi7ghald37d6agii0mq23zb2v8gk45q-libpng-apng-1.6.46' '/nix/store/hjrn2shb0bkddkjbv3imfm54dyf7cxf8-gdk-pixbuf-2.42.12' '/nix/store/lcwh8d712bp6jj3yf2rgfylnbdscirm5-cairo-1.18.2-dev' '/nix/store/npaldsphkr8c6fr2q0wdwia137ld85y3-fontconfig-2.16.0-dev' '/nix/store/z7m46527yncjzsv9jx13wc0nx39mb1h4-freetype-2.13.3-dev' '/nix/store/hld9irnx94skmplfq644cj5r5lk0sag7-bzip2-1.0.8-dev' '/nix/store/jbcy0cbivq2qsy0v8aiwi9raj21jf9ia-bzip2-1.0.8-bin' '/nix/store/mx7xxnh5aw97vlc1074vaj4mam9fbsqn-bzip2-1.0.8' '/nix/store/7nkpq8ffa25lljwdd77m5ip4k236kngf-brotli-1.1.0-dev' '/nix/store/jsz14bz54wa7j2m1ibx6k9zb1qf4vxwg-brotli-1.1.0-lib' '/nix/store/3bb38din4q2y9475af51g6x7fa4iadzh-brotli-1.1.0' '/nix/store/w9q41vrns4b6b579hp0r56cqi9qwhrn2-freetype-2.13.3' '/nix/store/wdggyby9fqjnprvh6k6zanyn36z3nf1m-fontconfig-2.16.0-bin' '/nix/store/hafik7323sgpdwv2hwjqf3jp32d63c9h-fontconfig-2.16.0-lib' '/nix/store/bd0kc87h64lda9r9mlsjjp9hyi5plpji-pixman-0.44.2' '/nix/store/p12d4nz6pvj4mr2yakjbwvzn64n8j2fv-libXext-1.3.6-dev' '/nix/store/2jrjgbc8xldk1325rh2nv6d6ibzypd9g-xorgproto-2024.1' '/nix/store/11zzmw0vjv1cj5yc9xjdax4f79i5g8c7-libXau-1.0.12-dev' '/nix/store/kr2ap7xh0j9kbp40jb03xw5bi014lzh6-libXau-1.0.12' '/nix/store/fik2jfs09si9a0rlwpq45fbc3il644in-libXext-1.3.6' '/nix/store/x0mjaf18kpg6lhk4ahwdcisv90h2vrap-libXrender-0.9.12-dev' '/nix/store/1lpgxa7sjhphmsskyn3mlk5saj5biiyg-libX11-1.8.11-dev' '/nix/store/361m5b8lwlgv0w0v6f0mmax6kqwgy6xn-libxcb-1.17.0-dev' '/nix/store/gdjiirmh0nc19hf62qi73z664knqz9bf-libxcb-1.17.0' '/nix/store/ywbz31hmjgp5mz8s56j74a9skx53iald-libX11-1.8.11' '/nix/store/7nfpgxqig03j4fy0g321nxnj1pyfskvg-libXrender-0.9.12' '/nix/store/pp1rp6niyw0cv5a1f9n9bahndkh43jlc-cairo-1.18.2' '/nix/store/yn9dcqr17ny107fia2d54ylk7kl65id4-librsvg-2.59.2' '/nix/store/f8r6r4avmvhqvx36kxlyikkrjdfn0nzs-gtk+3-3.24.48-dev' '/nix/store/qhd057cx7f69skm77mfhnrnk1xnfajnz-at-spi2-core-2.54.1-dev' '/nix/store/43frqg25k65p2s8h19i4lmkrqj0w59ln-dbus-1.14.10-dev' '/nix/store/jacmqcpl87h1i5kg5vm9dkjmxyz3svhw-expat-2.6.4-dev' '/nix/store/7g9pjljmzfs1fm4jl9zc012vnnkdsd72-expat-2.6.4' '/nix/store/gj829zffxqcflpkylf111cnax6algqfy-dbus-1.14.10-lib' '/nix/store/adky9lc2bsgv8azzm17m4pinqpg4vp46-dbus-1.14.10' '/nix/store/wx3xcxx32bz2rqkvf44dn0pc7ira61xr-at-spi2-core-2.54.1' '/nix/store/ba6mgpbwsw2axznhqivw20s1wa4rr142-fribidi-1.0.16-dev' '/nix/store/5vklvqbmp8kgjvh2vdwkqn7lva2vs72q-fribidi-1.0.16' '/nix/store/nwlxj3zw96f4z6g5pzm9g4haqkiwn5dg-gsettings-desktop-schemas-47.1' '/nix/store/1q3rafzc6vy5jn7a8d17073v3qg4f7zz-libICE-1.1.2-dev' '/nix/store/52wgafhbj4z2ghfgwcih2vlqmq50czwa-libICE-1.1.2' '/nix/store/h58mlf66zdwr739lwdyv7pnfi8f81hi7-libSM-1.2.5-dev' '/nix/store/5f3ilmmhdc79nyq3gf60ccy85x6ax1hs-libSM-1.2.5' '/nix/store/w5gaf0889iacdly3zz5yn6h86pnlgw6v-libXcomposite-0.4.6-dev' '/nix/store/phypai6y60p7lfxc5650gi816zmvwnyq-libXfixes-6.0.1-dev' '/nix/store/i59dg99p5la08kvy9mgd87vfjbbi0f58-libXfixes-6.0.1' '/nix/store/7qlnlp7vj90mnmm44b95zrfcrjdc8c6j-libXcomposite-0.4.6' '/nix/store/wp4w4yg219v58dl37jn27y5slqv3m01v-libXcursor-1.2.3-dev' '/nix/store/j59pvzc6q6cxrk250g6h34f7vgf89w24-libXcursor-1.2.3' '/nix/store/9b28abbnpzmr923m2kr8x93fq3jfhdzv-libXdamage-1.1.6-dev' '/nix/store/v71jpm1gq42naf1n3fdrns63sqr36kz3-libXdamage-1.1.6' '/nix/store/3cdnmfq47gg1n0ddl9aysivrw4p5x4pb-libXi-1.8.2-dev' '/nix/store/pndj1shgbhry8kfaqizk9iifq1g4byjj-libXi-1.8.2' '/nix/store/rybi8gc4hqp0bh12i2ga6kr1443cy8ng-libXrandr-1.5.4-dev' '/nix/store/jclzsgkm6z5fr0f4h53xcq9ps9x1yxqi-libXrandr-1.5.4' '/nix/store/4infw561whi3g9zjdri13vw88kzmj6wl-pango-1.56.1-dev' '/nix/store/sggn1igw5mdxy8v6mvgjws0pvl0r5nk7-harfbuzz-10.2.0-dev' '/nix/store/fryi16d8jz2kavpvkvsaff95440m6my1-graphite2-1.3.14-dev' '/nix/store/pfswgifssxs0qs9djk794rif7afj7p1y-graphite2-1.3.14' '/nix/store/7jgbkhgv5qagl4z0rrj0gnr1bw52ffnk-harfbuzz-10.2.0' '/nix/store/ry7xs9pf930v1x4vwg7wzdzlmsxxk9av-libXft-2.3.8-dev' '/nix/store/ybiwxilxl40kl0cya1flaf0dikfxjlmd-libXft-2.3.8' '/nix/store/s5x5bx02h0ingx9rc84b1fp0xqr6ylwr-pango-1.56.1-bin' '/nix/store/jyp2yrar1in1xsw9fpzz0ns7j2qvbgl8-pango-1.56.1' '/nix/store/lqpxfz0waqh9cm40wwvbhy5h3hc6s13i-libglvnd-1.7.0-dev' '/nix/store/scfym1a0hxk00z1i38azvcy3y9zg8210-libglvnd-1.7.0' '/nix/store/m3j8mz01ifgq9k9h85p3lnxk6b63f47p-wayland-1.23.1-dev' '/nix/store/kfqf2iyybck288l3q388q8lir7zyp2n9-wayland-1.23.1' '/nix/store/wn65hvgc10rjywmh861h2nmfbdymmghm-wayland-protocols-1.40' '/nix/store/fymfz4plil9llrwaas21zrlmymh9p31z-libXinerama-1.1.5-dev' '/nix/store/0cnc61x2bqkq3xj4knm8h9rhjca9in85-libXinerama-1.1.5' '/nix/store/4c01qprzz53gd9bgw4bq5d842yjv3x9f-cups-2.4.11-dev' '/nix/store/dhn39ks524kijr2ni4bfwhinxrzh983b-gmp-with-cxx-6.3.0-dev' '/nix/store/pa6vzx78wh7hrgb55qk7lc1vgz2zm095-gmp-with-cxx-6.3.0' '/nix/store/ghyjfrmhcr4799vij56xcizxbzbnprjc-cups-2.4.11-lib' '/nix/store/glks7i0r873naky51yh4djhvh5xsrhw1-cups-2.4.11' '/nix/store/ys1gsn3jvxbiiv4idhwdq9c5bvg99m02-gtk+3-3.24.48' '/nix/store/61fk1c326mxr7yp52srx2g7brw7ly4a6-dconf-0.40.0-lib' '/nix/store/8g1qcmm4vxvh0zp4d0ih9x7ld11qx327-gobject-introspection-1.82.0-dev' '/nix/store/82gnffl5k1jc56blwp4j2nw7m3byfpmd-gobject-introspection-1.82.0' )
+declare -a pkgsHostTarget=('/nix/store/sigf1g9f3gc9rn8al0g52b8y1jbp0s1k-astal-battery-0.1.0-dev' '/nix/store/x5az8kpxcb1znh5qab91sa230lwhvmkf-glib-2.82.4-dev' '/nix/store/k1vc6wb2frzsgfw8xiyvlbj7npshjp44-zlib-1.3.1-dev' '/nix/store/dh20mli0nsahv7qji28w2swbg5f286sh-zlib-1.3.1' '/nix/store/mwdlps2rn53vq8frbzbgma055rzzwk9v-libffi-3.4.6-dev' '/nix/store/5cs27j8hivrkjdc3lapjf8l0sgzabm7p-libffi-3.4.6' '/nix/store/bhb0r5g6lg7h492cnfs0qpf8dipl790y-gettext-0.22.5' '/nix/store/c9fb1rxyiw3qamh4l57r2qj7h44gx19s-glibc-iconv-2.40' '/nix/store/b55y9amd0lkvnqik2gakzrv9hswrzfix-glib-2.82.4-bin' '/nix/store/xf0q8n3brlhs3wf10ni6vrvic4waf9cf-glib-2.82.4' '/nix/store/2wdnaslhlh3rxijxavj6sxgpb5ysn7hk-json-glib-1.10.6-dev' '/nix/store/wy1izigb692palb22xr5cg01zl1n8nkv-json-glib-1.10.6' '/nix/store/nvdmdwrxvnihxd90hwjj2h1k3lvmcxal-astal-battery-0.1.0' '/nix/store/gs1b0zs3xizm3ljicj18yrmfhja253kc-astal3-3.0.0-dev' '/nix/store/3i3xim0nvm0z2snnd0pmcpvqpha9rinp-astal-0.1.0-dev' '/nix/store/0nsk4xlc66y608bgxkbnpcqgd4qm15gk-astal-0.1.0' '/nix/store/f8r6r4avmvhqvx36kxlyikkrjdfn0nzs-gtk+3-3.24.48-dev' '/nix/store/qhd057cx7f69skm77mfhnrnk1xnfajnz-at-spi2-core-2.54.1-dev' '/nix/store/43frqg25k65p2s8h19i4lmkrqj0w59ln-dbus-1.14.10-dev' '/nix/store/jacmqcpl87h1i5kg5vm9dkjmxyz3svhw-expat-2.6.4-dev' '/nix/store/7g9pjljmzfs1fm4jl9zc012vnnkdsd72-expat-2.6.4' '/nix/store/gj829zffxqcflpkylf111cnax6algqfy-dbus-1.14.10-lib' '/nix/store/adky9lc2bsgv8azzm17m4pinqpg4vp46-dbus-1.14.10' '/nix/store/wx3xcxx32bz2rqkvf44dn0pc7ira61xr-at-spi2-core-2.54.1' '/nix/store/lcwh8d712bp6jj3yf2rgfylnbdscirm5-cairo-1.18.2-dev' '/nix/store/npaldsphkr8c6fr2q0wdwia137ld85y3-fontconfig-2.16.0-dev' '/nix/store/z7m46527yncjzsv9jx13wc0nx39mb1h4-freetype-2.13.3-dev' '/nix/store/hld9irnx94skmplfq644cj5r5lk0sag7-bzip2-1.0.8-dev' '/nix/store/jbcy0cbivq2qsy0v8aiwi9raj21jf9ia-bzip2-1.0.8-bin' '/nix/store/mx7xxnh5aw97vlc1074vaj4mam9fbsqn-bzip2-1.0.8' '/nix/store/7nkpq8ffa25lljwdd77m5ip4k236kngf-brotli-1.1.0-dev' '/nix/store/jsz14bz54wa7j2m1ibx6k9zb1qf4vxwg-brotli-1.1.0-lib' '/nix/store/3bb38din4q2y9475af51g6x7fa4iadzh-brotli-1.1.0' '/nix/store/mxw1xqrd7qwc2lv5si8zpb374gn48pin-libpng-apng-1.6.46-dev' '/nix/store/afi7ghald37d6agii0mq23zb2v8gk45q-libpng-apng-1.6.46' '/nix/store/w9q41vrns4b6b579hp0r56cqi9qwhrn2-freetype-2.13.3' '/nix/store/wdggyby9fqjnprvh6k6zanyn36z3nf1m-fontconfig-2.16.0-bin' '/nix/store/hafik7323sgpdwv2hwjqf3jp32d63c9h-fontconfig-2.16.0-lib' '/nix/store/bd0kc87h64lda9r9mlsjjp9hyi5plpji-pixman-0.44.2' '/nix/store/p12d4nz6pvj4mr2yakjbwvzn64n8j2fv-libXext-1.3.6-dev' '/nix/store/2jrjgbc8xldk1325rh2nv6d6ibzypd9g-xorgproto-2024.1' '/nix/store/11zzmw0vjv1cj5yc9xjdax4f79i5g8c7-libXau-1.0.12-dev' '/nix/store/kr2ap7xh0j9kbp40jb03xw5bi014lzh6-libXau-1.0.12' '/nix/store/fik2jfs09si9a0rlwpq45fbc3il644in-libXext-1.3.6' '/nix/store/x0mjaf18kpg6lhk4ahwdcisv90h2vrap-libXrender-0.9.12-dev' '/nix/store/1lpgxa7sjhphmsskyn3mlk5saj5biiyg-libX11-1.8.11-dev' '/nix/store/361m5b8lwlgv0w0v6f0mmax6kqwgy6xn-libxcb-1.17.0-dev' '/nix/store/gdjiirmh0nc19hf62qi73z664knqz9bf-libxcb-1.17.0' '/nix/store/ywbz31hmjgp5mz8s56j74a9skx53iald-libX11-1.8.11' '/nix/store/7nfpgxqig03j4fy0g321nxnj1pyfskvg-libXrender-0.9.12' '/nix/store/pp1rp6niyw0cv5a1f9n9bahndkh43jlc-cairo-1.18.2' '/nix/store/ba6mgpbwsw2axznhqivw20s1wa4rr142-fribidi-1.0.16-dev' '/nix/store/5vklvqbmp8kgjvh2vdwkqn7lva2vs72q-fribidi-1.0.16' '/nix/store/zmfmh3gw9dpwxi87x6nzfpdlg2gmph3l-gdk-pixbuf-2.42.12-dev' '/nix/store/57y86ad0djyn0s5sdfkh9d0hpihpk0rc-libtiff-4.7.0-dev' '/nix/store/70mm48wi3yc7r8imaf05lc8gy9pj3s0a-libdeflate-1.23' '/nix/store/79z5fw8rjrwx7hm53pvpl1n39cz8m3cq-libjpeg-turbo-3.0.4-dev' '/nix/store/2l06apq4rnp28phfqj3vy69w5g12h9ws-libjpeg-turbo-3.0.4-bin' '/nix/store/x110781i0wcsz2m9ydklcizcsnwdh27v-libjpeg-turbo-3.0.4' '/nix/store/08xfngm78zx05kr5p24il03h2py7kd5n-libwebp-1.5.0' '/nix/store/dmshqfc9yrbyahxdcayclsghzqwp55hw-xz-5.6.4-dev' '/nix/store/7p03m585v31920i3bfyklfwz3n1pwg85-xz-5.6.4-bin' '/nix/store/ppmm7j7w4fgl91mp8rzhg9q8kr9fbgav-xz-5.6.4' '/nix/store/a7icqhmzdj5718lf2a6zrj8l1k44g0if-zstd-1.5.6-dev' '/nix/store/3m0j5jr98qms6sffcl63c9k0yync7b6b-zstd-1.5.6-bin' '/nix/store/cm0dj150k3z7iddcx71y1aqb6fn59vcm-zstd-1.5.6' '/nix/store/42f2bd8pc1lhvr830aa9x3p8lx9fhq18-libtiff-4.7.0-bin' '/nix/store/a5b02w9nj8zmcgy40axyrz6pxs21lgd3-libtiff-4.7.0' '/nix/store/hjrn2shb0bkddkjbv3imfm54dyf7cxf8-gdk-pixbuf-2.42.12' '/nix/store/nwlxj3zw96f4z6g5pzm9g4haqkiwn5dg-gsettings-desktop-schemas-47.1' '/nix/store/1q3rafzc6vy5jn7a8d17073v3qg4f7zz-libICE-1.1.2-dev' '/nix/store/52wgafhbj4z2ghfgwcih2vlqmq50czwa-libICE-1.1.2' '/nix/store/h58mlf66zdwr739lwdyv7pnfi8f81hi7-libSM-1.2.5-dev' '/nix/store/5f3ilmmhdc79nyq3gf60ccy85x6ax1hs-libSM-1.2.5' '/nix/store/w5gaf0889iacdly3zz5yn6h86pnlgw6v-libXcomposite-0.4.6-dev' '/nix/store/phypai6y60p7lfxc5650gi816zmvwnyq-libXfixes-6.0.1-dev' '/nix/store/i59dg99p5la08kvy9mgd87vfjbbi0f58-libXfixes-6.0.1' '/nix/store/7qlnlp7vj90mnmm44b95zrfcrjdc8c6j-libXcomposite-0.4.6' '/nix/store/wp4w4yg219v58dl37jn27y5slqv3m01v-libXcursor-1.2.3-dev' '/nix/store/j59pvzc6q6cxrk250g6h34f7vgf89w24-libXcursor-1.2.3' '/nix/store/9b28abbnpzmr923m2kr8x93fq3jfhdzv-libXdamage-1.1.6-dev' '/nix/store/v71jpm1gq42naf1n3fdrns63sqr36kz3-libXdamage-1.1.6' '/nix/store/3cdnmfq47gg1n0ddl9aysivrw4p5x4pb-libXi-1.8.2-dev' '/nix/store/pndj1shgbhry8kfaqizk9iifq1g4byjj-libXi-1.8.2' '/nix/store/rybi8gc4hqp0bh12i2ga6kr1443cy8ng-libXrandr-1.5.4-dev' '/nix/store/jclzsgkm6z5fr0f4h53xcq9ps9x1yxqi-libXrandr-1.5.4' '/nix/store/4infw561whi3g9zjdri13vw88kzmj6wl-pango-1.56.1-dev' '/nix/store/sggn1igw5mdxy8v6mvgjws0pvl0r5nk7-harfbuzz-10.2.0-dev' '/nix/store/fryi16d8jz2kavpvkvsaff95440m6my1-graphite2-1.3.14-dev' '/nix/store/pfswgifssxs0qs9djk794rif7afj7p1y-graphite2-1.3.14' '/nix/store/7jgbkhgv5qagl4z0rrj0gnr1bw52ffnk-harfbuzz-10.2.0' '/nix/store/ry7xs9pf930v1x4vwg7wzdzlmsxxk9av-libXft-2.3.8-dev' '/nix/store/ybiwxilxl40kl0cya1flaf0dikfxjlmd-libXft-2.3.8' '/nix/store/s5x5bx02h0ingx9rc84b1fp0xqr6ylwr-pango-1.56.1-bin' '/nix/store/jyp2yrar1in1xsw9fpzz0ns7j2qvbgl8-pango-1.56.1' '/nix/store/lqpxfz0waqh9cm40wwvbhy5h3hc6s13i-libglvnd-1.7.0-dev' '/nix/store/scfym1a0hxk00z1i38azvcy3y9zg8210-libglvnd-1.7.0' '/nix/store/m3j8mz01ifgq9k9h85p3lnxk6b63f47p-wayland-1.23.1-dev' '/nix/store/kfqf2iyybck288l3q388q8lir7zyp2n9-wayland-1.23.1' '/nix/store/wn65hvgc10rjywmh861h2nmfbdymmghm-wayland-protocols-1.40' '/nix/store/fymfz4plil9llrwaas21zrlmymh9p31z-libXinerama-1.1.5-dev' '/nix/store/0cnc61x2bqkq3xj4knm8h9rhjca9in85-libXinerama-1.1.5' '/nix/store/4c01qprzz53gd9bgw4bq5d842yjv3x9f-cups-2.4.11-dev' '/nix/store/dhn39ks524kijr2ni4bfwhinxrzh983b-gmp-with-cxx-6.3.0-dev' '/nix/store/pa6vzx78wh7hrgb55qk7lc1vgz2zm095-gmp-with-cxx-6.3.0' '/nix/store/ghyjfrmhcr4799vij56xcizxbzbnprjc-cups-2.4.11-lib' '/nix/store/glks7i0r873naky51yh4djhvh5xsrhw1-cups-2.4.11' '/nix/store/ys1gsn3jvxbiiv4idhwdq9c5bvg99m02-gtk+3-3.24.48' '/nix/store/cf5yl5msc1jiy29y2mkd2l0rl4qcq5h0-gtk-layer-shell-0.9.0-dev' '/nix/store/1m5ss5ccvvm57qrgwdrlxxcvlxjydmm5-gtk-layer-shell-0.9.0' '/nix/store/j8xypa59p5wgjlcgy5hhrr8bwkhqrs3k-astal3-3.0.0' '/nix/store/3h933waln8d7d6w7cxh746ycjcii59w2-astal-apps-0.1.0-dev' '/nix/store/648c5qa90i3rmakqaapqv225d18gzf39-astal-apps-0.1.0' '/nix/store/is9bjy4zi9li3f6xzbcbmri2hn1nfmm8-astal-bluetooth-0.1.0-dev' '/nix/store/m4mjqaqbrcjqrcwpbv3rvar83ljvppj8-astal-bluetooth-0.1.0' '/nix/store/j0vvnjipgjkyd9jpbxa3pvv7nkqz7awq-astal-mpris-0.1.0-dev' '/nix/store/h3cyay3c5cvi4vp1q6w7rpa37lh7b0n1-gvfs-1.56.1' '/nix/store/ia8gjzqnsd667q2gllrawml5y85gzr9m-astal-mpris-0.1.0' '/nix/store/2v79y0y0dg8ngyknp00aqjalwh2c8562-astal-network-0.1.0-dev' '/nix/store/wa5jn1z03zc2y7fjd3rshixnh89v0wiz-networkmanager-1.52.0-dev' '/nix/store/svbdr4zl59r3c3w1pb3rh6ql2q71m4jd-gnutls-3.8.6-dev' '/nix/store/lbz016apqgr7haz5hl60ph258xdzgvjf-nettle-3.10.1-dev' '/nix/store/f3alc74x0gn4y7jgcv7m0xfa9z7q3fl4-nettle-3.10.1' '/nix/store/hnf5mjzlpw4gwj0cdacyvpikc5qncjy8-gnutls-3.8.6-bin' '/nix/store/9sxqmx3sh20vayr4dnq5xyh4rqzk87kl-gnutls-3.8.6' '/nix/store/i9ypgamfxzrak21bvs4mn76d8q2s9c0z-libgcrypt-1.10.3-dev' '/nix/store/mvx341xckdhdvplji7mvrw01gbw2h70y-libgcrypt-1.10.3-bin' '/nix/store/blpsf18izrjp3llkylf7yrpgkjzn8v06-libgcrypt-1.10.3-lib' '/nix/store/0qhsq3lji9qfadxsbfkyr9niwj7f3z67-networkmanager-1.52.0' '/nix/store/86rwj6sncy1mgximx25jz144kyqfi2zm-astal-network-0.1.0' '/nix/store/r1101k7p7vhkjhnr7h21hdzhamws8q1d-astal-notifd-0.1.0-dev' '/nix/store/y07iqkj0qrvwcarghwdvgj1l665iaqwx-astal-notifd-0.1.0' '/nix/store/9dnhmkin5bxy1mjza8j83abpqib0077h-astal-powerprofiles-0.1.0-dev' '/nix/store/r88idispacmj0ffsplprn52nbdgi5ki0-astal-powerprofiles-0.1.0' '/nix/store/sdb7n62y0h7hrkmi64gnyvkzywaxyyg3-astal-tray-0.1.0-dev' '/nix/store/2vmwhxim305lc3fhp9c18qb8kyq7yy9w-appmenu-glib-translator-24.05' '/nix/store/lljw0kxlj8s0qnf7acfr4g588fmxzscr-astal-tray-0.1.0' '/nix/store/0fxy298frh3vqm6dcrihaqf2hj0rqfb1-astal-wireplumber-0.1.0-dev' '/nix/store/qi996s8srg5xm36v3ww21xx7rsvyh8pp-wireplumber-0.5.8-dev' '/nix/store/bv24mwgjvdh4lmbw415758023k01nnsy-wireplumber-0.5.8' '/nix/store/0nj0wvsvh2i0y51p48ir27cikpca65lm-astal-wireplumber-0.1.0' '/nix/store/2njz2dvjcwfn4rdfgbfvrg7wfnpqc5gb-dart-sass-1.85.1' '/nix/store/zr34knjwfl7vjkhh5rlk44c5g85l49qq-inotify-tools-4.23.9.0' '/nix/store/dsyz92vgmak8g5rblvqavlbbwckzi57a-brightnessctl-0.5.1' '/nix/store/cblasaa99z9pgjdkwhivi3y148fnas53-gammastep-2.0.9' '/nix/store/6gq7swnwdszl9mj62fwhnmm7dpyzk628-wget-1.25.0' '/nix/store/hklf3asvj79ydqqdfpmax1ppcdm5ikj8-curl-8.12.0-dev' '/nix/store/a909x93akv9099a70kfmqlcsk6n7dyi4-krb5-1.21.3-dev' '/nix/store/7pgmaasikkwg81hhxzchqlayiz3jlcl0-krb5-1.21.3-lib' '/nix/store/7yv6k6s8imhb1frg86h5mjljr4mqxfjb-krb5-1.21.3' '/nix/store/4dmj17vby16ra7691ip1fm16pvdjrazz-nghttp2-1.64.0-dev' '/nix/store/casm1x6j4m6klwd828cjjvrvr5ax2b99-nghttp2-1.64.0-lib' '/nix/store/g648prqjwhjlqh101dr0bj9hajj1q4mv-nghttp2-1.64.0' '/nix/store/4pzmhl04vhy56nk3kg5daz67kzh83zjg-libidn2-2.3.7-dev' '/nix/store/n7jkxf8fw4pyp3m5l3h4jyp1x96ipw50-libidn2-2.3.7-bin' '/nix/store/my89kwnplj1dsxp3gc21q87zkz0k7pqg-libidn2-2.3.7' '/nix/store/nsipd4vjy0rf9qkm639j97rl3l6kkhlc-openssl-3.4.1-dev' '/nix/store/m5szkm0siac4iqiin31p2588i05cm5kk-openssl-3.4.1-bin' '/nix/store/v4590ch770x7jc7f7kirijppyhvjjgs0-openssl-3.4.1' '/nix/store/83jf70bcq0z0vnqhy5yqyxw6p6jrx14j-libpsl-0.21.5-dev' '/nix/store/sfmbl63yk15l2m9hw6cljh5lwbck8jd0-publicsuffix-list-0-unstable-2025-01-16' '/nix/store/r0xc6mn3cg0bxjnjgg7wvhkf0m368hyg-libpsl-0.21.5' '/nix/store/7s1mrmg5asnphna0l8m4fbfd4ckzf6wk-libssh2-1.11.1-dev' '/nix/store/v6h34kg6hk7rj7kxvbw3bsh7saxvclkg-libssh2-1.11.1' '/nix/store/fl6kcwnyls1vqcnbb87n021dfad7n7sc-curl-8.12.0-bin' '/nix/store/hifg644pihcpysmyhng1szck9ml5zily-curl-8.12.0' '/nix/store/ab8xx9vr3w3rx6zicq3vb588nz4qq7rj-fastfetch-2.38.0' '/nix/store/aqnf8mpbh0wy4pwvzqhr8fhv05cddw6f-lua5.2-lua-cjson-2.1.0.10-1' '/nix/store/hk38mjwikvmx22l63k5n1c0v8ijqbi1n-lua-5.2.4' '/nix/store/xpi83jd9d007wznvk12j41b65wx4r20j-lua5.2-luautf8-0.1.6-1' '/nix/store/bdy6ykh43ww0k6n7nfy2b5qkvv8skwcs-lua-5.2.4-env' )
+declare -a pkgsTargetTarget=()
+declare -a postFixupHooks=('_makeSymlinksRelativeInAllOutputs' '_multioutPropagateDev' 'noBrokenSymlinksInAllOutputs' )
+declare -a postInstallHooks=('glibPostInstallHook' 'giDiscoverSelf' 'glibPostInstallHook' 'giDiscoverSelf' 'glibPostInstallHook' )
+declare -a postUnpackHooks=('_updateSourceDateEpochFromSourceRoot' )
+declare -a preConfigureHooks=('_multioutConfig' )
+preConfigurePhases=' updateAutotoolsGnuConfigScriptsPhase'
+preFixup='gappsWrapperArgs+=(
+  --prefix PATH : "/nix/store/nvdmdwrxvnihxd90hwjj2h1k3lvmcxal-astal-battery-0.1.0/bin:/nix/store/j8xypa59p5wgjlcgy5hhrr8bwkhqrs3k-astal3-3.0.0/bin:/nix/store/0nsk4xlc66y608bgxkbnpcqgd4qm15gk-astal-0.1.0/bin:/nix/store/648c5qa90i3rmakqaapqv225d18gzf39-astal-apps-0.1.0/bin:/nix/store/m4mjqaqbrcjqrcwpbv3rvar83ljvppj8-astal-bluetooth-0.1.0/bin:/nix/store/ia8gjzqnsd667q2gllrawml5y85gzr9m-astal-mpris-0.1.0/bin:/nix/store/86rwj6sncy1mgximx25jz144kyqfi2zm-astal-network-0.1.0/bin:/nix/store/y07iqkj0qrvwcarghwdvgj1l665iaqwx-astal-notifd-0.1.0/bin:/nix/store/r88idispacmj0ffsplprn52nbdgi5ki0-astal-powerprofiles-0.1.0/bin:/nix/store/lljw0kxlj8s0qnf7acfr4g588fmxzscr-astal-tray-0.1.0/bin:/nix/store/0nj0wvsvh2i0y51p48ir27cikpca65lm-astal-wireplumber-0.1.0/bin:/nix/store/2njz2dvjcwfn4rdfgbfvrg7wfnpqc5gb-dart-sass-1.85.1/bin:/nix/store/zr34knjwfl7vjkhh5rlk44c5g85l49qq-inotify-tools-4.23.9.0/bin:/nix/store/dsyz92vgmak8g5rblvqavlbbwckzi57a-brightnessctl-0.5.1/bin:/nix/store/cblasaa99z9pgjdkwhivi3y148fnas53-gammastep-2.0.9/bin:/nix/store/6gq7swnwdszl9mj62fwhnmm7dpyzk628-wget-1.25.0/bin:/nix/store/fl6kcwnyls1vqcnbb87n021dfad7n7sc-curl-8.12.0-bin/bin:/nix/store/ab8xx9vr3w3rx6zicq3vb588nz4qq7rj-fastfetch-2.38.0/bin:/nix/store/aqnf8mpbh0wy4pwvzqhr8fhv05cddw6f-lua5.2-lua-cjson-2.1.0.10-1/bin:/nix/store/xpi83jd9d007wznvk12j41b65wx4r20j-lua5.2-luautf8-0.1.6-1/bin"
+)
+'
+export preFixup
+declare -a preFixupHooks=('_multioutMoveGlibGir' '_moveToShare' '_multioutDocs' '_multioutDevs' '_multioutMoveGlibGir' )
+preFixupPhases=' gappsWrapperArgsHook dropIconThemeCache dropIconThemeCache dropIconThemeCache'
+preInstallPhases=' glibPreInstallPhase glibPreInstallPhase glibPreInstallPhase'
+prefix='/home/alex/code/astal/outputs/out'
+program_PATH='/nix/store/f8r6r4avmvhqvx36kxlyikkrjdfn0nzs-gtk+3-3.24.48-dev/bin:/nix/store/jacmqcpl87h1i5kg5vm9dkjmxyz3svhw-expat-2.6.4-dev/bin:/nix/store/gj829zffxqcflpkylf111cnax6algqfy-dbus-1.14.10-lib/bin:/nix/store/adky9lc2bsgv8azzm17m4pinqpg4vp46-dbus-1.14.10/bin:/nix/store/x5az8kpxcb1znh5qab91sa230lwhvmkf-glib-2.82.4-dev/bin:/nix/store/bhb0r5g6lg7h492cnfs0qpf8dipl790y-gettext-0.22.5/bin:/nix/store/b55y9amd0lkvnqik2gakzrv9hswrzfix-glib-2.82.4-bin/bin:/nix/store/lcwh8d712bp6jj3yf2rgfylnbdscirm5-cairo-1.18.2-dev/bin:/nix/store/z7m46527yncjzsv9jx13wc0nx39mb1h4-freetype-2.13.3-dev/bin:/nix/store/jbcy0cbivq2qsy0v8aiwi9raj21jf9ia-bzip2-1.0.8-bin/bin:/nix/store/3bb38din4q2y9475af51g6x7fa4iadzh-brotli-1.1.0/bin:/nix/store/mxw1xqrd7qwc2lv5si8zpb374gn48pin-libpng-apng-1.6.46-dev/bin:/nix/store/wdggyby9fqjnprvh6k6zanyn36z3nf1m-fontconfig-2.16.0-bin/bin:/nix/store/5vklvqbmp8kgjvh2vdwkqn7lva2vs72q-fribidi-1.0.16/bin:/nix/store/zmfmh3gw9dpwxi87x6nzfpdlg2gmph3l-gdk-pixbuf-2.42.12-dev/bin:/nix/store/70mm48wi3yc7r8imaf05lc8gy9pj3s0a-libdeflate-1.23/bin:/nix/store/2l06apq4rnp28phfqj3vy69w5g12h9ws-libjpeg-turbo-3.0.4-bin/bin:/nix/store/08xfngm78zx05kr5p24il03h2py7kd5n-libwebp-1.5.0/bin:/nix/store/7p03m585v31920i3bfyklfwz3n1pwg85-xz-5.6.4-bin/bin:/nix/store/3m0j5jr98qms6sffcl63c9k0yync7b6b-zstd-1.5.6-bin/bin:/nix/store/cm0dj150k3z7iddcx71y1aqb6fn59vcm-zstd-1.5.6/bin:/nix/store/42f2bd8pc1lhvr830aa9x3p8lx9fhq18-libtiff-4.7.0-bin/bin:/nix/store/hjrn2shb0bkddkjbv3imfm54dyf7cxf8-gdk-pixbuf-2.42.12/bin:/nix/store/sggn1igw5mdxy8v6mvgjws0pvl0r5nk7-harfbuzz-10.2.0-dev/bin:/nix/store/pfswgifssxs0qs9djk794rif7afj7p1y-graphite2-1.3.14/bin:/nix/store/s5x5bx02h0ingx9rc84b1fp0xqr6ylwr-pango-1.56.1-bin/bin:/nix/store/4c01qprzz53gd9bgw4bq5d842yjv3x9f-cups-2.4.11-dev/bin:/nix/store/glks7i0r873naky51yh4djhvh5xsrhw1-cups-2.4.11/bin:/nix/store/ys1gsn3jvxbiiv4idhwdq9c5bvg99m02-gtk+3-3.24.48/bin:/nix/store/yn9dcqr17ny107fia2d54ylk7kl65id4-librsvg-2.59.2/bin:/nix/store/vs4azykjjfwzci1gm36pq6zf4v5gs237-gobject-introspection-wrapped-1.82.0-dev/bin:/nix/store/23216cvbd4cv8w206kxmwgds0h1rkxwd-patchelf-0.15.0/bin:/nix/store/8g1qcmm4vxvh0zp4d0ih9x7ld11qx327-gobject-introspection-1.82.0-dev/bin:/nix/store/wy1izigb692palb22xr5cg01zl1n8nkv-json-glib-1.10.6/bin:/nix/store/nvdmdwrxvnihxd90hwjj2h1k3lvmcxal-astal-battery-0.1.0/bin:/nix/store/0nsk4xlc66y608bgxkbnpcqgd4qm15gk-astal-0.1.0/bin:/nix/store/648c5qa90i3rmakqaapqv225d18gzf39-astal-apps-0.1.0/bin:/nix/store/ia8gjzqnsd667q2gllrawml5y85gzr9m-astal-mpris-0.1.0/bin:/nix/store/lbz016apqgr7haz5hl60ph258xdzgvjf-nettle-3.10.1-dev/bin:/nix/store/hnf5mjzlpw4gwj0cdacyvpikc5qncjy8-gnutls-3.8.6-bin/bin:/nix/store/i9ypgamfxzrak21bvs4mn76d8q2s9c0z-libgcrypt-1.10.3-dev/bin:/nix/store/mvx341xckdhdvplji7mvrw01gbw2h70y-libgcrypt-1.10.3-bin/bin:/nix/store/0qhsq3lji9qfadxsbfkyr9niwj7f3z67-networkmanager-1.52.0/bin:/nix/store/y07iqkj0qrvwcarghwdvgj1l665iaqwx-astal-notifd-0.1.0/bin:/nix/store/r88idispacmj0ffsplprn52nbdgi5ki0-astal-powerprofiles-0.1.0/bin:/nix/store/lljw0kxlj8s0qnf7acfr4g588fmxzscr-astal-tray-0.1.0/bin:/nix/store/bv24mwgjvdh4lmbw415758023k01nnsy-wireplumber-0.5.8/bin:/nix/store/2njz2dvjcwfn4rdfgbfvrg7wfnpqc5gb-dart-sass-1.85.1/bin:/nix/store/zr34knjwfl7vjkhh5rlk44c5g85l49qq-inotify-tools-4.23.9.0/bin:/nix/store/dsyz92vgmak8g5rblvqavlbbwckzi57a-brightnessctl-0.5.1/bin:/nix/store/cblasaa99z9pgjdkwhivi3y148fnas53-gammastep-2.0.9/bin:/nix/store/6gq7swnwdszl9mj62fwhnmm7dpyzk628-wget-1.25.0/bin:/nix/store/hklf3asvj79ydqqdfpmax1ppcdm5ikj8-curl-8.12.0-dev/bin:/nix/store/a909x93akv9099a70kfmqlcsk6n7dyi4-krb5-1.21.3-dev/bin:/nix/store/7pgmaasikkwg81hhxzchqlayiz3jlcl0-krb5-1.21.3-lib/bin:/nix/store/7yv6k6s8imhb1frg86h5mjljr4mqxfjb-krb5-1.21.3/bin:/nix/store/g648prqjwhjlqh101dr0bj9hajj1q4mv-nghttp2-1.64.0/bin:/nix/store/n7jkxf8fw4pyp3m5l3h4jyp1x96ipw50-libidn2-2.3.7-bin/bin:/nix/store/m5szkm0siac4iqiin31p2588i05cm5kk-openssl-3.4.1-bin/bin:/nix/store/r0xc6mn3cg0bxjnjgg7wvhkf0m368hyg-libpsl-0.21.5/bin:/nix/store/fl6kcwnyls1vqcnbb87n021dfad7n7sc-curl-8.12.0-bin/bin:/nix/store/ab8xx9vr3w3rx6zicq3vb588nz4qq7rj-fastfetch-2.38.0/bin:/nix/store/aqnf8mpbh0wy4pwvzqhr8fhv05cddw6f-lua5.2-lua-cjson-2.1.0.10-1/bin:/nix/store/hk38mjwikvmx22l63k5n1c0v8ijqbi1n-lua-5.2.4/bin:/nix/store/bdy6ykh43ww0k6n7nfy2b5qkvv8skwcs-lua-5.2.4-env/bin'
+export program_PATH
+declare -a propagatedBuildDepFiles=('propagated-build-build-deps' 'propagated-native-build-inputs' 'propagated-build-target-deps' )
+propagatedBuildInputs=''
+export propagatedBuildInputs
+declare -a propagatedHostDepFiles=('propagated-host-host-deps' 'propagated-build-inputs' )
+propagatedNativeBuildInputs=''
+export propagatedNativeBuildInputs
+declare -a propagatedTargetDepFiles=('propagated-target-target-deps' )
+role_post=''
+shell='/nix/store/g2x2hichzhd6k2wdx6rxa04zxvs83nvn-bash-5.2p37/bin/bash'
+export shell
+src='/nix/store/d7phlp7bqipc68c8g0c0ngji3cg15h3p-bqxzrj0j6l6bnm6gr42qi9hqzqbp1b5z-source'
+export src
+stdenv='/nix/store/s6rl4qf8q4b16k85givq489lcjqsy4v6-stdenv-linux'
+export stdenv
+strictDeps=''
+export strictDeps
+system='aarch64-linux'
+export system
+declare -a unpackCmdHooks=('_defaultUnpack' )
+_activatePkgs ()
+{
+ 
+    local hostOffset targetOffset;
+    local pkg;
+    for hostOffset in "${allPlatOffsets[@]}";
+    do
+        local pkgsVar="${pkgAccumVarVars[hostOffset + 1]}";
+        for targetOffset in "${allPlatOffsets[@]}";
+        do
+            (( hostOffset <= targetOffset )) || continue;
+            local pkgsRef="${pkgsVar}[$targetOffset - $hostOffset]";
+            local pkgsSlice="${!pkgsRef}[@]";
+            for pkg in ${!pkgsSlice+"${!pkgsSlice}"};
+            do
+                activatePackage "$pkg" "$hostOffset" "$targetOffset";
+            done;
+        done;
+    done
+}
+_addRpathPrefix ()
+{
+ 
+    if [ "${NIX_NO_SELF_RPATH:-0}" != 1 ]; then
+        export NIX_LDFLAGS="-rpath $1/lib ${NIX_LDFLAGS-}";
+    fi
+}
+_addToEnv ()
+{
+ 
+    local depHostOffset depTargetOffset;
+    local pkg;
+    for depHostOffset in "${allPlatOffsets[@]}";
+    do
+        local hookVar="${pkgHookVarVars[depHostOffset + 1]}";
+        local pkgsVar="${pkgAccumVarVars[depHostOffset + 1]}";
+        for depTargetOffset in "${allPlatOffsets[@]}";
+        do
+            (( depHostOffset <= depTargetOffset )) || continue;
+            local hookRef="${hookVar}[$depTargetOffset - $depHostOffset]";
+            if [[ -z "${strictDeps-}" ]]; then
+                local visitedPkgs="";
+                for pkg in "${pkgsBuildBuild[@]}" "${pkgsBuildHost[@]}" "${pkgsBuildTarget[@]}" "${pkgsHostHost[@]}" "${pkgsHostTarget[@]}" "${pkgsTargetTarget[@]}";
+                do
+                    if [[ "$visitedPkgs" = *"$pkg"* ]]; then
+                        continue;
+                    fi;
+                    runHook "${!hookRef}" "$pkg";
+                    visitedPkgs+=" $pkg";
+                done;
+            else
+                local pkgsRef="${pkgsVar}[$depTargetOffset - $depHostOffset]";
+                local pkgsSlice="${!pkgsRef}[@]";
+                for pkg in ${!pkgsSlice+"${!pkgsSlice}"};
+                do
+                    runHook "${!hookRef}" "$pkg";
+                done;
+            fi;
+        done;
+    done
+}
+_addToLuaPath ()
+{
+ 
+    local dir="$1";
+    nix_debug "_addToLuaPath called for dir $dir";
+    if [[ ! -d "$dir" ]]; then
+        nix_debug "$dir not a directory abort";
+        return 0;
+    fi;
+    if [[ -n "${luaPathsSeen[$dir]:-}" ]]; then
+        nix_debug "$dir already parsed";
+        return;
+    fi;
+    luaPathsSeen["$dir"]=true;
+    cd "$dir";
+    for pattern in 'share/lua/5.2/?.lua' 'share/lua/5.2/?/init.lua';
+    do
+        addToLuaSearchPathWithCustomDelimiter LUA_PATH "$PWD/$pattern";
+    done;
+    for pattern in 'lib/lua/5.2/?.so';
+    do
+        addToLuaSearchPathWithCustomDelimiter LUA_CPATH "$PWD/$pattern";
+    done;
+    cd - > /dev/null;
+    addToSearchPath program_PATH "$dir"/bin;
+    local prop="$dir/nix-support/propagated-build-inputs";
+    if [ -e "$prop" ]; then
+        local new_path;
+        for new_path in $(cat $prop);
+        do
+            nix_debug "newpath: $new_path";
+            _addToLuaPath "$new_path";
+        done;
+    fi
+}
+_allFlags ()
+{
+ 
+    export system pname name version;
+    while IFS='' read -r varName; do
+        nixTalkativeLog "@${varName}@ -> ${!varName}";
+        args+=("--subst-var" "$varName");
+    done < <(awk 'BEGIN { for (v in ENVIRON) if (v ~ /^[a-z][a-zA-Z0-9_]*$/) print v }')
+}
+_assignFirst ()
+{
+ 
+    local varName="$1";
+    local _var;
+    local REMOVE=REMOVE;
+    shift;
+    for _var in "$@";
+    do
+        if [ -n "${!_var-}" ]; then
+            eval "${varName}"="${_var}";
+            return;
+        fi;
+    done;
+    echo;
+    echo "error: _assignFirst: could not find a non-empty variable whose name to assign to ${varName}.";
+    echo "       The following variables were all unset or empty:";
+    echo "           $*";
+    if [ -z "${out:-}" ]; then
+        echo '       If you do not want an "out" output in your derivation, make sure to define';
+        echo '       the other specific required outputs. This can be achieved by picking one';
+        echo "       of the above as an output.";
+        echo '       You do not have to remove "out" if you want to have a different default';
+        echo '       output, because the first output is taken as a default.';
+        echo;
+    fi;
+    return 1
+}
+_callImplicitHook ()
+{
+ 
+    local def="$1";
+    local hookName="$2";
+    if declare -F "$hookName" > /dev/null; then
+        nixTalkativeLog "calling implicit '$hookName' function hook";
+        "$hookName";
+    else
+        if type -p "$hookName" > /dev/null; then
+            nixTalkativeLog "sourcing implicit '$hookName' script hook";
+            source "$hookName";
+        else
+            if [ -n "${!hookName:-}" ]; then
+                nixTalkativeLog "evaling implicit '$hookName' string hook";
+                eval "${!hookName}";
+            else
+                return "$def";
+            fi;
+        fi;
+    fi
+}
+_defaultUnpack ()
+{
+ 
+    local fn="$1";
+    local destination;
+    if [ -d "$fn" ]; then
+        destination="$(stripHash "$fn")";
+        if [ -e "$destination" ]; then
+            echo "Cannot copy $fn to $destination: destination already exists!";
+            echo "Did you specify two \"srcs\" with the same \"name\"?";
+            return 1;
+        fi;
+        cp -r --preserve=mode,timestamps --reflink=auto -- "$fn" "$destination";
+    else
+        case "$fn" in 
+            *.tar.xz | *.tar.lzma | *.txz)
+                ( XZ_OPT="--threads=$NIX_BUILD_CORES" xz -d < "$fn";
+                true ) | tar xf - --mode=+w --warning=no-timestamp
+            ;;
+            *.tar | *.tar.* | *.tgz | *.tbz2 | *.tbz)
+                tar xf "$fn" --mode=+w --warning=no-timestamp
+            ;;
+            *)
+                return 1
+            ;;
+        esac;
+    fi
+}
+_doStrip ()
+{
+ 
+    local -ra flags=(dontStripHost dontStripTarget);
+    local -ra debugDirs=(stripDebugList stripDebugListTarget);
+    local -ra allDirs=(stripAllList stripAllListTarget);
+    local -ra stripCmds=(STRIP STRIP_FOR_TARGET);
+    local -ra ranlibCmds=(RANLIB RANLIB_FOR_TARGET);
+    stripDebugList=${stripDebugList[*]:-lib lib32 lib64 libexec bin sbin Applications Library/Frameworks};
+    stripDebugListTarget=${stripDebugListTarget[*]:-};
+    stripAllList=${stripAllList[*]:-};
+    stripAllListTarget=${stripAllListTarget[*]:-};
+    local i;
+    for i in ${!stripCmds[@]};
+    do
+        local -n flag="${flags[$i]}";
+        local -n debugDirList="${debugDirs[$i]}";
+        local -n allDirList="${allDirs[$i]}";
+        local -n stripCmd="${stripCmds[$i]}";
+        local -n ranlibCmd="${ranlibCmds[$i]}";
+        if [[ -n "${dontStrip-}" || -n "${flag-}" ]] || ! type -f "${stripCmd-}" 2> /dev/null 1>&2; then
+            continue;
+        fi;
+        stripDirs "$stripCmd" "$ranlibCmd" "$debugDirList" "${stripDebugFlags[*]:--S -p}";
+        stripDirs "$stripCmd" "$ranlibCmd" "$allDirList" "${stripAllFlags[*]:--s -p}";
+    done
+}
+_eval ()
+{
+ 
+    if declare -F "$1" > /dev/null 2>&1; then
+        "$@";
+    else
+        eval "$1";
+    fi
+}
+_gtkCleanImmodulesCache ()
+{
+ 
+    local f="${prefix:?}/lib/gtk-3.0/3.0.0/immodules.cache";
+    if [ -f "$f" ]; then
+        sed 's|Created by .*bin/gtk-query-|Created by bin/gtk-query-|' -i "$f";
+    fi
+}
+_logHook ()
+{
+ 
+    if [[ -z ${NIX_LOG_FD-} ]]; then
+        return;
+    fi;
+    local hookKind="$1";
+    local hookExpr="$2";
+    shift 2;
+    if declare -F "$hookExpr" > /dev/null 2>&1; then
+        nixTalkativeLog "calling '$hookKind' function hook '$hookExpr'" "$@";
+    else
+        if type -p "$hookExpr" > /dev/null; then
+            nixTalkativeLog "sourcing '$hookKind' script hook '$hookExpr'";
+        else
+            if [[ "$hookExpr" != "_callImplicitHook"* ]]; then
+                local exprToOutput;
+                if [[ ${NIX_DEBUG:-0} -ge 5 ]]; then
+                    exprToOutput="$hookExpr";
+                else
+                    local hookExprLine;
+                    while IFS= read -r hookExprLine; do
+                        hookExprLine="${hookExprLine#"${hookExprLine%%[![:space:]]*}"}";
+                        if [[ -n "$hookExprLine" ]]; then
+                            exprToOutput+="$hookExprLine\\n ";
+                        fi;
+                    done <<< "$hookExpr";
+                    exprToOutput="${exprToOutput%%\\n }";
+                fi;
+                nixTalkativeLog "evaling '$hookKind' string hook '$exprToOutput'";
+            fi;
+        fi;
+    fi
+}
+_makeSymlinksRelative ()
+{
+ 
+    local symlinkTarget;
+    if [ "${dontRewriteSymlinks-}" ] || [ ! -e "$prefix" ]; then
+        return;
+    fi;
+    while IFS= read -r -d '' f; do
+        symlinkTarget=$(readlink "$f");
+        if [[ "$symlinkTarget"/ != "$prefix"/* ]]; then
+            continue;
+        fi;
+        if [ ! -e "$symlinkTarget" ]; then
+            echo "the symlink $f is broken, it points to $symlinkTarget (which is missing)";
+        fi;
+        echo "rewriting symlink $f to be relative to $prefix";
+        ln -snrf "$symlinkTarget" "$f";
+    done < <(find $prefix -type l -print0)
+}
+_makeSymlinksRelativeInAllOutputs ()
+{
+ 
+    local output;
+    for output in $(getAllOutputNames);
+    do
+        prefix="${!output}" _makeSymlinksRelative;
+    done
+}
+_moveLib64 ()
+{
+ 
+    if [ "${dontMoveLib64-}" = 1 ]; then
+        return;
+    fi;
+    if [ ! -e "$prefix/lib64" -o -L "$prefix/lib64" ]; then
+        return;
+    fi;
+    echo "moving $prefix/lib64/* to $prefix/lib";
+    mkdir -p $prefix/lib;
+    shopt -s dotglob;
+    for i in $prefix/lib64/*;
+    do
+        mv --no-clobber "$i" $prefix/lib;
+    done;
+    shopt -u dotglob;
+    rmdir $prefix/lib64;
+    ln -s lib $prefix/lib64
+}
+_moveSbin ()
+{
+ 
+    if [ "${dontMoveSbin-}" = 1 ]; then
+        return;
+    fi;
+    if [ ! -e "$prefix/sbin" -o -L "$prefix/sbin" ]; then
+        return;
+    fi;
+    echo "moving $prefix/sbin/* to $prefix/bin";
+    mkdir -p $prefix/bin;
+    shopt -s dotglob;
+    for i in $prefix/sbin/*;
+    do
+        mv "$i" $prefix/bin;
+    done;
+    shopt -u dotglob;
+    rmdir $prefix/sbin;
+    ln -s bin $prefix/sbin
+}
+_moveSystemdUserUnits ()
+{
+ 
+    if [ "${dontMoveSystemdUserUnits:-0}" = 1 ]; then
+        return;
+    fi;
+    if [ ! -e "${prefix:?}/lib/systemd/user" ]; then
+        return;
+    fi;
+    local source="$prefix/lib/systemd/user";
+    local target="$prefix/share/systemd/user";
+    echo "moving $source/* to $target";
+    mkdir -p "$target";
+    ( shopt -s dotglob;
+    for i in "$source"/*;
+    do
+        mv "$i" "$target";
+    done );
+    rmdir "$source";
+    ln -s "$target" "$source"
+}
+_moveToShare ()
+{
+ 
+    if [ -n "$__structuredAttrs" ]; then
+        if [ -z "${forceShare-}" ]; then
+            forceShare=(man doc info);
+        fi;
+    else
+        forceShare=(${forceShare:-man doc info});
+    fi;
+    if [[ -z "$out" ]]; then
+        return;
+    fi;
+    for d in "${forceShare[@]}";
+    do
+        if [ -d "$out/$d" ]; then
+            if [ -d "$out/share/$d" ]; then
+                echo "both $d/ and share/$d/ exist!";
+            else
+                echo "moving $out/$d to $out/share/$d";
+                mkdir -p $out/share;
+                mv $out/$d $out/share/;
+            fi;
+        fi;
+    done
+}
+_multioutConfig ()
+{
+ 
+    if [ "$(getAllOutputNames)" = "out" ] || [ -z "${setOutputFlags-1}" ]; then
+        return;
+    fi;
+    if [ -z "${shareDocName:-}" ]; then
+        local confScript="${configureScript:-}";
+        if [ -z "$confScript" ] && [ -x ./configure ]; then
+            confScript=./configure;
+        fi;
+        if [ -f "$confScript" ]; then
+            local shareDocName="$(sed -n "s/^PACKAGE_TARNAME='\(.*\)'$/\1/p" < "$confScript")";
+        fi;
+        if [ -z "$shareDocName" ] || echo "$shareDocName" | grep -q '[^a-zA-Z0-9_-]'; then
+            shareDocName="$(echo "$name" | sed 's/-[^a-zA-Z].*//')";
+        fi;
+    fi;
+    prependToVar configureFlags --bindir="${!outputBin}"/bin --sbindir="${!outputBin}"/sbin --includedir="${!outputInclude}"/include --mandir="${!outputMan}"/share/man --infodir="${!outputInfo}"/share/info --docdir="${!outputDoc}"/share/doc/"${shareDocName}" --libdir="${!outputLib}"/lib --libexecdir="${!outputLib}"/libexec --localedir="${!outputLib}"/share/locale;
+    prependToVar installFlags pkgconfigdir="${!outputDev}"/lib/pkgconfig m4datadir="${!outputDev}"/share/aclocal aclocaldir="${!outputDev}"/share/aclocal
+}
+_multioutDevs ()
+{
+ 
+    if [ "$(getAllOutputNames)" = "out" ] || [ -z "${moveToDev-1}" ]; then
+        return;
+    fi;
+    moveToOutput include "${!outputInclude}";
+    moveToOutput lib/pkgconfig "${!outputDev}";
+    moveToOutput share/pkgconfig "${!outputDev}";
+    moveToOutput lib/cmake "${!outputDev}";
+    moveToOutput share/aclocal "${!outputDev}";
+    for f in "${!outputDev}"/{lib,share}/pkgconfig/*.pc;
+    do
+        echo "Patching '$f' includedir to output ${!outputInclude}";
+        sed -i "/^includedir=/s,=\${prefix},=${!outputInclude}," "$f";
+    done
+}
+_multioutDocs ()
+{
+ 
+    local REMOVE=REMOVE;
+    moveToOutput share/info "${!outputInfo}";
+    moveToOutput share/doc "${!outputDoc}";
+    moveToOutput share/gtk-doc "${!outputDevdoc}";
+    moveToOutput share/devhelp/books "${!outputDevdoc}";
+    moveToOutput share/man "${!outputMan}";
+    moveToOutput share/man/man3 "${!outputDevman}"
+}
+_multioutMoveGlibGir ()
+{
+ 
+    moveToOutput share/gir-1.0 "${!outputDev}"
+}
+_multioutPropagateDev ()
+{
+ 
+    if [ "$(getAllOutputNames)" = "out" ]; then
+        return;
+    fi;
+    local outputFirst;
+    for outputFirst in $(getAllOutputNames);
+    do
+        break;
+    done;
+    local propagaterOutput="$outputDev";
+    if [ -z "$propagaterOutput" ]; then
+        propagaterOutput="$outputFirst";
+    fi;
+    if [ -z "${propagatedBuildOutputs+1}" ]; then
+        local po_dirty="$outputBin $outputInclude $outputLib";
+        set +o pipefail;
+        propagatedBuildOutputs=`echo "$po_dirty"             | tr -s ' ' '\n' | grep -v -F "$propagaterOutput"             | sort -u | tr '\n' ' ' `;
+        set -o pipefail;
+    fi;
+    if [ -z "$propagatedBuildOutputs" ]; then
+        return;
+    fi;
+    mkdir -p "${!propagaterOutput}"/nix-support;
+    for output in $propagatedBuildOutputs;
+    do
+        echo -n " ${!output}" >> "${!propagaterOutput}"/nix-support/propagated-build-inputs;
+    done
+}
+_nixLogWithLevel ()
+{
+ 
+    [[ -z ${NIX_LOG_FD-} || ${NIX_DEBUG:-0} -lt ${1:?} ]] && return 0;
+    local logLevel;
+    case "${1:?}" in 
+        0)
+            logLevel=ERROR
+        ;;
+        1)
+            logLevel=WARN
+        ;;
+        2)
+            logLevel=NOTICE
+        ;;
+        3)
+            logLevel=INFO
+        ;;
+        4)
+            logLevel=TALKATIVE
+        ;;
+        5)
+            logLevel=CHATTY
+        ;;
+        6)
+            logLevel=DEBUG
+        ;;
+        7)
+            logLevel=VOMIT
+        ;;
+        *)
+            echo "_nixLogWithLevel: called with invalid log level: ${1:?}" >&"$NIX_LOG_FD";
+            return 1
+        ;;
+    esac;
+    local callerName="${FUNCNAME[2]}";
+    if [[ $callerName == "_callImplicitHook" ]]; then
+        callerName="${hookName:?}";
+    fi;
+    printf "%s: %s: %s\n" "$logLevel" "$callerName" "${2:?}" >&"$NIX_LOG_FD"
+}
+_overrideFirst ()
+{
+ 
+    if [ -z "${!1-}" ]; then
+        _assignFirst "$@";
+    fi
+}
+_pruneLibtoolFiles ()
+{
+ 
+    if [ "${dontPruneLibtoolFiles-}" ] || [ ! -e "$prefix" ]; then
+        return;
+    fi;
+    find "$prefix" -type f -name '*.la' -exec grep -q '^# Generated by .*libtool' {} \; -exec grep -q "^old_library=''" {} \; -exec sed -i {} -e "/^dependency_libs='[^']/ c dependency_libs='' #pruned" \;
+}
+_updateSourceDateEpochFromSourceRoot ()
+{
+ 
+    if [ -n "$sourceRoot" ]; then
+        updateSourceDateEpoch "$sourceRoot";
+    fi
+}
+activatePackage ()
+{
+ 
+    local pkg="$1";
+    local -r hostOffset="$2";
+    local -r targetOffset="$3";
+    (( hostOffset <= targetOffset )) || exit 1;
+    if [ -f "$pkg" ]; then
+        nixTalkativeLog "sourcing setup hook '$pkg'";
+        source "$pkg";
+    fi;
+    if [[ -z "${strictDeps-}" || "$hostOffset" -le -1 ]]; then
+        addToSearchPath _PATH "$pkg/bin";
+    fi;
+    if (( hostOffset <= -1 )); then
+        addToSearchPath _XDG_DATA_DIRS "$pkg/share";
+    fi;
+    if [[ "$hostOffset" -eq 0 && -d "$pkg/bin" ]]; then
+        addToSearchPath _HOST_PATH "$pkg/bin";
+    fi;
+    if [[ -f "$pkg/nix-support/setup-hook" ]]; then
+        nixTalkativeLog "sourcing setup hook '$pkg/nix-support/setup-hook'";
+        source "$pkg/nix-support/setup-hook";
+    fi
+}
+addEnvHooks ()
+{
+ 
+    local depHostOffset="$1";
+    shift;
+    local pkgHookVarsSlice="${pkgHookVarVars[$depHostOffset + 1]}[@]";
+    local pkgHookVar;
+    for pkgHookVar in "${!pkgHookVarsSlice}";
+    do
+        eval "${pkgHookVar}s"'+=("$@")';
+    done
+}
+addFlags ()
+{
+ 
+    local n flag before after var;
+    local reenableGlob=0;
+    if [[ ! -o noglob ]]; then
+        reenableGlob=1;
+    fi;
+    set -o noglob;
+    before=($1) after=($2);
+    if (( reenableGlob )); then
+        set +o noglob;
+    fi;
+    var="argv_tmp";
+    printf '%s\n' "char **$var = calloc(${#before[@]} + argc + ${#after[@]} + 1, sizeof(*$var));";
+    printf '%s\n' "assert($var != NULL);";
+    printf '%s\n' "${var}[0] = argv[0];";
+    for ((n = 0; n < ${#before[@]}; n += 1))
+    do
+        flag=$(escapeStringLiteral "${before[n]}");
+        printf '%s\n' "${var}[$((n + 1))] = \"$flag\";";
+    done;
+    printf '%s\n' "for (int i = 1; i < argc; ++i) {";
+    printf '%s\n' "    ${var}[${#before[@]} + i] = argv[i];";
+    printf '%s\n' "}";
+    for ((n = 0; n < ${#after[@]}; n += 1))
+    do
+        flag=$(escapeStringLiteral "${after[n]}");
+        printf '%s\n' "${var}[${#before[@]} + argc + $n] = \"$flag\";";
+    done;
+    printf '%s\n' "${var}[${#before[@]} + argc + ${#after[@]}] = NULL;";
+    printf '%s\n' "argv = $var;"
+}
+addToLuaPath ()
+{
+ 
+    local dir="$1";
+    if [ ! -d "$dir" ]; then
+        nix_debug "$dir not a directory abort";
+        return 0;
+    fi;
+    cd "$dir";
+    for pattern in 'share/lua/5.2/?.lua' 'share/lua/5.2/?/init.lua';
+    do
+        addToLuaSearchPathWithCustomDelimiter LUA_PATH "$PWD/$pattern";
+    done;
+    for pattern in 'lib/lua/5.2/?.so';
+    do
+        addToLuaSearchPathWithCustomDelimiter LUA_CPATH "$PWD/$pattern";
+    done;
+    cd - > /dev/null
+}
+addToLuaSearchPathWithCustomDelimiter ()
+{
+ 
+    local varName="$1";
+    local absPattern="$2";
+    if [[ ${!varName-} == *"$absPattern"* ]]; then
+        return;
+    fi;
+    if [[ ! -v "${varName}" ]]; then
+        export "${varName}=;;";
+    fi;
+    shopt -s globstar;
+    local adjustedPattern="${absPattern/\?/\*\*\/\*}";
+    for _file in $adjustedPattern;
+    do
+        export "${varName}=${!varName:+${!varName};}${absPattern}";
+        shopt -u globstar;
+        return;
+    done;
+    shopt -u globstar
+}
+addToSearchPath ()
+{
+ 
+    addToSearchPathWithCustomDelimiter ":" "$@"
+}
+addToSearchPathWithCustomDelimiter ()
+{
+ 
+    local delimiter="$1";
+    local varName="$2";
+    local dir="$3";
+    if [[ -d "$dir" && "${!varName:+${delimiter}${!varName}${delimiter}}" != *"${delimiter}${dir}${delimiter}"* ]]; then
+        export "${varName}=${!varName:+${!varName}${delimiter}}${dir}";
+    fi
+}
+appendToVar ()
+{
+ 
+    local -n nameref="$1";
+    local useArray type;
+    if [ -n "$__structuredAttrs" ]; then
+        useArray=true;
+    else
+        useArray=false;
+    fi;
+    if type=$(declare -p "$1" 2> /dev/null); then
+        case "${type#* }" in 
+            -A*)
+                echo "appendToVar(): ERROR: trying to use appendToVar on an associative array, use variable+=([\"X\"]=\"Y\") instead." 1>&2;
+                return 1
+            ;;
+            -a*)
+                useArray=true
+            ;;
+            *)
+                useArray=false
+            ;;
+        esac;
+    fi;
+    shift;
+    if $useArray; then
+        nameref=(${nameref+"${nameref[@]}"} "$@");
+    else
+        nameref="${nameref-} $*";
+    fi
+}
+assertExecutable ()
+{
+ 
+    local file="$1";
+    [[ -f "$file" && -x "$file" ]] || die "Cannot wrap '$file' because it is not an executable file"
+}
+assertValidEnvName ()
+{
+ 
+    case "$1" in 
+        *=*)
+            printf '\n%s\n' "#error Illegal environment variable name \`$1\` (cannot contain \`=\`)"
+        ;;
+        "")
+            printf '\n%s\n' "#error Environment variable name can't be empty."
+        ;;
+    esac
+}
+auditTmpdir ()
+{
+ 
+    local dir="$1";
+    [ -e "$dir" ] || return 0;
+    echo "checking for references to $TMPDIR/ in $dir...";
+    local i;
+    find "$dir" -type f -print0 | while IFS= read -r -d '' i; do
+        if [[ "$i" =~ .build-id ]]; then
+            continue;
+        fi;
+        if isELF "$i"; then
+            if { 
+                printf :;
+                patchelf --print-rpath "$i"
+            } | grep -q -F ":$TMPDIR/"; then
+                echo "RPATH of binary $i contains a forbidden reference to $TMPDIR/";
+                exit 1;
+            fi;
+        fi;
+        if isScript "$i"; then
+            if [ -e "$(dirname "$i")/.$(basename "$i")-wrapped" ]; then
+                if grep -q -F "$TMPDIR/" "$i"; then
+                    echo "wrapper script $i contains a forbidden reference to $TMPDIR/";
+                    exit 1;
+                fi;
+            fi;
+        fi;
+    done
+}
+buildLuaPath ()
+{
+ 
+    local luaPath="$1";
+    local path;
+    nix_debug "BUILD_LUA_PATH";
+    program_PATH=;
+    for path in $luaPath;
+    do
+        _addToLuaPath "$path";
+    done
+}
+buildPhase ()
+{
+ 
+    runHook preBuild;
+    if [[ -z "${makeFlags-}" && -z "${makefile:-}" && ! ( -e Makefile || -e makefile || -e GNUmakefile ) ]]; then
+        echo "no Makefile or custom buildPhase, doing nothing";
+    else
+        foundMakefile=1;
+        local flagsArray=(${enableParallelBuilding:+-j${NIX_BUILD_CORES}} SHELL="$SHELL");
+        concatTo flagsArray makeFlags makeFlagsArray buildFlags buildFlagsArray;
+        echoCmd 'build flags' "${flagsArray[@]}";
+        make ${makefile:+-f $makefile} "${flagsArray[@]}";
+        unset flagsArray;
+    fi;
+    runHook postBuild
+}
+changeDir ()
+{
+ 
+    local dir;
+    dir=$(escapeStringLiteral "$1");
+    printf '%s' "assert_success(chdir(\"$dir\"));"
+}
+checkPhase ()
+{
+ 
+    runHook preCheck;
+    if [[ -z "${foundMakefile:-}" ]]; then
+        echo "no Makefile or custom checkPhase, doing nothing";
+        runHook postCheck;
+        return;
+    fi;
+    if [[ -z "${checkTarget:-}" ]]; then
+        if make -n ${makefile:+-f $makefile} check > /dev/null 2>&1; then
+            checkTarget="check";
+        else
+            if make -n ${makefile:+-f $makefile} test > /dev/null 2>&1; then
+                checkTarget="test";
+            fi;
+        fi;
+    fi;
+    if [[ -z "${checkTarget:-}" ]]; then
+        echo "no check/test target in ${makefile:-Makefile}, doing nothing";
+    else
+        local flagsArray=(${enableParallelChecking:+-j${NIX_BUILD_CORES}} SHELL="$SHELL");
+        concatTo flagsArray makeFlags makeFlagsArray checkFlags=VERBOSE=y checkFlagsArray checkTarget;
+        echoCmd 'check flags' "${flagsArray[@]}";
+        make ${makefile:+-f $makefile} "${flagsArray[@]}";
+        unset flagsArray;
+    fi;
+    runHook postCheck
+}
+compressManPages ()
+{
+ 
+    local dir="$1";
+    if [ -L "$dir"/share ] || [ -L "$dir"/share/man ] || [ ! -d "$dir/share/man" ]; then
+        return;
+    fi;
+    echo "gzipping man pages under $dir/share/man/";
+    find "$dir"/share/man/ -type f -a '!' -regex '.*\.\(bz2\|gz\|xz\)$' -print0 | while IFS= read -r -d '' f; do
+        if gzip -c -n "$f" > "$f".gz; then
+            rm "$f";
+        else
+            rm "$f".gz;
+        fi;
+    done;
+    find "$dir"/share/man/ -type l -a '!' -regex '.*\.\(bz2\|gz\|xz\)$' -print0 | sort -z | while IFS= read -r -d '' f; do
+        local target;
+        target="$(readlink -f "$f")";
+        if [ -f "$target".gz ]; then
+            ln -sf "$target".gz "$f".gz && rm "$f";
+        fi;
+    done
+}
+concatStringsSep ()
+{
+ 
+    local sep="$1";
+    local name="$2";
+    local type oldifs;
+    if type=$(declare -p "$name" 2> /dev/null); then
+        local -n nameref="$name";
+        case "${type#* }" in 
+            -A*)
+                echo "concatStringsSep(): ERROR: trying to use concatStringsSep on an associative array." 1>&2;
+                return 1
+            ;;
+            -a*)
+                local IFS="$(printf '\036')"
+            ;;
+            *)
+                local IFS=" "
+            ;;
+        esac;
+        local ifs_separated="${nameref[*]}";
+        echo -n "${ifs_separated//"$IFS"/"$sep"}";
+    fi
+}
+concatTo ()
+{
+ 
+    local -;
+    set -o noglob;
+    local -n targetref="$1";
+    shift;
+    local arg default name type;
+    for arg in "$@";
+    do
+        IFS="=" read -r name default <<< "$arg";
+        local -n nameref="$name";
+        if [[ -z "${nameref[*]}" && -n "$default" ]]; then
+            targetref+=("$default");
+        else
+            if type=$(declare -p "$name" 2> /dev/null); then
+                case "${type#* }" in 
+                    -A*)
+                        echo "concatTo(): ERROR: trying to use concatTo on an associative array." 1>&2;
+                        return 1
+                    ;;
+                    -a*)
+                        targetref+=("${nameref[@]}")
+                    ;;
+                    *)
+                        if [[ "$name" = *"Array" ]]; then
+                            nixErrorLog "concatTo(): $name is not declared as array, treating as a singleton. This will become an error in future";
+                            targetref+=(${nameref+"${nameref[@]}"});
+                        else
+                            targetref+=(${nameref-});
+                        fi
+                    ;;
+                esac;
+            fi;
+        fi;
+    done
+}
+configurePhase ()
+{
+ 
+    runHook preConfigure;
+    : "${configureScript=}";
+    if [[ -z "$configureScript" && -x ./configure ]]; then
+        configureScript=./configure;
+    fi;
+    if [ -z "${dontFixLibtool:-}" ]; then
+        export lt_cv_deplibs_check_method="${lt_cv_deplibs_check_method-pass_all}";
+        local i;
+        find . -iname "ltmain.sh" -print0 | while IFS='' read -r -d '' i; do
+            echo "fixing libtool script $i";
+            fixLibtool "$i";
+        done;
+        CONFIGURE_MTIME_REFERENCE=$(mktemp configure.mtime.reference.XXXXXX);
+        find . -executable -type f -name configure -exec grep -l 'GNU Libtool is free software; you can redistribute it and/or modify' {} \; -exec touch -r {} "$CONFIGURE_MTIME_REFERENCE" \; -exec sed -i s_/usr/bin/file_file_g {} \; -exec touch -r "$CONFIGURE_MTIME_REFERENCE" {} \;;
+        rm -f "$CONFIGURE_MTIME_REFERENCE";
+    fi;
+    if [[ -z "${dontAddPrefix:-}" && -n "$prefix" ]]; then
+        prependToVar configureFlags "${prefixKey:---prefix=}$prefix";
+    fi;
+    if [[ -f "$configureScript" ]]; then
+        if [ -z "${dontAddDisableDepTrack:-}" ]; then
+            if grep -q dependency-tracking "$configureScript"; then
+                prependToVar configureFlags --disable-dependency-tracking;
+            fi;
+        fi;
+        if [ -z "${dontDisableStatic:-}" ]; then
+            if grep -q enable-static "$configureScript"; then
+                prependToVar configureFlags --disable-static;
+            fi;
+        fi;
+        if [ -z "${dontPatchShebangsInConfigure:-}" ]; then
+            patchShebangs --build "$configureScript";
+        fi;
+    fi;
+    if [ -n "$configureScript" ]; then
+        local -a flagsArray;
+        concatTo flagsArray configureFlags configureFlagsArray;
+        echoCmd 'configure flags' "${flagsArray[@]}";
+        $configureScript "${flagsArray[@]}";
+        unset flagsArray;
+    else
+        echo "no configure script, doing nothing";
+    fi;
+    runHook postConfigure
+}
+consumeEntire ()
+{
+ 
+    if IFS='' read -r -d '' "$1"; then
+        echo "consumeEntire(): ERROR: Input null bytes, won't process" 1>&2;
+        return 1;
+    fi
+}
+die ()
+{
+ 
+    set +e;
+    printf "\nBuilder called die: %b\n" "$*";
+    printf "Backtrace:\n";
+    local frame=0;
+    while caller $frame; do
+        ((frame++));
+    done;
+    printf "\n";
+    exit 1
+}
+distPhase ()
+{
+ 
+    runHook preDist;
+    local flagsArray=();
+    concatTo flagsArray distFlags distFlagsArray distTarget=dist;
+    echo 'dist flags: %q' "${flagsArray[@]}";
+    make ${makefile:+-f $makefile} "${flagsArray[@]}";
+    if [ "${dontCopyDist:-0}" != 1 ]; then
+        mkdir -p "$out/tarballs";
+        cp -pvd ${tarballs[*]:-*.tar.gz} "$out/tarballs";
+    fi;
+    runHook postDist
+}
+docstring ()
+{
+ 
+    printf '%s' "const char * DOCSTRING = \"$(escapeStringLiteral "
+
+
+# ------------------------------------------------------------------------------------
+# The C-code for this binary wrapper has been generated using the following command:
+
+
+makeCWrapper $(formatArgs "$@")
+
+
+# (Use \`nix-shell -p makeBinaryWrapper\` to get access to makeCWrapper in your shell)
+# ------------------------------------------------------------------------------------
+
+
+")\";"
+}
+dropIconThemeCache ()
+{
+ 
+    if [[ -z "${dontDropIconThemeCache:-}" ]]; then
+        local icondir="${out:?}/share/icons";
+        if [[ -d "${icondir}" ]]; then
+            find "${icondir}" -name 'icon-theme.cache' -print0 | while IFS= read -r -d '' file; do
+                echo "Removing ${file}";
+                rm -f "${file}";
+            done;
+        fi;
+    fi
+}
+dumpVars ()
+{
+ 
+    if [ "${noDumpEnvVars:-0}" != 1 ]; then
+        { 
+            install -m 0600 /dev/null "$NIX_BUILD_TOP/env-vars" && export 2> /dev/null >| "$NIX_BUILD_TOP/env-vars"
+        } || true;
+    fi
+}
+echoCmd ()
+{
+ 
+    printf "%s:" "$1";
+    shift;
+    printf ' %q' "$@";
+    echo
+}
+escapeStringLiteral ()
+{
+ 
+    local result;
+    result=${1//'\'/'\\'};
+    result=${result//\"/'\"'};
+    result=${result//'
+'/"\n"};
+    result=${result//''/"\r"};
+    printf '%s' "$result"
+}
+exitHandler ()
+{
+ 
+    exitCode="$?";
+    set +e;
+    if [ -n "${showBuildStats:-}" ]; then
+        read -r -d '' -a buildTimes < <(times);
+        echo "build times:";
+        echo "user time for the shell             ${buildTimes[0]}";
+        echo "system time for the shell           ${buildTimes[1]}";
+        echo "user time for all child processes   ${buildTimes[2]}";
+        echo "system time for all child processes ${buildTimes[3]}";
+    fi;
+    if (( "$exitCode" != 0 )); then
+        runHook failureHook;
+        if [ -n "${succeedOnFailure:-}" ]; then
+            echo "build failed with exit code $exitCode (ignored)";
+            mkdir -p "$out/nix-support";
+            printf "%s" "$exitCode" > "$out/nix-support/failed";
+            exit 0;
+        fi;
+    else
+        runHook exitHook;
+    fi;
+    return "$exitCode"
+}
+findGdkPixbufLoaders ()
+{
+ 
+    local loadersCache="$1/lib/gdk-pixbuf-2.0/2.10.0/loaders.cache";
+    if [[ -f "$loadersCache" ]]; then
+        if [[ -f "${GDK_PIXBUF_MODULE_FILE-}" ]]; then
+            if (( "$(cat "$loadersCache" | wc -l)" > "$(cat "$GDK_PIXBUF_MODULE_FILE" | wc -l)" )); then
+                export GDK_PIXBUF_MODULE_FILE="$loadersCache";
+            fi;
+        else
+            export GDK_PIXBUF_MODULE_FILE="$loadersCache";
+        fi;
+    fi
+}
+findInputs ()
+{
+ 
+    local -r pkg="$1";
+    local -r hostOffset="$2";
+    local -r targetOffset="$3";
+    (( hostOffset <= targetOffset )) || exit 1;
+    local varVar="${pkgAccumVarVars[hostOffset + 1]}";
+    local varRef="$varVar[$((targetOffset - hostOffset))]";
+    local var="${!varRef}";
+    unset -v varVar varRef;
+    local varSlice="$var[*]";
+    case " ${!varSlice-} " in 
+        *" $pkg "*)
+            return 0
+        ;;
+    esac;
+    unset -v varSlice;
+    eval "$var"'+=("$pkg")';
+    if ! [ -e "$pkg" ]; then
+        echo "build input $pkg does not exist" 1>&2;
+        exit 1;
+    fi;
+    function mapOffset () 
+    { 
+        local -r inputOffset="$1";
+        local -n outputOffset="$2";
+        if (( inputOffset <= 0 )); then
+            outputOffset=$((inputOffset + hostOffset));
+        else
+            outputOffset=$((inputOffset - 1 + targetOffset));
+        fi
+    };
+    local relHostOffset;
+    for relHostOffset in "${allPlatOffsets[@]}";
+    do
+        local files="${propagatedDepFilesVars[relHostOffset + 1]}";
+        local hostOffsetNext;
+        mapOffset "$relHostOffset" hostOffsetNext;
+        (( -1 <= hostOffsetNext && hostOffsetNext <= 1 )) || continue;
+        local relTargetOffset;
+        for relTargetOffset in "${allPlatOffsets[@]}";
+        do
+            (( "$relHostOffset" <= "$relTargetOffset" )) || continue;
+            local fileRef="${files}[$relTargetOffset - $relHostOffset]";
+            local file="${!fileRef}";
+            unset -v fileRef;
+            local targetOffsetNext;
+            mapOffset "$relTargetOffset" targetOffsetNext;
+            (( -1 <= hostOffsetNext && hostOffsetNext <= 1 )) || continue;
+            [[ -f "$pkg/nix-support/$file" ]] || continue;
+            local pkgNext;
+            read -r -d '' pkgNext < "$pkg/nix-support/$file" || true;
+            for pkgNext in $pkgNext;
+            do
+                findInputs "$pkgNext" "$hostOffsetNext" "$targetOffsetNext";
+            done;
+        done;
+    done
+}
+find_gio_modules ()
+{
+ 
+    if [ -d "$1/lib/gio/modules" ] && [ -n "$(ls -A "$1/lib/gio/modules")" ]; then
+        gappsWrapperArgs+=(--prefix GIO_EXTRA_MODULES : "$1/lib/gio/modules");
+    fi
+}
+fixLibtool ()
+{
+ 
+    local search_path;
+    for flag in $NIX_LDFLAGS;
+    do
+        case $flag in 
+            -L*)
+                search_path+=" ${flag#-L}"
+            ;;
+        esac;
+    done;
+    sed -i "$1" -e "s^eval \(sys_lib_search_path=\).*^\1'${search_path:-}'^" -e 's^eval sys_lib_.+search_path=.*^^'
+}
+fixupPhase ()
+{
+ 
+    local output;
+    for output in $(getAllOutputNames);
+    do
+        if [ -e "${!output}" ]; then
+            chmod -R u+w,u-s,g-s "${!output}";
+        fi;
+    done;
+    runHook preFixup;
+    local output;
+    for output in $(getAllOutputNames);
+    do
+        prefix="${!output}" runHook fixupOutput;
+    done;
+    recordPropagatedDependencies;
+    if [ -n "${setupHook:-}" ]; then
+        mkdir -p "${!outputDev}/nix-support";
+        substituteAll "$setupHook" "${!outputDev}/nix-support/setup-hook";
+    fi;
+    if [ -n "${setupHooks:-}" ]; then
+        mkdir -p "${!outputDev}/nix-support";
+        local hook;
+        for hook in ${setupHooks[@]};
+        do
+            local content;
+            consumeEntire content < "$hook";
+            substituteAllStream content "file '$hook'" >> "${!outputDev}/nix-support/setup-hook";
+            unset -v content;
+        done;
+        unset -v hook;
+    fi;
+    if [ -n "${propagatedUserEnvPkgs:-}" ]; then
+        mkdir -p "${!outputBin}/nix-support";
+        printWords $propagatedUserEnvPkgs > "${!outputBin}/nix-support/propagated-user-env-packages";
+    fi;
+    runHook postFixup
+}
+formatArgs ()
+{
+ 
+    printf '%s' "${1@Q}";
+    shift;
+    while [ $# -gt 0 ]; do
+        case "$1" in 
+            --set)
+                formatArgsLine 2 "$@";
+                shift 2
+            ;;
+            --set-default)
+                formatArgsLine 2 "$@";
+                shift 2
+            ;;
+            --unset)
+                formatArgsLine 1 "$@";
+                shift 1
+            ;;
+            --prefix)
+                formatArgsLine 3 "$@";
+                shift 3
+            ;;
+            --suffix)
+                formatArgsLine 3 "$@";
+                shift 3
+            ;;
+            --chdir)
+                formatArgsLine 1 "$@";
+                shift 1
+            ;;
+            --add-flags)
+                formatArgsLine 1 "$@";
+                shift 1
+            ;;
+            --append-flags)
+                formatArgsLine 1 "$@";
+                shift 1
+            ;;
+            --argv0)
+                formatArgsLine 1 "$@";
+                shift 1
+            ;;
+            --inherit-argv0)
+                formatArgsLine 0 "$@"
+            ;;
+        esac;
+        shift;
+    done;
+    printf '%s\n' ""
+}
+formatArgsLine ()
+{
+ 
+    local ARG_COUNT LENGTH;
+    ARG_COUNT=$1;
+    LENGTH=$#;
+    shift;
+    printf '%s' ' \
+    '"$1";
+    shift;
+    while [ "$ARG_COUNT" -gt $((LENGTH - $# - 2)) ]; do
+        printf ' %s' "${1@Q}";
+        shift;
+    done
+}
+gappsWrapperArgsHook ()
+{
+ 
+    if [ -n "$GDK_PIXBUF_MODULE_FILE" ]; then
+        gappsWrapperArgs+=(--set GDK_PIXBUF_MODULE_FILE "$GDK_PIXBUF_MODULE_FILE");
+    fi;
+    if [ -n "$GSETTINGS_SCHEMAS_PATH" ]; then
+        gappsWrapperArgs+=(--prefix XDG_DATA_DIRS : "$GSETTINGS_SCHEMAS_PATH");
+    fi;
+    if [ -d "${prefix:?}/share" ]; then
+        gappsWrapperArgs+=(--prefix XDG_DATA_DIRS : "$prefix/share");
+    fi;
+    if [ -d "$prefix/lib/gio/modules" ] && [ -n "$(ls -A "$prefix/lib/gio/modules")" ]; then
+        gappsWrapperArgs+=(--prefix GIO_EXTRA_MODULES : "$prefix/lib/gio/modules");
+    fi;
+    for v in ${wrapPrefixVariables:-} GST_PLUGIN_SYSTEM_PATH_1_0 GI_TYPELIB_PATH GRL_PLUGIN_PATH;
+    do
+        if [ -n "${!v:-}" ]; then
+            gappsWrapperArgs+=(--prefix "$v" : "${!v}");
+        fi;
+    done
+}
+genericBuild ()
+{
+ 
+    export GZIP_NO_TIMESTAMPS=1;
+    if [ -f "${buildCommandPath:-}" ]; then
+        source "$buildCommandPath";
+        return;
+    fi;
+    if [ -n "${buildCommand:-}" ]; then
+        eval "$buildCommand";
+        return;
+    fi;
+    if [ -z "${phases[*]:-}" ]; then
+        phases="${prePhases[*]:-} unpackPhase patchPhase ${preConfigurePhases[*]:-}             configurePhase ${preBuildPhases[*]:-} buildPhase checkPhase             ${preInstallPhases[*]:-} installPhase ${preFixupPhases[*]:-} fixupPhase installCheckPhase             ${preDistPhases[*]:-} distPhase ${postPhases[*]:-}";
+    fi;
+    for curPhase in ${phases[*]};
+    do
+        runPhase "$curPhase";
+    done
+}
+getAllOutputNames ()
+{
+ 
+    if [ -n "$__structuredAttrs" ]; then
+        echo "${!outputs[*]}";
+    else
+        echo "$outputs";
+    fi
+}
+getHostRole ()
+{
+ 
+    getRole "$hostOffset"
+}
+getHostRoleEnvHook ()
+{
+ 
+    getRole "$depHostOffset"
+}
+getRole ()
+{
+ 
+    case $1 in 
+        -1)
+            role_post='_FOR_BUILD'
+        ;;
+        0)
+            role_post=''
+        ;;
+        1)
+            role_post='_FOR_TARGET'
+        ;;
+        *)
+            echo "gettext-0.22.5: used as improper sort of dependency" 1>&2;
+            return 1
+        ;;
+    esac
+}
+getTargetRole ()
+{
+ 
+    getRole "$targetOffset"
+}
+getTargetRoleEnvHook ()
+{
+ 
+    getRole "$depTargetOffset"
+}
+getTargetRoleWrapper ()
+{
+ 
+    case $targetOffset in 
+        -1)
+            export NIX_@wrapperName@_TARGET_BUILD_@suffixSalt@=1
+        ;;
+        0)
+            export NIX_@wrapperName@_TARGET_HOST_@suffixSalt@=1
+        ;;
+        1)
+            export NIX_@wrapperName@_TARGET_TARGET_@suffixSalt@=1
+        ;;
+        *)
+            echo "gettext-0.22.5: used as improper sort of dependency" 1>&2;
+            return 1
+        ;;
+    esac
+}
+gettextDataDirsHook ()
+{
+ 
+    getHostRoleEnvHook;
+    if [ -d "$1/share/gettext" ]; then
+        addToSearchPath "GETTEXTDATADIRS${role_post}" "$1/share/gettext";
+    fi
+}
+giDiscoverSelf ()
+{
+ 
+    if [ -d "$prefix/lib/girepository-1.0" ]; then
+        addToSearchPath GI_TYPELIB_PATH $prefix/lib/girepository-1.0;
+    fi
+}
+glibPostInstallHook ()
+{
+ 
+    if [ -d "$prefix/share/glib-2.0/schemas" ]; then
+        mkdir -p "${!outputLib}/share/gsettings-schemas/$name/glib-2.0";
+        mv "$prefix/share/glib-2.0/schemas" "${!outputLib}/share/gsettings-schemas/$name/glib-2.0/";
+    fi;
+    addToSearchPath GSETTINGS_SCHEMAS_PATH "${!outputLib}/share/gsettings-schemas/$name"
+}
+glibPreInstallPhase ()
+{
+ 
+    makeFlagsArray+=("gsettingsschemadir=${!outputLib}/share/gsettings-schemas/$name/glib-2.0/schemas/")
+}
+indent4 ()
+{
+ 
+    printf '%s' "$1" | awk '{ if ($0 != "") { print "    "$0 } else { print $0 }}'
+}
+installCheckPhase ()
+{
+ 
+    runHook preInstallCheck;
+    if [[ -z "${foundMakefile:-}" ]]; then
+        echo "no Makefile or custom installCheckPhase, doing nothing";
+    else
+        if [[ -z "${installCheckTarget:-}" ]] && ! make -n ${makefile:+-f $makefile} "${installCheckTarget:-installcheck}" > /dev/null 2>&1; then
+            echo "no installcheck target in ${makefile:-Makefile}, doing nothing";
+        else
+            local flagsArray=(${enableParallelChecking:+-j${NIX_BUILD_CORES}} SHELL="$SHELL");
+            concatTo flagsArray makeFlags makeFlagsArray installCheckFlags installCheckFlagsArray installCheckTarget=installcheck;
+            echoCmd 'installcheck flags' "${flagsArray[@]}";
+            make ${makefile:+-f $makefile} "${flagsArray[@]}";
+            unset flagsArray;
+        fi;
+    fi;
+    runHook postInstallCheck
+}
+installPhase ()
+{
+ 
+    runHook preInstall;
+    if [[ -z "${makeFlags-}" && -z "${makefile:-}" && ! ( -e Makefile || -e makefile || -e GNUmakefile ) ]]; then
+        echo "no Makefile or custom installPhase, doing nothing";
+        runHook postInstall;
+        return;
+    else
+        foundMakefile=1;
+    fi;
+    if [ -n "$prefix" ]; then
+        mkdir -p "$prefix";
+    fi;
+    local flagsArray=(${enableParallelInstalling:+-j${NIX_BUILD_CORES}} SHELL="$SHELL");
+    concatTo flagsArray makeFlags makeFlagsArray installFlags installFlagsArray installTargets=install;
+    echoCmd 'install flags' "${flagsArray[@]}";
+    make ${makefile:+-f $makefile} "${flagsArray[@]}";
+    unset flagsArray;
+    runHook postInstall
+}
+isELF ()
+{
+ 
+    local fn="$1";
+    local fd;
+    local magic;
+    exec {fd}< "$fn";
+    read -r -n 4 -u "$fd" magic;
+    exec {fd}>&-;
+    if [ "$magic" = 'ELF' ]; then
+        return 0;
+    else
+        return 1;
+    fi
+}
+isMachO ()
+{
+ 
+    local fn="$1";
+    local fd;
+    local magic;
+    exec {fd}< "$fn";
+    read -r -n 4 -u "$fd" magic;
+    exec {fd}>&-;
+    if [[ "$magic" = $(echo -ne "\xfe\xed\xfa\xcf") || "$magic" = $(echo -ne "\xcf\xfa\xed\xfe") ]]; then
+        return 0;
+    else
+        if [[ "$magic" = $(echo -ne "\xfe\xed\xfa\xce") || "$magic" = $(echo -ne "\xce\xfa\xed\xfe") ]]; then
+            return 0;
+        else
+            if [[ "$magic" = $(echo -ne "\xca\xfe\xba\xbe") || "$magic" = $(echo -ne "\xbe\xba\xfe\xca") ]]; then
+                return 0;
+            else
+                return 1;
+            fi;
+        fi;
+    fi
+}
+isScript ()
+{
+ 
+    local fn="$1";
+    local fd;
+    local magic;
+    exec {fd}< "$fn";
+    read -r -n 2 -u "$fd" magic;
+    exec {fd}>&-;
+    if [[ "$magic" =~ \#! ]]; then
+        return 0;
+    else
+        return 1;
+    fi
+}
+luaEnvHook ()
+{
+ 
+    _addToLuaPath "$1"
+}
+makeBinaryWrapper ()
+{
+ 
+    local NIX_CFLAGS_COMPILE= NIX_CFLAGS_LINK=;
+    local original="$1";
+    local wrapper="$2";
+    shift 2;
+    assertExecutable "$original";
+    mkdir -p "$(dirname "$wrapper")";
+    makeDocumentedCWrapper "$original" "$@" | /nix/store/8p08lgzbiqvj5fni1d9hxc6ma1z0mh2z-gcc-wrapper-14-20241116/bin/cc -Wall -Werror -Wpedantic -Wno-overlength-strings -Os -x c -o "$wrapper" -
+}
+makeCWrapper ()
+{
+ 
+    local argv0 inherit_argv0 n params cmd main flagsBefore flagsAfter flags executable length;
+    local uses_prefix uses_suffix uses_assert uses_assert_success uses_stdio uses_asprintf;
+    local resolve_path;
+    executable=$(escapeStringLiteral "$1");
+    params=("$@");
+    length=${#params[*]};
+    for ((n = 1; n < length; n += 1))
+    do
+        p="${params[n]}";
+        case $p in 
+            --set)
+                cmd=$(setEnv "${params[n + 1]}" "${params[n + 2]}");
+                main="$main$cmd"'
+';
+                n=$((n + 2));
+                [ $n -ge "$length" ] && main="$main#error makeCWrapper: $p takes 2 arguments"'
+'
+            ;;
+            --set-default)
+                cmd=$(setDefaultEnv "${params[n + 1]}" "${params[n + 2]}");
+                main="$main$cmd"'
+';
+                uses_stdio=1;
+                uses_assert_success=1;
+                n=$((n + 2));
+                [ $n -ge "$length" ] && main="$main#error makeCWrapper: $p takes 2 arguments"'
+'
+            ;;
+            --unset)
+                cmd=$(unsetEnv "${params[n + 1]}");
+                main="$main$cmd"'
+';
+                uses_stdio=1;
+                uses_assert_success=1;
+                n=$((n + 1));
+                [ $n -ge "$length" ] && main="$main#error makeCWrapper: $p takes 1 argument"'
+'
+            ;;
+            --prefix)
+                cmd=$(setEnvPrefix "${params[n + 1]}" "${params[n + 2]}" "${params[n + 3]}");
+                main="$main$cmd"'
+';
+                uses_prefix=1;
+                uses_asprintf=1;
+                uses_stdio=1;
+                uses_assert_success=1;
+                uses_assert=1;
+                n=$((n + 3));
+                [ $n -ge "$length" ] && main="$main#error makeCWrapper: $p takes 3 arguments"'
+'
+            ;;
+            --suffix)
+                cmd=$(setEnvSuffix "${params[n + 1]}" "${params[n + 2]}" "${params[n + 3]}");
+                main="$main$cmd"'
+';
+                uses_suffix=1;
+                uses_asprintf=1;
+                uses_stdio=1;
+                uses_assert_success=1;
+                uses_assert=1;
+                n=$((n + 3));
+                [ $n -ge "$length" ] && main="$main#error makeCWrapper: $p takes 3 arguments"'
+'
+            ;;
+            --chdir)
+                cmd=$(changeDir "${params[n + 1]}");
+                main="$main$cmd"'
+';
+                uses_stdio=1;
+                uses_assert_success=1;
+                n=$((n + 1));
+                [ $n -ge "$length" ] && main="$main#error makeCWrapper: $p takes 1 argument"'
+'
+            ;;
+            --add-flags)
+                flags="${params[n + 1]}";
+                flagsBefore="$flagsBefore $flags";
+                uses_assert=1;
+                n=$((n + 1));
+                [ $n -ge "$length" ] && main="$main#error makeCWrapper: $p takes 1 argument"'
+'
+            ;;
+            --append-flags)
+                flags="${params[n + 1]}";
+                flagsAfter="$flagsAfter $flags";
+                uses_assert=1;
+                n=$((n + 1));
+                [ $n -ge "$length" ] && main="$main#error makeCWrapper: $p takes 1 argument"'
+'
+            ;;
+            --argv0)
+                argv0=$(escapeStringLiteral "${params[n + 1]}");
+                inherit_argv0=;
+                n=$((n + 1));
+                [ $n -ge "$length" ] && main="$main#error makeCWrapper: $p takes 1 argument"'
+'
+            ;;
+            --inherit-argv0)
+                inherit_argv0=1
+            ;;
+            --resolve-argv0)
+                uses_stdio=1;
+                uses_string=1;
+                resolve_argv0=1
+            ;;
+            *)
+                main="$main#error makeCWrapper: Unknown argument ${p}"'
+'
+            ;;
+        esac;
+    done;
+    [[ -z "$flagsBefore" && -z "$flagsAfter" ]] || main="$main"${main:+'
+'}$(addFlags "$flagsBefore" "$flagsAfter")'
+''
+';
+    [ -z "$inherit_argv0" ] && main="${main}argv[0] = \"${argv0:-${executable}}\";"'
+';
+    [ -z "$resolve_argv0" ] || main="${main}argv[0] = resolve_argv0(argv[0]);"'
+';
+    main="${main}return execv(\"${executable}\", argv);"'
+';
+    [ -z "$uses_asprintf" ] || printf '%s\n' "#define _GNU_SOURCE         /* See feature_test_macros(7) */";
+    printf '%s\n' "#include <unistd.h>";
+    printf '%s\n' "#include <stdlib.h>";
+    [ -z "$uses_assert" ] || printf '%s\n' "#include <assert.h>";
+    [ -z "$uses_stdio" ] || printf '%s\n' "#include <stdio.h>";
+    [ -z "$uses_string" ] || printf '%s\n' "#include <string.h>";
+    [ -z "$uses_assert_success" ] || printf '\n%s\n' "#define assert_success(e) do { if ((e) < 0) { perror(#e); abort(); } } while (0)";
+    [ -z "$uses_prefix" ] || printf '\n%s\n' "$(setEnvPrefixFn)";
+    [ -z "$uses_suffix" ] || printf '\n%s\n' "$(setEnvSuffixFn)";
+    [ -z "$resolve_argv0" ] || printf '\n%s\n' "$(resolveArgv0Fn)";
+    printf '\n%s' "int main(int argc, char **argv) {";
+    printf '\n%s' "$(indent4 "$main")";
+    printf '\n%s\n' "}"
+}
+makeDocumentedCWrapper ()
+{
+ 
+    local src docs;
+    src=$(makeCWrapper "$@");
+    docs=$(docstring "$@");
+    printf '%s\n\n' "$src";
+    printf '%s\n' "$docs"
+}
+makeWrapper ()
+{
+ 
+    makeBinaryWrapper "$@"
+}
+make_glib_find_gsettings_schemas ()
+{
+ 
+    for maybe_dir in "$1"/share/gsettings-schemas/*;
+    do
+        if [[ -d "$maybe_dir/glib-2.0/schemas" ]]; then
+            addToSearchPath GSETTINGS_SCHEMAS_PATH "$maybe_dir";
+        fi;
+    done
+}
+make_gobject_introspection_find_gir_files ()
+{
+ 
+    if [ -d "$1/lib/girepository-1.0" ]; then
+        addToSearchPath GI_TYPELIB_PATH $1/lib/girepository-1.0;
+    fi;
+    if [ -d "$1/share/gir-1.0" ]; then
+        addToSearchPath XDG_DATA_DIRS $1/share;
+    fi
+}
+mapOffset ()
+{
+ 
+    local -r inputOffset="$1";
+    local -n outputOffset="$2";
+    if (( inputOffset <= 0 )); then
+        outputOffset=$((inputOffset + hostOffset));
+    else
+        outputOffset=$((inputOffset - 1 + targetOffset));
+    fi
+}
+moveToOutput ()
+{
+ 
+    local patt="$1";
+    local dstOut="$2";
+    local output;
+    for output in $(getAllOutputNames);
+    do
+        if [ "${!output}" = "$dstOut" ]; then
+            continue;
+        fi;
+        local srcPath;
+        for srcPath in "${!output}"/$patt;
+        do
+            if [ ! -e "$srcPath" ] && [ ! -L "$srcPath" ]; then
+                continue;
+            fi;
+            if [ "$dstOut" = REMOVE ]; then
+                echo "Removing $srcPath";
+                rm -r "$srcPath";
+            else
+                local dstPath="$dstOut${srcPath#${!output}}";
+                echo "Moving $srcPath to $dstPath";
+                if [ -d "$dstPath" ] && [ -d "$srcPath" ]; then
+                    rmdir "$srcPath" --ignore-fail-on-non-empty;
+                    if [ -d "$srcPath" ]; then
+                        mv -t "$dstPath" "$srcPath"/*;
+                        rmdir "$srcPath";
+                    fi;
+                else
+                    mkdir -p "$(readlink -m "$dstPath/..")";
+                    mv "$srcPath" "$dstPath";
+                fi;
+            fi;
+            local srcParent="$(readlink -m "$srcPath/..")";
+            if [ -n "$(find "$srcParent" -maxdepth 0 -type d -empty 2> /dev/null)" ]; then
+                echo "Removing empty $srcParent/ and (possibly) its parents";
+                rmdir -p --ignore-fail-on-non-empty "$srcParent" 2> /dev/null || true;
+            fi;
+        done;
+    done
+}
+nixChattyLog ()
+{
+ 
+    _nixLogWithLevel 5 "$*"
+}
+nixDebugLog ()
+{
+ 
+    _nixLogWithLevel 6 "$*"
+}
+nixErrorLog ()
+{
+ 
+    _nixLogWithLevel 0 "$*"
+}
+nixInfoLog ()
+{
+ 
+    _nixLogWithLevel 3 "$*"
+}
+nixLog ()
+{
+ 
+    [[ -z ${NIX_LOG_FD-} ]] && return 0;
+    local callerName="${FUNCNAME[1]}";
+    if [[ $callerName == "_callImplicitHook" ]]; then
+        callerName="${hookName:?}";
+    fi;
+    printf "%s: %s\n" "$callerName" "$*" >&"$NIX_LOG_FD"
+}
+nixNoticeLog ()
+{
+ 
+    _nixLogWithLevel 2 "$*"
+}
+nixTalkativeLog ()
+{
+ 
+    _nixLogWithLevel 4 "$*"
+}
+nixVomitLog ()
+{
+ 
+    _nixLogWithLevel 7 "$*"
+}
+nixWarnLog ()
+{
+ 
+    _nixLogWithLevel 1 "$*"
+}
+nix_debug ()
+{
+ 
+    nix_print 3 "$1"
+}
+nix_print ()
+{
+ 
+    if [ ${NIX_DEBUG:-0} -ge $1 ]; then
+        echo "$2";
+    fi
+}
+noBrokenSymlinks ()
+{
+ 
+    local -r output="${1:?}";
+    local path;
+    local pathParent;
+    local symlinkTarget;
+    local -i numDanglingSymlinks=0;
+    local -i numReflexiveSymlinks=0;
+    if [[ ! -e $output ]]; then
+        nixWarnLog "skipping non-existent output $output";
+        return 0;
+    fi;
+    nixInfoLog "running on $output";
+    while IFS= read -r -d '' path; do
+        pathParent="$(dirname "$path")";
+        symlinkTarget="$(readlink "$path")";
+        if [[ $symlinkTarget == /* ]]; then
+            nixInfoLog "symlink $path points to absolute target $symlinkTarget";
+        else
+            nixInfoLog "symlink $path points to relative target $symlinkTarget";
+            symlinkTarget="$(realpath --no-symlinks --canonicalize-missing "$pathParent/$symlinkTarget")";
+        fi;
+        if [[ $symlinkTarget != "$NIX_STORE"/* ]]; then
+            nixInfoLog "symlink $path points outside the Nix store; ignoring";
+            continue;
+        fi;
+        if [[ $path == "$symlinkTarget" ]]; then
+            nixErrorLog "the symlink $path is reflexive";
+            numReflexiveSymlinks+=1;
+        else
+            if [[ ! -e $symlinkTarget ]]; then
+                nixErrorLog "the symlink $path points to a missing target: $symlinkTarget";
+                numDanglingSymlinks+=1;
+            else
+                nixDebugLog "the symlink $path is irreflexive and points to a target which exists";
+            fi;
+        fi;
+    done < <(find "$output" -type l -print0);
+    if ((numDanglingSymlinks > 0 || numReflexiveSymlinks > 0)); then
+        nixErrorLog "found $numDanglingSymlinks dangling symlinks and $numReflexiveSymlinks reflexive symlinks";
+        exit 1;
+    fi;
+    return 0
+}
+noBrokenSymlinksInAllOutputs ()
+{
+ 
+    if [[ -z ${dontCheckForBrokenSymlinks-} ]]; then
+        for output in $(getAllOutputNames);
+        do
+            noBrokenSymlinks "${!output}";
+        done;
+    fi
+}
+patchELF ()
+{
+ 
+    local dir="$1";
+    [ -e "$dir" ] || return 0;
+    echo "shrinking RPATHs of ELF executables and libraries in $dir";
+    local i;
+    while IFS= read -r -d '' i; do
+        if [[ "$i" =~ .build-id ]]; then
+            continue;
+        fi;
+        if ! isELF "$i"; then
+            continue;
+        fi;
+        echo "shrinking $i";
+        patchelf --shrink-rpath "$i" || true;
+    done < <(find "$dir" -type f -print0)
+}
+patchPhase ()
+{
+ 
+    runHook prePatch;
+    local -a patchesArray;
+    concatTo patchesArray patches;
+    for i in "${patchesArray[@]}";
+    do
+        echo "applying patch $i";
+        local uncompress=cat;
+        case "$i" in 
+            *.gz)
+                uncompress="gzip -d"
+            ;;
+            *.bz2)
+                uncompress="bzip2 -d"
+            ;;
+            *.xz)
+                uncompress="xz -d"
+            ;;
+            *.lzma)
+                uncompress="lzma -d"
+            ;;
+        esac;
+        local -a flagsArray;
+        concatTo flagsArray patchFlags=-p1;
+        $uncompress < "$i" 2>&1 | patch "${flagsArray[@]}";
+    done;
+    runHook postPatch
+}
+patchShebangs ()
+{
+ 
+    local pathName;
+    local update=false;
+    while [[ $# -gt 0 ]]; do
+        case "$1" in 
+            --host)
+                pathName=HOST_PATH;
+                shift
+            ;;
+            --build)
+                pathName=PATH;
+                shift
+            ;;
+            --update)
+                update=true;
+                shift
+            ;;
+            --)
+                shift;
+                break
+            ;;
+            -* | --*)
+                echo "Unknown option $1 supplied to patchShebangs" 1>&2;
+                return 1
+            ;;
+            *)
+                break
+            ;;
+        esac;
+    done;
+    echo "patching script interpreter paths in $@";
+    local f;
+    local oldPath;
+    local newPath;
+    local arg0;
+    local args;
+    local oldInterpreterLine;
+    local newInterpreterLine;
+    if [[ $# -eq 0 ]]; then
+        echo "No arguments supplied to patchShebangs" 1>&2;
+        return 0;
+    fi;
+    local f;
+    while IFS= read -r -d '' f; do
+        isScript "$f" || continue;
+        read -r oldInterpreterLine < "$f" || [ "$oldInterpreterLine" ];
+        read -r oldPath arg0 args <<< "${oldInterpreterLine:2}";
+        if [[ -z "${pathName:-}" ]]; then
+            if [[ -n $strictDeps && $f == "$NIX_STORE"* ]]; then
+                pathName=HOST_PATH;
+            else
+                pathName=PATH;
+            fi;
+        fi;
+        if [[ "$oldPath" == *"/bin/env" ]]; then
+            if [[ $arg0 == "-S" ]]; then
+                arg0=${args%% *};
+                [[ "$args" == *" "* ]] && args=${args#* } || args=;
+                newPath="$(PATH="${!pathName}" type -P "env" || true)";
+                args="-S $(PATH="${!pathName}" type -P "$arg0" || true) $args";
+            else
+                if [[ $arg0 == "-"* || $arg0 == *"="* ]]; then
+                    echo "$f: unsupported interpreter directive \"$oldInterpreterLine\" (set dontPatchShebangs=1 and handle shebang patching yourself)" 1>&2;
+                    exit 1;
+                else
+                    newPath="$(PATH="${!pathName}" type -P "$arg0" || true)";
+                fi;
+            fi;
+        else
+            if [[ -z $oldPath ]]; then
+                oldPath="/bin/sh";
+            fi;
+            newPath="$(PATH="${!pathName}" type -P "$(basename "$oldPath")" || true)";
+            args="$arg0 $args";
+        fi;
+        newInterpreterLine="$newPath $args";
+        newInterpreterLine=${newInterpreterLine%${newInterpreterLine##*[![:space:]]}};
+        if [[ -n "$oldPath" && ( "$update" == true || "${oldPath:0:${#NIX_STORE}}" != "$NIX_STORE" ) ]]; then
+            if [[ -n "$newPath" && "$newPath" != "$oldPath" ]]; then
+                echo "$f: interpreter directive changed from \"$oldInterpreterLine\" to \"$newInterpreterLine\"";
+                escapedInterpreterLine=${newInterpreterLine//\\/\\\\};
+                timestamp=$(stat --printf "%y" "$f");
+                sed -i -e "1 s|.*|#\!$escapedInterpreterLine|" "$f";
+                touch --date "$timestamp" "$f";
+            fi;
+        fi;
+    done < <(find "$@" -type f -perm -0100 -print0)
+}
+patchShebangsAuto ()
+{
+ 
+    if [[ -z "${dontPatchShebangs-}" && -e "$prefix" ]]; then
+        if [[ "$output" != out && "$output" = "$outputDev" ]]; then
+            patchShebangs --build "$prefix";
+        else
+            patchShebangs --host "$prefix";
+        fi;
+    fi
+}
+prependToVar ()
+{
+ 
+    local -n nameref="$1";
+    local useArray type;
+    if [ -n "$__structuredAttrs" ]; then
+        useArray=true;
+    else
+        useArray=false;
+    fi;
+    if type=$(declare -p "$1" 2> /dev/null); then
+        case "${type#* }" in 
+            -A*)
+                echo "prependToVar(): ERROR: trying to use prependToVar on an associative array." 1>&2;
+                return 1
+            ;;
+            -a*)
+                useArray=true
+            ;;
+            *)
+                useArray=false
+            ;;
+        esac;
+    fi;
+    shift;
+    if $useArray; then
+        nameref=("$@" ${nameref+"${nameref[@]}"});
+    else
+        nameref="$* ${nameref-}";
+    fi
+}
+printLines ()
+{
+ 
+    (( "$#" > 0 )) || return 0;
+    printf '%s\n' "$@"
+}
+printWords ()
+{
+ 
+    (( "$#" > 0 )) || return 0;
+    printf '%s ' "$@"
+}
+recordPropagatedDependencies ()
+{
+ 
+    declare -ra flatVars=(depsBuildBuildPropagated propagatedNativeBuildInputs depsBuildTargetPropagated depsHostHostPropagated propagatedBuildInputs depsTargetTargetPropagated);
+    declare -ra flatFiles=("${propagatedBuildDepFiles[@]}" "${propagatedHostDepFiles[@]}" "${propagatedTargetDepFiles[@]}");
+    local propagatedInputsIndex;
+    for propagatedInputsIndex in "${!flatVars[@]}";
+    do
+        local propagatedInputsSlice="${flatVars[$propagatedInputsIndex]}[@]";
+        local propagatedInputsFile="${flatFiles[$propagatedInputsIndex]}";
+        [[ -n "${!propagatedInputsSlice}" ]] || continue;
+        mkdir -p "${!outputDev}/nix-support";
+        printWords ${!propagatedInputsSlice} > "${!outputDev}/nix-support/$propagatedInputsFile";
+    done
+}
+resolveArgv0Fn ()
+{
+ 
+    printf '%s' "char *resolve_argv0(char *argv0) {
+  if (strchr(argv0, '/') != NULL) {
+    return argv0;
+  }
+  char *path = getenv(\"PATH\");
+  if (path == NULL) {
+    return argv0;
+  }
+  char *path_copy = strdup(path);
+  if (path_copy == NULL) {
+    return argv0;
+  }
+  char *dir = strtok(path_copy, \":\");
+  while (dir != NULL) {
+    char *candidate = malloc(strlen(dir) + strlen(argv0) + 2);
+    if (candidate == NULL) {
+      free(path_copy);
+      return argv0;
+    }
+    sprintf(candidate, \"%s/%s\", dir, argv0);
+    if (access(candidate, X_OK) == 0) {
+      free(path_copy);
+      return candidate;
+    }
+    free(candidate);
+    dir = strtok(NULL, \":\");
+  }
+  free(path_copy);
+  return argv0;
+}
+"
+}
+runHook ()
+{
+ 
+    local hookName="$1";
+    shift;
+    local hooksSlice="${hookName%Hook}Hooks[@]";
+    local hook;
+    for hook in "_callImplicitHook 0 $hookName" ${!hooksSlice+"${!hooksSlice}"};
+    do
+        _logHook "$hookName" "$hook" "$@";
+        _eval "$hook" "$@";
+    done;
+    return 0
+}
+runOneHook ()
+{
+ 
+    local hookName="$1";
+    shift;
+    local hooksSlice="${hookName%Hook}Hooks[@]";
+    local hook ret=1;
+    for hook in "_callImplicitHook 1 $hookName" ${!hooksSlice+"${!hooksSlice}"};
+    do
+        _logHook "$hookName" "$hook" "$@";
+        if _eval "$hook" "$@"; then
+            ret=0;
+            break;
+        fi;
+    done;
+    return "$ret"
+}
+runPhase ()
+{
+ 
+    local curPhase="$*";
+    if [[ "$curPhase" = unpackPhase && -n "${dontUnpack:-}" ]]; then
+        return;
+    fi;
+    if [[ "$curPhase" = patchPhase && -n "${dontPatch:-}" ]]; then
+        return;
+    fi;
+    if [[ "$curPhase" = configurePhase && -n "${dontConfigure:-}" ]]; then
+        return;
+    fi;
+    if [[ "$curPhase" = buildPhase && -n "${dontBuild:-}" ]]; then
+        return;
+    fi;
+    if [[ "$curPhase" = checkPhase && -z "${doCheck:-}" ]]; then
+        return;
+    fi;
+    if [[ "$curPhase" = installPhase && -n "${dontInstall:-}" ]]; then
+        return;
+    fi;
+    if [[ "$curPhase" = fixupPhase && -n "${dontFixup:-}" ]]; then
+        return;
+    fi;
+    if [[ "$curPhase" = installCheckPhase && -z "${doInstallCheck:-}" ]]; then
+        return;
+    fi;
+    if [[ "$curPhase" = distPhase && -z "${doDist:-}" ]]; then
+        return;
+    fi;
+    showPhaseHeader "$curPhase";
+    dumpVars;
+    local startTime endTime;
+    startTime=$(date +"%s");
+    eval "${!curPhase:-$curPhase}";
+    endTime=$(date +"%s");
+    showPhaseFooter "$curPhase" "$startTime" "$endTime";
+    if [ "$curPhase" = unpackPhase ]; then
+        [ -n "${sourceRoot:-}" ] && chmod +x -- "${sourceRoot}";
+        cd -- "${sourceRoot:-.}";
+    fi
+}
+setDefaultEnv ()
+{
+ 
+    local key value;
+    key=$(escapeStringLiteral "$1");
+    value=$(escapeStringLiteral "$2");
+    printf '%s' "assert_success(setenv(\"$key\", \"$value\", 0));";
+    assertValidEnvName "$1"
+}
+setEnv ()
+{
+ 
+    local key value;
+    key=$(escapeStringLiteral "$1");
+    value=$(escapeStringLiteral "$2");
+    printf '%s' "putenv(\"$key=$value\");";
+    assertValidEnvName "$1"
+}
+setEnvPrefix ()
+{
+ 
+    local env sep val;
+    env=$(escapeStringLiteral "$1");
+    sep=$(escapeStringLiteral "$2");
+    val=$(escapeStringLiteral "$3");
+    printf '%s' "set_env_prefix(\"$env\", \"$sep\", \"$val\");";
+    assertValidEnvName "$1"
+}
+setEnvPrefixFn ()
+{
+ 
+    printf '%s' "void set_env_prefix(char *env, char *sep, char *prefix) {
+    char *existing = getenv(env);
+    if (existing) {
+        char *val;
+        assert_success(asprintf(&val, \"%s%s%s\", prefix, sep, existing));
+        assert_success(setenv(env, val, 1));
+        free(val);
+    } else {
+        assert_success(setenv(env, prefix, 1));
+    }
+}
+"
+}
+setEnvSuffix ()
+{
+ 
+    local env sep val;
+    env=$(escapeStringLiteral "$1");
+    sep=$(escapeStringLiteral "$2");
+    val=$(escapeStringLiteral "$3");
+    printf '%s' "set_env_suffix(\"$env\", \"$sep\", \"$val\");";
+    assertValidEnvName "$1"
+}
+setEnvSuffixFn ()
+{
+ 
+    printf '%s' "void set_env_suffix(char *env, char *sep, char *suffix) {
+    char *existing = getenv(env);
+    if (existing) {
+        char *val;
+        assert_success(asprintf(&val, \"%s%s%s\", existing, sep, suffix));
+        assert_success(setenv(env, val, 1));
+        free(val);
+    } else {
+        assert_success(setenv(env, suffix, 1));
+    }
+}
+"
+}
+showPhaseFooter ()
+{
+ 
+    local phase="$1";
+    local startTime="$2";
+    local endTime="$3";
+    local delta=$(( endTime - startTime ));
+    (( delta < 30 )) && return;
+    local H=$((delta/3600));
+    local M=$((delta%3600/60));
+    local S=$((delta%60));
+    echo -n "$phase completed in ";
+    (( H > 0 )) && echo -n "$H hours ";
+    (( M > 0 )) && echo -n "$M minutes ";
+    echo "$S seconds"
+}
+showPhaseHeader ()
+{
+ 
+    local phase="$1";
+    echo "Running phase: $phase";
+    if [[ -z ${NIX_LOG_FD-} ]]; then
+        return;
+    fi;
+    printf "@nix { \"action\": \"setPhase\", \"phase\": \"%s\" }\n" "$phase" >&"$NIX_LOG_FD"
+}
+stripDirs ()
+{
+ 
+    local cmd="$1";
+    local ranlibCmd="$2";
+    local paths="$3";
+    local stripFlags="$4";
+    local excludeFlags=();
+    local pathsNew=;
+    [ -z "$cmd" ] && echo "stripDirs: Strip command is empty" 1>&2 && exit 1;
+    [ -z "$ranlibCmd" ] && echo "stripDirs: Ranlib command is empty" 1>&2 && exit 1;
+    local pattern;
+    if [ -n "${stripExclude:-}" ]; then
+        for pattern in "${stripExclude[@]}";
+        do
+            excludeFlags+=(-a '!' '(' -name "$pattern" -o -wholename "$prefix/$pattern" ')');
+        done;
+    fi;
+    local p;
+    for p in ${paths};
+    do
+        if [ -e "$prefix/$p" ]; then
+            pathsNew="${pathsNew} $prefix/$p";
+        fi;
+    done;
+    paths=${pathsNew};
+    if [ -n "${paths}" ]; then
+        echo "stripping (with command $cmd and flags $stripFlags) in $paths";
+        local striperr;
+        striperr="$(mktemp --tmpdir="$TMPDIR" 'striperr.XXXXXX')";
+        find $paths -type f "${excludeFlags[@]}" -a '!' -path "$prefix/lib/debug/*" -printf '%D-%i,%p\0' | sort -t, -k1,1 -u -z | cut -d, -f2- -z | xargs -r -0 -n1 -P "$NIX_BUILD_CORES" -- $cmd $stripFlags 2> "$striperr" || exit_code=$?;
+        [[ "$exit_code" = 123 || -z "$exit_code" ]] || ( cat "$striperr" 1>&2 && exit 1 );
+        rm "$striperr";
+        find $paths -name '*.a' -type f -exec $ranlibCmd '{}' \; 2> /dev/null;
+    fi
+}
+stripHash ()
+{
+ 
+    local strippedName casematchOpt=0;
+    strippedName="$(basename -- "$1")";
+    shopt -q nocasematch && casematchOpt=1;
+    shopt -u nocasematch;
+    if [[ "$strippedName" =~ ^[a-z0-9]{32}- ]]; then
+        echo "${strippedName:33}";
+    else
+        echo "$strippedName";
+    fi;
+    if (( casematchOpt )); then
+        shopt -s nocasematch;
+    fi
+}
+substitute ()
+{
+ 
+    local input="$1";
+    local output="$2";
+    shift 2;
+    if [ ! -f "$input" ]; then
+        echo "substitute(): ERROR: file '$input' does not exist" 1>&2;
+        return 1;
+    fi;
+    local content;
+    consumeEntire content < "$input";
+    if [ -e "$output" ]; then
+        chmod +w "$output";
+    fi;
+    substituteStream content "file '$input'" "$@" > "$output"
+}
+substituteAll ()
+{
+ 
+    local input="$1";
+    local output="$2";
+    local -a args=();
+    _allFlags;
+    substitute "$input" "$output" "${args[@]}"
+}
+substituteAllInPlace ()
+{
+ 
+    local fileName="$1";
+    shift;
+    substituteAll "$fileName" "$fileName" "$@"
+}
+substituteAllStream ()
+{
+ 
+    local -a args=();
+    _allFlags;
+    substituteStream "$1" "$2" "${args[@]}"
+}
+substituteInPlace ()
+{
+ 
+    local -a fileNames=();
+    for arg in "$@";
+    do
+        if [[ "$arg" = "--"* ]]; then
+            break;
+        fi;
+        fileNames+=("$arg");
+        shift;
+    done;
+    if ! [[ "${#fileNames[@]}" -gt 0 ]]; then
+        echo "substituteInPlace called without any files to operate on (files must come before options!)" 1>&2;
+        return 1;
+    fi;
+    for file in "${fileNames[@]}";
+    do
+        substitute "$file" "$file" "$@";
+    done
+}
+substituteStream ()
+{
+ 
+    local var=$1;
+    local description=$2;
+    shift 2;
+    while (( "$#" )); do
+        local replace_mode="$1";
+        case "$1" in 
+            --replace)
+                if ! "$_substituteStream_has_warned_replace_deprecation"; then
+                    echo "substituteStream() in derivation $name: WARNING: '--replace' is deprecated, use --replace-{fail,warn,quiet}. ($description)" 1>&2;
+                    _substituteStream_has_warned_replace_deprecation=true;
+                fi;
+                replace_mode='--replace-warn'
+            ;&
+            --replace-quiet | --replace-warn | --replace-fail)
+                pattern="$2";
+                replacement="$3";
+                shift 3;
+                if ! [[ "${!var}" == *"$pattern"* ]]; then
+                    if [ "$replace_mode" == --replace-warn ]; then
+                        printf "substituteStream() in derivation $name: WARNING: pattern %q doesn't match anything in %s\n" "$pattern" "$description" 1>&2;
+                    else
+                        if [ "$replace_mode" == --replace-fail ]; then
+                            printf "substituteStream() in derivation $name: ERROR: pattern %q doesn't match anything in %s\n" "$pattern" "$description" 1>&2;
+                            return 1;
+                        fi;
+                    fi;
+                fi;
+                eval "$var"'=${'"$var"'//"$pattern"/"$replacement"}'
+            ;;
+            --subst-var)
+                local varName="$2";
+                shift 2;
+                if ! [[ "$varName" =~ ^[a-zA-Z_][a-zA-Z0-9_]*$ ]]; then
+                    echo "substituteStream() in derivation $name: ERROR: substitution variables must be valid Bash names, \"$varName\" isn't." 1>&2;
+                    return 1;
+                fi;
+                if [ -z ${!varName+x} ]; then
+                    echo "substituteStream() in derivation $name: ERROR: variable \$$varName is unset" 1>&2;
+                    return 1;
+                fi;
+                pattern="@$varName@";
+                replacement="${!varName}";
+                eval "$var"'=${'"$var"'//"$pattern"/"$replacement"}'
+            ;;
+            --subst-var-by)
+                pattern="@$2@";
+                replacement="$3";
+                eval "$var"'=${'"$var"'//"$pattern"/"$replacement"}';
+                shift 3
+            ;;
+            *)
+                echo "substituteStream() in derivation $name: ERROR: Invalid command line argument: $1" 1>&2;
+                return 1
+            ;;
+        esac;
+    done;
+    printf "%s" "${!var}"
+}
+unpackFile ()
+{
+ 
+    curSrc="$1";
+    echo "unpacking source archive $curSrc";
+    if ! runOneHook unpackCmd "$curSrc"; then
+        echo "do not know how to unpack source archive $curSrc";
+        exit 1;
+    fi
+}
+unpackPhase ()
+{
+ 
+    runHook preUnpack;
+    if [ -z "${srcs:-}" ]; then
+        if [ -z "${src:-}" ]; then
+            echo 'variable $src or $srcs should point to the source';
+            exit 1;
+        fi;
+        srcs="$src";
+    fi;
+    local -a srcsArray;
+    concatTo srcsArray srcs;
+    local dirsBefore="";
+    for i in *;
+    do
+        if [ -d "$i" ]; then
+            dirsBefore="$dirsBefore $i ";
+        fi;
+    done;
+    for i in "${srcsArray[@]}";
+    do
+        unpackFile "$i";
+    done;
+    : "${sourceRoot=}";
+    if [ -n "${setSourceRoot:-}" ]; then
+        runOneHook setSourceRoot;
+    else
+        if [ -z "$sourceRoot" ]; then
+            for i in *;
+            do
+                if [ -d "$i" ]; then
+                    case $dirsBefore in 
+                        *\ $i\ *)
+
+                        ;;
+                        *)
+                            if [ -n "$sourceRoot" ]; then
+                                echo "unpacker produced multiple directories";
+                                exit 1;
+                            fi;
+                            sourceRoot="$i"
+                        ;;
+                    esac;
+                fi;
+            done;
+        fi;
+    fi;
+    if [ -z "$sourceRoot" ]; then
+        echo "unpacker appears to have produced no directories";
+        exit 1;
+    fi;
+    echo "source root is $sourceRoot";
+    if [ "${dontMakeSourcesWritable:-0}" != 1 ]; then
+        chmod -R u+w -- "$sourceRoot";
+    fi;
+    runHook postUnpack
+}
+unsetEnv ()
+{
+ 
+    local key;
+    key=$(escapeStringLiteral "$1");
+    printf '%s' "assert_success(unsetenv(\"$key\"));";
+    assertValidEnvName "$1"
+}
+updateAutotoolsGnuConfigScriptsPhase ()
+{
+ 
+    if [ -n "${dontUpdateAutotoolsGnuConfigScripts-}" ]; then
+        return;
+    fi;
+    for script in config.sub config.guess;
+    do
+        for f in $(find . -type f -name "$script");
+        do
+            echo "Updating Autotools / GNU config script to a newer upstream version: $f";
+            cp -f "/nix/store/kjp8k3ywa79d6kyqkdmwv3pcsd6avk63-gnu-config-2024-01-01/$script" "$f";
+        done;
+    done
+}
+updateSourceDateEpoch ()
+{
+ 
+    local path="$1";
+    [[ $path == -* ]] && path="./$path";
+    local -a res=($(find "$path" -type f -not -newer "$NIX_BUILD_TOP/.." -printf '%T@ "%p"\0' | sort -n --zero-terminated | tail -n1 --zero-terminated | head -c -1));
+    local time="${res[0]//\.[0-9]*/}";
+    local newestFile="${res[1]}";
+    if [ "${time:-0}" -gt "$SOURCE_DATE_EPOCH" ]; then
+        echo "setting SOURCE_DATE_EPOCH to timestamp $time of file $newestFile";
+        export SOURCE_DATE_EPOCH="$time";
+        local now="$(date +%s)";
+        if [ "$time" -gt $((now - 60)) ]; then
+            echo "warning: file $newestFile may be generated; SOURCE_DATE_EPOCH may be non-deterministic";
+        fi;
+    fi
+}
+wrapGApp ()
+{
+ 
+    local program="$1";
+    shift 1;
+    wrapProgram "$program" "${gappsWrapperArgs[@]}" "$@"
+}
+wrapGAppsHook ()
+{
+ 
+    [ -z "$wrapGAppsHookHasRun" ] || return 0;
+    wrapGAppsHookHasRun=1;
+    if [[ -z "${dontWrapGApps:-}" ]]; then
+        targetDirsThatExist=();
+        targetDirsRealPath=();
+        targetDirs=("${prefix}/bin" "${prefix}/libexec");
+        for targetDir in "${targetDirs[@]}";
+        do
+            if [[ -d "${targetDir}" ]]; then
+                targetDirsThatExist+=("${targetDir}");
+                targetDirsRealPath+=("$(realpath "${targetDir}")/");
+                find "${targetDir}" -type f -executable -print0 | while IFS= read -r -d '' file; do
+                    echo "Wrapping program '${file}'";
+                    wrapGApp "${file}";
+                done;
+            fi;
+        done;
+        if [[ ${#targetDirsThatExist[@]} -ne 0 ]]; then
+            find "${targetDirsThatExist[@]}" -type l -xtype f -executable -print0 | while IFS= read -r -d '' linkPath; do
+                linkPathReal=$(realpath "${linkPath}");
+                for targetPath in "${targetDirsRealPath[@]}";
+                do
+                    if [[ "$linkPathReal" == "$targetPath"* ]]; then
+                        echo "Not wrapping link: '$linkPath' (already wrapped)";
+                        continue 2;
+                    fi;
+                done;
+                echo "Wrapping link: '$linkPath'";
+                wrapGApp "${linkPath}";
+            done;
+        fi;
+    fi
+}
+wrapProgram ()
+{
+ 
+    wrapProgramBinary "$@"
+}
+wrapProgramBinary ()
+{
+ 
+    local prog="$1";
+    local hidden;
+    assertExecutable "$prog";
+    hidden="$(dirname "$prog")/.$(basename "$prog")"-wrapped;
+    while [ -e "$hidden" ]; do
+        hidden="${hidden}_";
+    done;
+    mv "$prog" "$hidden";
+    makeBinaryWrapper "$hidden" "$prog" --inherit-argv0 "${@:2}"
+}
+PATH="$PATH${nix_saved_PATH:+:$nix_saved_PATH}"
+XDG_DATA_DIRS="$XDG_DATA_DIRS${nix_saved_XDG_DATA_DIRS:+:$nix_saved_XDG_DATA_DIRS}"
+export NIX_BUILD_TOP="$(mktemp -d -t nix-shell.XXXXXX)"
+export TMP="$NIX_BUILD_TOP"
+export TMPDIR="$NIX_BUILD_TOP"
+export TEMP="$NIX_BUILD_TOP"
+export TEMPDIR="$NIX_BUILD_TOP"
+eval "${shellHook:-}"
