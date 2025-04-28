@@ -8,28 +8,13 @@
 
   > centerbox {
     background-color: $surface0;
-    padding: to-rem(4px) 0;
+    padding: to-rem(0px) 0;
   }
 
-  .left-box {
+  .left-box, .center-box, .right-box {
     background-color: $surface0;
-    border-radius: to-rem(20px);
-    padding: to-rem(8px) to-rem(16px);
-    /* margin: to-rem(20px) 0 0 to-rem(20px); */
-  }
-
-  .center-box {
-    background-color: $surface0;
-    border-radius: to-rem(20px);
-    padding: to-rem(8px) to-rem(16px);
-    /* margin: to-rem(20px) 0 0 to-rem(20px); */
-  }
-
-  .right-box {
-    background-color: $surface0;
-    border-radius: to-rem(20px);
-    padding: to-rem(8px) to-rem(16px);
-    /* margin: to-rem(20px) to-rem(20px) 0 0; */
+    // Reduce padding between bar and buttons.
+    padding: to-rem(4px) to-rem(16px);
   }
 
   @include ActiveClient;
@@ -57,7 +42,7 @@
 
         label {
           color: $text;
-          font-size: to-rem(13px);
+          font-size: to-rem(12px);
           font-weight: 500;
         }
 
@@ -100,7 +85,7 @@
   }
 
   .sysinfo-button {
-    border-radius: 100%;
+    border-radius: 4px;
     padding: to-rem(6px);
     background-color: gtkalpha($surface1, 0.6);
     transition: all 200ms ease;

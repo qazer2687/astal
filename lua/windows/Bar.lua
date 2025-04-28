@@ -469,8 +469,11 @@ local function BatteryLevel(monitor)
 				css = "padding-right: 5pt;",
 			}),
 			Widget.Label({
+				-- Add font-size because 12 globally
+				-- isn't the same size as 12 here.
+				css = "font-size: 9px",
 				label = bind(bat, "percentage"):as(function(p)
-					return tostring(math.floor(p * 100)) .. " %"
+					return tostring(math.floor(p * 100)) .. "%"
 				end),
 			}),
 		}),
@@ -570,9 +573,9 @@ return function(gdkmonitor)
 			Widget.Box({
 				halign = "START",
 				class_name = "left-box",
-				ActiveClient(),
-				Workspaces(),
-				Media(gdkmonitor),
+				--ActiveClient(),
+				--Workspaces(),
+				--Media(gdkmonitor),
 			}),
 			Widget.Box({
 				class_name = "center-box",
