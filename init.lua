@@ -68,9 +68,9 @@ App:start({
 			end
 
 			local windows = {
-				-- desktop = Desktop(monitor),
+				--desktop = Desktop(monitor),
 				bar = Bar(monitor),
-				dock = Dock(monitor),
+				--dock = Dock(monitor),
 				notifications = NotificationPopups(monitor),
 				osd = OSD(monitor),
 			}

@@ -68,9 +68,9 @@ return function()
 
 	local title_var = Variable.derive({ bind(window_var) }, function(window)
 		if not window or type(window) ~= "table" then
-			return "niri"
+			return "jet"
 		end
-		return truncate_text(window.title or "niri", 40)
+		return truncate_text(window.title or "jet", 40)
 	end)
 
 	return Widget.Box({

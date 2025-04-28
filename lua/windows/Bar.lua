@@ -573,7 +573,7 @@ return function(gdkmonitor)
 			Widget.Box({
 				halign = "START",
 				class_name = "left-box",
-				--ActiveClient(),
+				ActiveClient(),
 				--Workspaces(),
 				--Media(gdkmonitor),
 			}),
