@@ -573,9 +573,10 @@ return function(gdkmonitor)
 			Widget.Box({
 				halign = "START",
 				class_name = "left-box",
-				ActiveClient(),
+				--ActiveClient(),
+				Time("%A %d, %H:%M"),
 				--Workspaces(),
-				--Media(gdkmonitor),
+				Media(gdkmonitor),
 			}),
 			Widget.Box({
 				class_name = "center-box",
@@ -589,7 +590,6 @@ return function(gdkmonitor)
 				DisplayControl(gdkmonitor),
 				Wifi(gdkmonitor),
 				BatteryLevel(gdkmonitor),
-				Time("%A %d, %H:%M"),
 				SysInfo(gdkmonitor),
 			}),
 		}),

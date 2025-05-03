@@ -3,6 +3,7 @@
 @use "../widgets/active-client" as *;
 @use "../components/button" as *;
 
+
 .Bar {
   @include unset($rec: true);
 
@@ -22,7 +23,7 @@
 
   .media-container {
     .media-clickable {
-      border-radius: to-rem(5px);
+      border-radius: to-rem(4px);
       background-color: gtkalpha($surface1, 0.6);
       transition: all 200ms ease;
 
@@ -35,8 +36,6 @@
           border-radius: 100%;
           background-size: cover;
           background-position: center;
-          min-width: 24px;
-          min-height: 24px;
           background-color: gtkalpha($surface2, 0.6);
           margin-left: to-rem(6px);
         }
@@ -87,7 +86,7 @@
 
   .sysinfo-button {
     border-radius: 4px;
-    padding: to-rem(6px);
+    padding: 0 to-rem(6px);
     background-color: gtkalpha($surface1, 0.6);
     transition: all 200ms ease;
     border: none;

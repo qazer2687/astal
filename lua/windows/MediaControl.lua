@@ -16,6 +16,9 @@ local function format_time(seconds)
 	return string.format("%d:%02d", minutes, secs)
 end
 
+-- I don't know if it's possible but it would be cool to have like a spinning record
+-- from the album cover as the icon.
+
 local function AlbumImage(player)
 	return Widget.Box({
 		class_name = "album-image",

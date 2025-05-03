@@ -7,7 +7,7 @@ window.AudioControlWindow {
 
   > box {
     background-color: $surface0;
-    border-radius: to-rem(24px);
+    border-radius: to-rem(4px);
     border: to-rem(1px) solid gtkalpha($border, 0.15);
     min-width: to-rem(350px);
     margin: to-rem(12px) to-rem(90px);
@@ -37,7 +37,7 @@ window.AudioControlWindow {
         .mute-button {
           padding: to-rem(6px);
           background-color: gtkalpha($surface1, 0.6);
-          border-radius: to-rem(18px);
+          border-radius: to-rem(4px);
 
           &:hover {
             background-color: gtkalpha($surface2, 0.5);
@@ -54,12 +54,12 @@ window.AudioControlWindow {
 
           trough {
             background-color: gtkalpha($surface2, 0.5);
-            border-radius: to-rem(12px);
+            border-radius: to-rem(4px);
             min-height: to-rem(10px);
             transition: all 0.2s ease;
 
             highlight {
-              border-radius: to-rem(12px);
+              border-radius: to-rem(4px);
               min-height: to-rem(10px);
               background-color: $overlay2;
               background-image: none;
@@ -113,12 +113,12 @@ window.AudioControlWindow {
 
       .devices-container {
         background-color: gtkalpha($surface1, 0.5);
-        border-radius: to-rem(20px);
+        border-radius: to-rem(4px);
         padding: to-rem(10px);
 
         .device-selector {
           padding: to-rem(10px);
-          border-radius: to-rem(16px);
+          border-radius: to-rem(4px);
           background-color: transparent;
           transition: all 200ms ease;
           margin-bottom: to-rem(4px);
@@ -156,12 +156,12 @@ window.AudioControlWindow {
         .device-list {
           padding: to-rem(5px);
           background-color: gtkalpha($surface1, 0.3);
-          border-radius: to-rem(12px);
+          border-radius: to-rem(4px);
           margin: to-rem(5px);
 
           button.device-item {
             padding: to-rem(12px) to-rem(10px);
-            border-radius: to-rem(12px);
+            border-radius: to-rem(4px);
             background-color: transparent;
             transition: all 200ms ease;
             margin: to-rem(2px) 0;
@@ -206,7 +206,7 @@ window.AudioControlWindow {
         @include button;
         padding: to-rem(12px);
         background-color: $overlay2;
-        border-radius: to-rem(20px);
+        border-radius: to-rem(4px);
         font-weight: 500;
         font-size: to-rem(14px);
         color: $base;

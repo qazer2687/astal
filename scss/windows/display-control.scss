@@ -7,14 +7,14 @@ window.DisplayControlWindow {
 
   > box {
     background-color: $surface0;
-    border-radius: to-rem(24px);
+    border-radius: to-rem(4px);
     border: to-rem(1px) solid gtkalpha($border, 0.2);
     min-width: to-rem(350px);
     margin: to-rem(12px) to-rem(60px);
 
     .section-container {
       background-color: gtkalpha($surface1, 0.5);
-      border-radius: to-rem(20px);
+      border-radius: to-rem(4px);
       padding: to-rem(16px);
       margin-bottom: to-rem(16px);
     }
@@ -55,12 +55,12 @@ window.DisplayControlWindow {
 
           trough {
             background-color: gtkalpha($surface2, 0.5);
-            border-radius: to-rem(12px);
+            border-radius: to-rem(4px);
             min-height: to-rem(10px);
             transition: all 0.2s ease;
 
             highlight {
-              border-radius: to-rem(12px);
+              border-radius: to-rem(4px);
               min-height: to-rem(10px);
               background-color: $overlay2;
               background-image: none;
@@ -99,7 +99,7 @@ window.DisplayControlWindow {
       }
 
       .quick-toggle {
-        border-radius: to-rem(16px);
+        border-radius: to-rem(4px);
         background-color: gtkalpha($surface2, 0.3);
         padding: to-rem(8px) to-rem(5px);
         margin-right: to-rem(8px);
@@ -154,7 +154,7 @@ window.DisplayControlWindow {
 
       .color-temperature-controls {
         background-color: gtkalpha($surface2, 0.3);
-        border-radius: to-rem(16px);
+        border-radius: to-rem(4px);
         padding: to-rem(12px);
         margin-top: to-rem(4px);
 
@@ -183,7 +183,7 @@ window.DisplayControlWindow {
 
           trough {
             background-image: linear-gradient(to right, $peach 0%, $blue 100%);
-            border-radius: to-rem(8px);
+            border-radius: to-rem(4px);
             min-height: to-rem(4px);
 
             highlight {
@@ -218,7 +218,7 @@ window.DisplayControlWindow {
         @include button;
         padding: to-rem(12px);
         background-color: $overlay2;
-        border-radius: to-rem(20px);
+        border-radius: to-rem(4px);
         font-weight: 500;
         font-size: to-rem(14px);
         color: $base;

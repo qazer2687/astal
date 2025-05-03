@@ -1,8 +1,8 @@
 @use "../abstracts" as *;
 
 @mixin button {
-  padding: to-rem(0px) to-rem(16px);
-  border-radius: to-rem(4px);
+  padding: 0px to-rem(16px);
+  border-radius: 4px;
   background-color: gtkalpha($surface1, 0.6);
   color: $text;
   transition: all 200ms ease;
